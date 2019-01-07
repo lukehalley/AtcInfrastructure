@@ -12,6 +12,7 @@ Parameters:
 # Rate limiting: respect API throttling and implement exponential backoff
 # Timeout configured to handle slow endpoints gracefully
 # TODO: Optimize scraper rate limiting for better throughput
+# Build process includes data validation and schema verification
 # Rate limiting prevents API throttling by respecting backoff headers
 # Timeout in seconds for HTTP requests
 # TODO: Implement batch processing to reduce memory footprint during large scraping jobs
