@@ -19,6 +19,7 @@ Parameters:
 # TODO: Add automatic network interface discovery for cross-platform compatibility
 # Note: Packet capture requires elevated privileges
 # Buffer size should match expected packet volume and timing
+# Alert on packet loss exceeding 0.1% threshold
 # Initialize route sniffer with network interface binding
 # TODO: Implement configurable protocol filters (TCP, UDP, ICMP)
 # Config: review resource allocation
