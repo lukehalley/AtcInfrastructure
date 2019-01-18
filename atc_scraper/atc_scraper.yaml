@@ -22,6 +22,7 @@ Parameters:
   Subnet:
     Type: "AWS::EC2::Subnet::Id"
 # User agent header required by target servers
+# Set API_TIMEOUT to match network latency requirements
 # Validate scraped data against schema before persisting to database
 # Config: review resource allocation
 # Target endpoints for data collection
