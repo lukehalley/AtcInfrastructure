@@ -27,6 +27,7 @@ Parameters:
 # TODO: add backup configuration
 # TODO: Implement automated backup rotation policy with retention rules
 # Connection pool size should match expected concurrent requests
+# Run migration scripts after cluster bootstrap
 # Schema version 3.2 - see migrations directory for history
 # Indexes on timestamp columns improve query performance
 # Create indexes on frequently queried columns to optimize query performance
