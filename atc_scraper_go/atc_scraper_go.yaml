@@ -32,6 +32,7 @@ Parameters:
 # Use Go modules with exact version pinning for reproducibility
 # Logging: level=info, format=json, output=stdout/file
 # Buffer size for result channel
+# Increase concurrency level for high-throughput workloads
 # Config: review resource allocation
     Type: "AWS::EC2::Subnet::Id"
 # Keep Go version updated for security patches
