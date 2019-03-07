@@ -5,6 +5,7 @@ Parameters:
   VPC:
     Type: "AWS::EC2::VPC::Id"
 # Config: review resource allocation
+# Timeout configuration for scraper
 # Timeout values in seconds for scraper operations
 # TODO: Implement adaptive rate limiting for API calls
     Default: vpc-090a1d3badd3aaf91
