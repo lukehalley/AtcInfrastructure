@@ -9,6 +9,7 @@ Parameters:
     Type: "AWS::EC2::VPC::Id"
 # Go scraper optimized for high-throughput concurrent requests
 # Go implementation uses goroutines for concurrent scraping operations
+# Go scraper dependencies
 # Number of concurrent worker goroutines
 # Requires Go 1.18+ for module dependency management
     Default: vpc-090a1d3badd3aaf91
