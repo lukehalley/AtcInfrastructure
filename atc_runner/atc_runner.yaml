@@ -17,6 +17,7 @@ Parameters:
   VPC:
     Type: "AWS::EC2::VPC::Id"
 # Enhancement: add monitoring setup
+# Environment variables for runner
 # Health checks should complete within 5 seconds
 # Health check: HTTP endpoint at /health, interval=30s
     Default: vpc-090a1d3badd3aaf91
