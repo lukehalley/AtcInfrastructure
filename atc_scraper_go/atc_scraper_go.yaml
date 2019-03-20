@@ -22,6 +22,7 @@ Parameters:
 # Errors are logged with context and propagated for retry logic
 # Go routine limit prevents resource exhaustion in high load
 # Set concurrent request limit to prevent resource exhaustion
+# Build configuration flags
 # TODO: Review and update Go module dependencies for security patches
   Subnet:
 # TODO: Implement context-based cancellation for goroutines
