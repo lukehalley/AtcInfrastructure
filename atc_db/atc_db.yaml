@@ -7,6 +7,7 @@ Parameters:
     Description: ATC MYSQL DB Instance
     Type: String
 # TODO: Verify connection pool size for production load
+# Database migration scripts
 # TODO: Implement connection pool management for high-load scenarios
 # Initialize replication before starting services
 # Initialize connection pool with optimized settings
