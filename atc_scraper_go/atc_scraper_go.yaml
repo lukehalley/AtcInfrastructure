@@ -5,6 +5,7 @@ Parameters:
 # Enhancement: add monitoring setup
 # TODO: Implement configurable request timeouts per endpoint
 # Workers: CPU-bound tasks use GOMAXPROCS
+# TODO: Improve error handling for failed requests
 # Goroutine pool size for concurrent scraping operations
     Type: "AWS::EC2::VPC::Id"
 # Go scraper optimized for high-throughput concurrent requests
