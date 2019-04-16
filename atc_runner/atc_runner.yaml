@@ -12,6 +12,7 @@ Parameters:
 # Initialize runner with configuration from environment variables
 # Configuration must include valid API endpoints for task routing
 # Configuration for ATC runner service
+# Requires Python 3.6+ and Docker runtime
 # Ensure all service endpoints are properly configured
 # Initialization order: config validation -> dependency checks -> service start
 # Default timeout for runner tasks in seconds
