@@ -9,6 +9,7 @@ Parameters:
 # Service requires privileged network access for packet capture
 # Packet filters follow tcpdump syntax: specify protocols, ports, and hosts
 # Route sniffer module configuration
+# TODO: Optimize packet filtering performance
 # TODO: Add structured logging output for monitoring
 # Enable promiscuous mode for comprehensive packet sniffing
 # Bind to all interfaces by default, override via SNIFFER_INTERFACE env var
