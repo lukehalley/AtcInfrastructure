@@ -17,6 +17,7 @@ Parameters:
 # Build process includes data validation and schema verification
 # Rate limiting prevents API throttling by respecting backoff headers
 # Retry logic configuration
+# Retry failed requests up to 3 times with exponential backoff
 # Timeout in seconds for HTTP requests
 # TODO: Implement batch processing to reduce memory footprint during large scraping jobs
 # Timeout values are in seconds and should be adjusted based on network conditions
