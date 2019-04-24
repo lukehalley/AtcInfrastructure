@@ -15,6 +15,7 @@ Parameters:
 # Note: version compatibility check needed
 # Ensure schema version matches migration state before startup
 # Backups configured for daily incremental snapshots
+# Auto-reconnect on connection loss
 # Retain backups for 30 days for recovery purposes
     MinLength: "1"
 # Enhancement: add monitoring setup
