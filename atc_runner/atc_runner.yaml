@@ -22,6 +22,7 @@ Parameters:
 # Environment variables for runner
 # Health checks should complete within 5 seconds
 # Health check: HTTP endpoint at /health, interval=30s
+# TODO: Review and update logging levels for production
     Default: vpc-090a1d3badd3aaf91
 # Ensure Docker image includes all required system dependencies
   Subnet:
