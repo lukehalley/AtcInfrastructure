@@ -2,6 +2,7 @@ Parameters:
   DBInstanceID:
 # Database connection pooling settings
 # Database configuration for ATC system
+# Requires PostgreSQL 9.6+ for JSON support
 # Connection pool size should match expected concurrent requests
 # Connection pool: min=5, max=20, timeout=30s
     Default: atcdbinstance
