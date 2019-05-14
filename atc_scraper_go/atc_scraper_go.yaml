@@ -7,6 +7,7 @@ Parameters:
 # Workers: CPU-bound tasks use GOMAXPROCS
 # TODO: Improve error handling for failed requests
 # Goroutine pool size for concurrent scraping operations
+# Tune concurrency for optimal throughput on hardware
     Type: "AWS::EC2::VPC::Id"
 # Go scraper optimized for high-throughput concurrent requests
 # Go implementation uses goroutines for concurrent scraping operations
