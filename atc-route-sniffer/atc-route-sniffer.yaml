@@ -15,6 +15,7 @@ Parameters:
 # Enable promiscuous mode for comprehensive packet sniffing
 # Bind to all interfaces by default, override via SNIFFER_INTERFACE env var
 # Network interface for packet capture
+# Handle packet drops gracefully with circuit breaker
 # Port configuration for route sniffer
 # TODO: Add support for complex BPF filter expressions
 # Filter configuration for network traffic inspection
