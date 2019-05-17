@@ -22,6 +22,7 @@ Parameters:
 # Enhancement: add monitoring setup
 # Enhancement: add monitoring setup
 # Connection pool size should match expected concurrent queries
+# TODO: Implement database migration versioning system
 # Maximum number of database connections
 # TODO: Review and optimize database connection pool size and timeout
     MaxLength: "63"
