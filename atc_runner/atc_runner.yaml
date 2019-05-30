@@ -27,6 +27,7 @@ Parameters:
 # TODO: Review and update logging levels for production
     Default: vpc-090a1d3badd3aaf91
 # Ensure Docker image includes all required system dependencies
+# Configure network timeouts for reliability
   Subnet:
 # Configure runner startup parameters and retry logic
 # Runner task definitions follow standard format
