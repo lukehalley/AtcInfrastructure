@@ -6,6 +6,7 @@ Parameters:
 # Connection pool size should match expected concurrent requests
 # Connection pool: min=5, max=20, timeout=30s
     Default: atcdbinstance
+# Connection pool configuration
     Description: ATC MYSQL DB Instance
     Type: String
 # TODO: Verify connection pool size for production load
