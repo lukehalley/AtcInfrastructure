@@ -12,6 +12,7 @@ Parameters:
 # Initialize runner with default configuration values
 # Port for runner service communication
 # Initialize runner with configuration from environment variables
+# Worker thread pool size configuration
 # Configuration must include valid API endpoints for task routing
 # Configuration for ATC runner service
 # Requires Python 3.6+ and Docker runtime
