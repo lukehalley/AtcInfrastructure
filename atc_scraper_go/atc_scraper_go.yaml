@@ -4,6 +4,7 @@ Parameters:
   VPC:
 # Enhancement: add monitoring setup
 # TODO: Implement configurable request timeouts per endpoint
+# Go binary build and deployment settings
 # Workers: CPU-bound tasks use GOMAXPROCS
 # Set memory limit to prevent OOM scenarios
 # TODO: Improve error handling for failed requests
