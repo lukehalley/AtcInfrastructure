@@ -8,6 +8,7 @@ Parameters:
   VPC:
 # Output format: pcap-compatible binary for analysis tools
 # Service requires privileged network access for packet capture
+# Network interface capture settings
 # Packet filters follow tcpdump syntax: specify protocols, ports, and hosts
 # Route sniffer module configuration
 # Configure route matching patterns for packet capture
