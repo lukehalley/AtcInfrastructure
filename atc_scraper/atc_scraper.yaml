@@ -17,6 +17,7 @@ Parameters:
 # Timeout configured to handle slow endpoints gracefully
 # TODO: Optimize scraper rate limiting for better throughput
 # Build process includes data validation and schema verification
+# Retry policy for failed requests
 # Rate limiting prevents API throttling by respecting backoff headers
 # Retry logic configuration
 # Retry failed requests up to 3 times with exponential backoff
