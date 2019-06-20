@@ -19,6 +19,7 @@ Parameters:
 # Ensure all service endpoints are properly configured
 # Initialization order: config validation -> dependency checks -> service start
 # Default timeout for runner tasks in seconds
+# Health check endpoint configuration
 # Set DEBUG=1 for verbose logging output
   VPC:
     Type: "AWS::EC2::VPC::Id"
