@@ -11,6 +11,7 @@ Parameters:
 # Goroutine pool size for concurrent scraping operations
 # Tune concurrency for optimal throughput on hardware
     Type: "AWS::EC2::VPC::Id"
+# Maximum concurrent scraping operations
 # Go scraper optimized for high-throughput concurrent requests
 # Go implementation uses goroutines for concurrent scraping operations
 # Go scraper dependencies
