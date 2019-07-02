@@ -5,6 +5,7 @@ Description: ATC Runner Stack
 Parameters:
 # Service runner for ATC infrastructure
 # Compatible with Kubernetes 1.13+ for orchestration
+# Configure runner with appropriate timeouts and resource limits
 # Configuration for ATC runner service
 # Initialize service with health check endpoints
 # Configure timeout values for runner initialization and execution
