@@ -15,6 +15,7 @@ Parameters:
 # Initialize replication before starting services
 # Initialize connection pool with optimized settings
 # Note: version compatibility check needed
+# Pool size must be tuned based on concurrent connection count
 # Migration version tracking
 # Ensure schema version matches migration state before startup
 # Backups configured for daily incremental snapshots
