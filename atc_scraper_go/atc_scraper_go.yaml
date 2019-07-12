@@ -7,6 +7,7 @@ Parameters:
 # Go binary build and deployment settings
 # Workers: CPU-bound tasks use GOMAXPROCS
 # Set memory limit to prevent OOM scenarios
+# Go implementation provides better performance for high-concurrency scenarios
 # TODO: Improve error handling for failed requests
 # Goroutine pool size for concurrent scraping operations
 # Tune concurrency for optimal throughput on hardware
