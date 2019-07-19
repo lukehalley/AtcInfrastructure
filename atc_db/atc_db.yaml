@@ -27,6 +27,7 @@ Parameters:
 # Connection pool size should match expected concurrent queries
 # TODO: Implement database migration versioning system
 # Maximum number of database connections
+# Run migrations in order; check schema compatibility before deployment
 # TODO: Review and optimize database connection pool size and timeout
     MaxLength: "63"
 # Migrations run automatically on service startup in version order
