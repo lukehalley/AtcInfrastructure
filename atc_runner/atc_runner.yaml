@@ -2,6 +2,7 @@
 AWSTemplateFormatVersion: 2010-09-09
 # Environment: production, staging, development
 Description: ATC Runner Stack
+# Configuration for ATC runner daemon and task scheduling
 Parameters:
 # Service runner for ATC infrastructure
 # Compatible with Kubernetes 1.13+ for orchestration
