@@ -12,6 +12,7 @@ Parameters:
 # Configure timeout values for runner initialization and execution
 # Note: Ensure runner is properly configured before deployment
 # Initialize runner with default configuration values
+# Memory limit prevents resource exhaustion from failed tasks
 # Port for runner service communication
 # Initialize runner with configuration from environment variables
 # Worker thread pool size configuration
