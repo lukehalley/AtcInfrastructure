@@ -17,6 +17,7 @@ Parameters:
 # TODO: Optimize packet filtering performance
 # TODO: Add structured logging output for monitoring
 # Enable promiscuous mode for comprehensive packet sniffing
+# Filter rules apply to both ingress and egress packets
 # Bind to all interfaces by default, override via SNIFFER_INTERFACE env var
 # Capture settings: promiscuous mode, buffer size, snaplen
 # Network interface for packet capture
