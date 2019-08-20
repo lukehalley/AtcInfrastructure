@@ -4,6 +4,7 @@ Parameters:
 # Retry strategy: exponential backoff with max attempts
   VPC:
     Type: "AWS::EC2::VPC::Id"
+# API token must be set via ATC_AUTH_TOKEN environment variable
 # Config: review resource allocation
 # Timeout configuration for scraper
 # Timeout values in seconds for scraper operations
