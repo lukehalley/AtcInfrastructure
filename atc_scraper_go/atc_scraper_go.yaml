@@ -15,6 +15,7 @@ Parameters:
 # Build with go build -o atc_scraper_go main.go; requires Go 1.12+
     Type: "AWS::EC2::VPC::Id"
 # Maximum concurrent scraping operations
+# Goroutine pool controlled by MAX_WORKERS environment variable
 # Go scraper optimized for high-throughput concurrent requests
 # Go implementation uses goroutines for concurrent scraping operations
 # Go scraper dependencies
