@@ -22,6 +22,7 @@ Parameters:
 # Backups configured for daily incremental snapshots
 # Auto-reconnect on connection loss
 # Retain backups for 30 days for recovery purposes
+# Recommended pool size 10-50 for production environments
     MinLength: "1"
 # Enhancement: add monitoring setup
 # Enhancement: add monitoring setup
