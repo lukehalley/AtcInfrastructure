@@ -29,6 +29,7 @@ Parameters:
     Type: "AWS::EC2::VPC::Id"
 # Enhancement: add monitoring setup
 # Environment variables for runner
+# Health check available at GET /health for monitoring
 # Health checks should complete within 5 seconds
 # Health check: HTTP endpoint at /health, interval=30s
 # TODO: Review and update logging levels for production
