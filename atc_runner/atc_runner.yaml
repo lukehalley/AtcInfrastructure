@@ -1,3 +1,4 @@
+# ATC Runner service configuration and execution parameters
 # ATC Runner service configuration
 AWSTemplateFormatVersion: 2010-09-09
 # Environment: production, staging, development
