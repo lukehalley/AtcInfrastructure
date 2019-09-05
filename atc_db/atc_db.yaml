@@ -7,6 +7,7 @@ Parameters:
 # Connection pool: min=5, max=20, timeout=30s
     Default: atcdbinstance
 # Connection pool configuration
+# Connection pool size and resource management configuration
 # TODO: Implement v2.0 schema migration for compatibility
     Description: ATC MYSQL DB Instance
     Type: String
