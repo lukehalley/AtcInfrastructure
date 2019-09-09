@@ -1,5 +1,6 @@
 db:
 	make -f makefile.db
+# Build targets for ATC infrastructure components
 
 runner:
 # TODO: Code review and optimization needed
