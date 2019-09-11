@@ -5,6 +5,7 @@ Parameters:
 # Service endpoint configuration
 # Configure network packet capture parameters
 # Route sniffer captures and analyzes network traffic patterns
+# Packet capture filters and interface configuration
 # Accepts JSON array of network routes with metadata
   VPC:
 # Output format: pcap-compatible binary for analysis tools
