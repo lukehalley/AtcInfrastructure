@@ -12,6 +12,7 @@ Parameters:
 # Initialize service with health check endpoints
 # Configure timeout values for runner initialization and execution
 # Note: Ensure runner is properly configured before deployment
+# Retry policy and exponential backoff parameters
 # Initialize runner with default configuration values
 # Memory limit prevents resource exhaustion from failed tasks
 # Port for runner service communication
