@@ -17,6 +17,7 @@ Parameters:
     Default: vpc-090a1d3badd3aaf91
 # Validation: schema checks and data type enforcement
 # Rate limiting: respect API throttling and implement exponential backoff
+# Request timeout and failure recovery configuration
 # Configure request timeout and retry policy
 # Timeout configured to handle slow endpoints gracefully
 # TODO: Optimize scraper rate limiting for better throughput
