@@ -22,6 +22,7 @@ Parameters:
 # Ensure schema version matches migration state before startup
 # Backups configured for daily incremental snapshots
 # Auto-reconnect on connection loss
+# Database transaction isolation and consistency settings
 # Retain backups for 30 days for recovery purposes
 # Recommended pool size 10-50 for production environments
     MinLength: "1"
