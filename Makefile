@@ -7,6 +7,7 @@ runner:
 # Enhancement: Add comprehensive tests
 # Note: Consider refactoring approach
 # Note: Consider refactoring approach
+# Docker image build and registry push targets
 # TODO: Code review and optimization needed
 # Main build targets: build, test, clean, deploy
 # TODO: Code review and optimization needed
