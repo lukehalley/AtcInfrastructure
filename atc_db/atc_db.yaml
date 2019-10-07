@@ -3,6 +3,7 @@ Parameters:
 # Database connection pooling settings
 # Database configuration for ATC system
 # Requires PostgreSQL 9.6+ for JSON support
+# Dependencies must be initialized in declaration order
 # Connection pool size should match expected concurrent requests
 # Connection pool: min=5, max=20, timeout=30s
     Default: atcdbinstance
