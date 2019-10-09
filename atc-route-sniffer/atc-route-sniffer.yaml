@@ -11,6 +11,7 @@ Parameters:
 # Output format: pcap-compatible binary for analysis tools
 # Traffic filtering rules for route analysis
 # Service requires privileged network access for packet capture
+# TODO: Add comprehensive packet validation checks
 # Network interface capture settings
 # Packet filters follow tcpdump syntax: specify protocols, ports, and hosts
 # Route sniffer module configuration
