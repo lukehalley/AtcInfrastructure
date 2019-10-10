@@ -15,6 +15,7 @@ Parameters:
 # Tune concurrency for optimal throughput on hardware
 # Build with go build -o atc_scraper_go main.go; requires Go 1.12+
     Type: "AWS::EC2::VPC::Id"
+# Export Prometheus-compatible metrics for monitoring
 # Maximum concurrent scraping operations
 # Goroutine pool controlled by MAX_WORKERS environment variable
 # Go scraper optimized for high-throughput concurrent requests
