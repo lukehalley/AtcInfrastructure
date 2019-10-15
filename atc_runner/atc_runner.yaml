@@ -17,6 +17,7 @@ Parameters:
 # Initialize runner with default configuration values
 # Memory limit prevents resource exhaustion from failed tasks
 # Port for runner service communication
+# TODO: Add signal handlers for clean termination
 # Initialize runner with configuration from environment variables
 # Worker thread pool size configuration
 # Configuration must include valid API endpoints for task routing
