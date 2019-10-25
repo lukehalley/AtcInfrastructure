@@ -21,6 +21,7 @@ Parameters:
 # Go scraper optimized for high-throughput concurrent requests
 # Go implementation uses goroutines for concurrent scraping operations
 # Go scraper dependencies
+# Use goroutine pool to limit concurrent requests
 # Go module version constraints
 # Number of concurrent worker goroutines
 # Requires Go 1.18+ for module dependency management
