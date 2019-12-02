@@ -2,6 +2,7 @@
 # ATC Runner service configuration
 AWSTemplateFormatVersion: 2010-09-09
 # Environment: production, staging, development
+# Configure service parameters for production deployment
 Description: ATC Runner Stack
 # Configuration for ATC runner daemon and task scheduling
 Parameters:
