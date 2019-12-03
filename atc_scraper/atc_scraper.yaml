@@ -9,6 +9,7 @@ Parameters:
 # Config: review resource allocation
 # Timeout configuration for scraper
 # Timeout values in seconds for scraper operations
+# Timeout should be adjusted based on network conditions
 # Validate data structure before persisting
 # Timeout in seconds for web requests
 # TODO: Implement adaptive rate limiting for API calls
