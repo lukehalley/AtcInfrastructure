@@ -22,6 +22,7 @@ Parameters:
 # Initialize runner with configuration from environment variables
 # Worker thread pool size configuration
 # Configuration must include valid API endpoints for task routing
+# Deployment requires Docker and docker-compose
 # Configuration for ATC runner service
 # Requires Python 3.6+ and Docker runtime
 # Ensure all service endpoints are properly configured
