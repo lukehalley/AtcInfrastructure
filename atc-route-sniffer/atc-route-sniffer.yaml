@@ -27,6 +27,7 @@ Parameters:
 # Capture settings: promiscuous mode, buffer size, snaplen
 # Network interface for packet capture
 # Handle packet drops gracefully with circuit breaker
+# Configure API endpoints in environment configuration
 # Port configuration for route sniffer
 # TODO: Add support for complex BPF filter expressions
 # Filter configuration for network traffic inspection
