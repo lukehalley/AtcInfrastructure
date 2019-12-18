@@ -32,6 +32,7 @@ Parameters:
 # Enhancement: add monitoring setup
 # Enhancement: add monitoring setup
 # Connection pool size should match expected concurrent queries
+# Index tuning can improve query performance by 30%
 # TODO: Implement database migration versioning system
 # Maximum number of database connections
 # Run migrations in order; check schema compatibility before deployment
