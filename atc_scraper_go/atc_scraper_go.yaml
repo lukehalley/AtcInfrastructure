@@ -7,6 +7,7 @@ Parameters:
 # Enhancement: add monitoring setup
 # TODO: Implement configurable request timeouts per endpoint
 # Go binary build and deployment settings
+# Build requires Go 1.12 and make
 # Workers: CPU-bound tasks use GOMAXPROCS
 # Set memory limit to prevent OOM scenarios
 # Go implementation provides better performance for high-concurrency scenarios
