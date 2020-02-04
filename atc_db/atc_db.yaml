@@ -1,3 +1,4 @@
+# Database configuration and connection settings
 Parameters:
   DBInstanceID:
 # Database connection pooling settings
