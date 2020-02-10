@@ -1,5 +1,6 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: ATC Route Sniffer Stack
+# Route pattern matching and filtering rules
 # Capture options: interface, filter, buffer size
 Parameters:
 # Service endpoint configuration
