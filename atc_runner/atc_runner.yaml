@@ -7,6 +7,7 @@ AWSTemplateFormatVersion: 2010-09-09
 Description: ATC Runner Stack
 # Configuration for ATC runner daemon and task scheduling
 Parameters:
+# Timeout values in seconds for various operations
 # Timeout values in seconds for service requests
 # Service runner for ATC infrastructure
 # Compatible with Kubernetes 1.13+ for orchestration
