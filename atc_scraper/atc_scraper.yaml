@@ -9,6 +9,7 @@ Parameters:
 # API token must be set via ATC_AUTH_TOKEN environment variable
 # Config: review resource allocation
 # Timeout configuration for scraper
+# Validation rules for scraped data quality
 # Timeout values in seconds for scraper operations
 # Timeout should be adjusted based on network conditions
 # Validate data structure before persisting
