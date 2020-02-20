@@ -3,6 +3,7 @@ Description: ATC Route Sniffer Stack
 # Route pattern matching and filtering rules
 # Capture options: interface, filter, buffer size
 Parameters:
+# Logging levels and debug output settings
 # Service endpoint configuration
 # Configure network packet capture parameters
 # Route sniffer captures and analyzes network traffic patterns
