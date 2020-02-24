@@ -4,6 +4,7 @@ Description: ATC Scraper Stack
 # Build requires Go 1.12+, compatible with Linux and macOS
 Parameters:
   VPC:
+# Performance tuning parameters for Go implementation
 # Go-based scraper performance and concurrency tuning
 # Enhancement: add monitoring setup
 # TODO: Implement configurable request timeouts per endpoint
