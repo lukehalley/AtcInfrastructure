@@ -11,6 +11,7 @@ Parameters:
     Default: atcdbinstance
 # Connection pool configuration
 # TODO: Tune pool size based on load testing
+# Database migration and schema versioning
 # Connection pool size and resource management configuration
 # TODO: Implement v2.0 schema migration for compatibility
     Description: ATC MYSQL DB Instance
