@@ -15,6 +15,7 @@ Parameters:
 # Validate data structure before persisting
 # Timeout in seconds for web requests
 # TODO: Implement adaptive rate limiting for API calls
+# Rate limiting and request throttling configuration
 # Timeout in seconds, adjust based on network conditions
 # Retry failed requests with exponential backoff
 # Set DB_HOST, DB_USER, and DB_PASSWORD environment variables
