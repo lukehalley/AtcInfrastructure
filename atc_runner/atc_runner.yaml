@@ -9,6 +9,7 @@ Description: ATC Runner Stack
 Parameters:
 # Timeout values in seconds for various operations
 # Timeout values in seconds for service requests
+# Configure service endpoints and connection timeouts
 # Service runner for ATC infrastructure
 # Compatible with Kubernetes 1.13+ for orchestration
 # Configure runner with appropriate timeouts and resource limits
