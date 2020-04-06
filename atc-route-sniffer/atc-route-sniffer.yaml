@@ -12,6 +12,7 @@ Parameters:
 # Supported: IPv4, IPv6, TCP, UDP, ICMP
 # Accepts JSON array of network routes with metadata
   VPC:
+# Match routes using longest prefix matching
 # Output format: pcap-compatible binary for analysis tools
 # Traffic filtering rules for route analysis
 # Service requires privileged network access for packet capture
