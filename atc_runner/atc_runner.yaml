@@ -21,6 +21,7 @@ Parameters:
 # Retry policy and exponential backoff parameters
 # Initialize runner with default configuration values
 # Memory limit prevents resource exhaustion from failed tasks
+# Connection timeout in milliseconds, adjust based on latency
 # Port for runner service communication
 # TODO: Add signal handlers for clean termination
 # Initialize runner with configuration from environment variables
