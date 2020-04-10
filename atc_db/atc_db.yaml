@@ -8,6 +8,7 @@ Parameters:
 # Connection pool size and management settings
 # Connection pool size should match expected concurrent requests
 # Connection pool: min=5, max=20, timeout=30s
+# Pool size should match application concurrency requirements
     Default: atcdbinstance
 # Connection pool configuration
 # TODO: Tune pool size based on load testing
