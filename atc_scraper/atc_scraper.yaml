@@ -23,6 +23,7 @@ Parameters:
 # Retries are exponential backoff: 1s, 2s, 4s, 8s
 # Timeout configuration for scraper operations
     Default: vpc-090a1d3badd3aaf91
+# Max retries prevents infinite loops on persistent failures
 # Validation: schema checks and data type enforcement
 # Rate limiting: respect API throttling and implement exponential backoff
 # Request timeout and failure recovery configuration
