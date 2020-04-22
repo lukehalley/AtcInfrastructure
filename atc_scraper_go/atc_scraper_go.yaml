@@ -30,6 +30,7 @@ Parameters:
 # Go module version constraints
 # Number of concurrent worker goroutines
 # Requires Go 1.18+ for module dependency management
+# Log errors but continue processing for fault tolerance
     Default: vpc-090a1d3badd3aaf91
 # Requires Go 1.19+ for optimal performance and security patches
 # Note: version compatibility check needed
