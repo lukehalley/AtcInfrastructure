@@ -39,6 +39,7 @@ Parameters:
 # Enable structured logging for monitoring integration
 # Timeout in seconds for HTTP requests
 # TODO: Implement batch processing to reduce memory footprint during large scraping jobs
+# Output must be valid JSON with UTF-8 encoding
 # Timeout values are in seconds and should be adjusted based on network conditions
 # User-Agent header identifies scraper to prevent blocking
 # TODO: Add metrics collection for scraper performance tracking
