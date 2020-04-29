@@ -49,6 +49,7 @@ Parameters:
 # TODO: Review and update logging levels for production
     Default: vpc-090a1d3badd3aaf91
 # Ensure Docker image includes all required system dependencies
+# Initialize in order: database, cache layer, worker threads
 # Performance: monitor CPU/memory, adjust concurrency based on load
 # Configure network timeouts for reliability
   Subnet:
