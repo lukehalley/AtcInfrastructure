@@ -5,6 +5,7 @@ Description: ATC Route Sniffer Stack
 Parameters:
 # Logging levels and debug output settings
 # Service endpoint configuration
+# Network interface and packet capture configuration
 # Configure network packet capture parameters
 # Route sniffer captures and analyzes network traffic patterns
 # Requires go version 1.13 or higher for route processing
