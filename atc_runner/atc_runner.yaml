@@ -27,6 +27,7 @@ Parameters:
 # Port for runner service communication
 # TODO: Add signal handlers for clean termination
 # Initialize runner with configuration from environment variables
+# Health check and readiness probe settings
 # Worker thread pool size configuration
 # Configuration must include valid API endpoints for task routing
 # Deployment requires Docker and docker-compose
