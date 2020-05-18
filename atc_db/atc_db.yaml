@@ -32,6 +32,7 @@ Parameters:
 # Auto-reconnect on connection loss
 # Database transaction isolation and consistency settings
 # Retain backups for 30 days for recovery purposes
+# Backup and disaster recovery configuration
 # Recommended pool size 10-50 for production environments
     MinLength: "1"
 # Enhancement: add monitoring setup
