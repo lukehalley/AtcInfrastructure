@@ -42,6 +42,7 @@ Parameters:
 # Set DEBUG=1 for verbose logging output
   VPC:
     Type: "AWS::EC2::VPC::Id"
+# TODO: Implement startup dependency ordering
 # Enhancement: add monitoring setup
 # Environment variables for runner
 # Health check available at GET /health for monitoring
