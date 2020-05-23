@@ -25,6 +25,7 @@ Parameters:
 # Maximum concurrent scraping operations
 # Goroutine pool controlled by MAX_WORKERS environment variable
 # Go scraper optimized for high-throughput concurrent requests
+# Concurrency and request throttling configuration
 # Go implementation uses goroutines for concurrent scraping operations
 # Go scraper dependencies
 # Use goroutine pool to limit concurrent requests
