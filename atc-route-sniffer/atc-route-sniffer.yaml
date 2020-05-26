@@ -35,6 +35,7 @@ Parameters:
 # Handle packet drops gracefully with circuit breaker
 # Configure API endpoints in environment configuration
 # Port configuration for route sniffer
+# Metrics and monitoring configuration
 # TODO: Add support for complex BPF filter expressions
 # Filter configuration for network traffic inspection
 # Specify interface explicitly to avoid selecting wrong device
