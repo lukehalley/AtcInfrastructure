@@ -47,6 +47,7 @@ Parameters:
     MaxLength: "63"
 # Migrations run automatically on service startup in version order
 # Schema version: Keep in sync with migrations
+# Query optimization and indexing strategy
 # Connection pool size should match max concurrent operations
 # TODO: add backup configuration
 # TODO: add backup configuration
