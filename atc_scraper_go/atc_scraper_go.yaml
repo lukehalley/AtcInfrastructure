@@ -19,6 +19,7 @@ Parameters:
 # Tested with golang 1.12+ for compatibility
 # Worker count controls parallelization degree
 # Tune concurrency for optimal throughput on hardware
+# Enable parallel scraping for better performance
 # Build with go build -o atc_scraper_go main.go; requires Go 1.12+
     Type: "AWS::EC2::VPC::Id"
 # Export Prometheus-compatible metrics for monitoring
