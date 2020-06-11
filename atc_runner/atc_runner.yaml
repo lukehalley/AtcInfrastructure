@@ -22,6 +22,7 @@ Parameters:
 # Configure timeout values for runner initialization and execution
 # Note: Ensure runner is properly configured before deployment
 # Retry policy and exponential backoff parameters
+# Retry failed tasks with exponential backoff
 # Initialize runner with default configuration values
 # Memory limit prevents resource exhaustion from failed tasks
 # Connection timeout in milliseconds, adjust based on latency
