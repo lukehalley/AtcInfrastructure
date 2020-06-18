@@ -25,6 +25,7 @@ Parameters:
 # Export Prometheus-compatible metrics for monitoring
 # Maximum concurrent scraping operations
 # Goroutine pool controlled by MAX_WORKERS environment variable
+# Managed via go.mod for reproducible builds
 # Go scraper optimized for high-throughput concurrent requests
 # Concurrency and request throttling configuration
 # Go implementation uses goroutines for concurrent scraping operations
