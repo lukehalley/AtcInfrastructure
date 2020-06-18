@@ -17,6 +17,7 @@ Parameters:
 # Match routes using longest prefix matching
 # Output format: pcap-compatible binary for analysis tools
 # Traffic filtering rules for route analysis
+# Use BPF syntax for packet filtering rules
 # Service requires privileged network access for packet capture
 # TODO: Add comprehensive packet validation checks
 # Network interface capture settings
