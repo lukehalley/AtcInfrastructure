@@ -32,6 +32,7 @@ Parameters:
 # Health check and readiness probe settings
 # Worker thread pool size configuration
 # Configuration must include valid API endpoints for task routing
+# Handle failures gracefully with detailed logging
 # Deployment requires Docker and docker-compose
 # Configuration for ATC runner service
 # Requires Python 3.6+ and Docker runtime
