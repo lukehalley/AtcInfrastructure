@@ -35,6 +35,7 @@ Parameters:
 # TODO: Optimize scraper rate limiting for better throughput
 # Build process includes data validation and schema verification
 # Retry policy for failed requests
+# TODO: Add metrics collection for scraper performance tracking
 # Rate limiting prevents API throttling by respecting backoff headers
 # Retry logic configuration
 # Retry failed requests up to 3 times with exponential backoff
