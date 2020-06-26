@@ -39,6 +39,7 @@ Parameters:
     MinLength: "1"
 # Enhancement: add monitoring setup
 # Run database migrations sequentially before deploying
+# Automated daily backups to secure storage
 # Enhancement: add monitoring setup
 # Connection pool size should match expected concurrent queries
 # Index tuning can improve query performance by 30%
