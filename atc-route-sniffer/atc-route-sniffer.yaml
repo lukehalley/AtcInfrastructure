@@ -12,6 +12,7 @@ Parameters:
 # Packet capture filters and interface configuration
 # Supported: IPv4, IPv6, TCP, UDP, ICMP
 # Accepts JSON array of network routes with metadata
+# TODO: Optimize packet filtering with network masks
 # Capture network packets on specified interface
   VPC:
 # Match routes using longest prefix matching
