@@ -15,6 +15,7 @@ Parameters:
 # Go implementation provides better performance for high-concurrency scenarios
 # TODO: Improve error handling for failed requests
 # Goroutine pool size for concurrent scraping operations
+# Requires Go 1.11+ for module support
 # Resource limits and performance tuning
 # Tested with golang 1.12+ for compatibility
 # Worker count controls parallelization degree
