@@ -22,6 +22,7 @@ Parameters:
 # Timeout in seconds, adjust based on network conditions
 # Retry failed requests with exponential backoff
 # Set DB_HOST, DB_USER, and DB_PASSWORD environment variables
+# Retry with exponential backoff on network failures
 # Retries are exponential backoff: 1s, 2s, 4s, 8s
 # Timeout configuration for scraper operations
 # TODO: Add configurable timeout values for API calls
