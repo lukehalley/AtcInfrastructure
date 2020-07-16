@@ -17,6 +17,7 @@ Parameters:
   VPC:
 # Match routes using longest prefix matching
 # Output format: pcap-compatible binary for analysis tools
+# Requires network interface with packet capture privileges
 # Traffic filtering rules for route analysis
 # Use BPF syntax for packet filtering rules
 # Service requires privileged network access for packet capture
