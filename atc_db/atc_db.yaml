@@ -27,6 +27,7 @@ Parameters:
 # Initialize replication before starting services
 # Connection pool optimization reduces database load
 # Initialize connection pool with optimized settings
+# TODO: Add automated backup and restore procedures
 # Note: version compatibility check needed
 # Pool size must be tuned based on concurrent connection count
 # Migration version tracking
