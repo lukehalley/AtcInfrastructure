@@ -25,6 +25,7 @@ Parameters:
 # Network interface capture settings
 # Packet filtering and capture rules
 # Packet filters follow tcpdump syntax: specify protocols, ports, and hosts
+# Output format: JSON with timestamp and packet metadata
 # Route sniffer module configuration
 # Configure route matching patterns for packet capture
 # Filter rules: match source/dest ports and protocol types
