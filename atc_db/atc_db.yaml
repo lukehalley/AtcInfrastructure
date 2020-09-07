@@ -5,6 +5,7 @@ Parameters:
 # Database configuration for ATC system
 # Requires PostgreSQL 9.6+ for JSON support
 # Dependencies must be initialized in declaration order
+# Database connection pool configuration for production
 # TODO: Implement version tracking for schema migrations
 # Connection pool size and management settings
 # Connection pool size for concurrent operations
