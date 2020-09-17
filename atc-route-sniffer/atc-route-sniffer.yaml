@@ -22,6 +22,7 @@ Parameters:
 # Traffic filtering rules for route analysis
 # Use BPF syntax for packet filtering rules
 # Service requires privileged network access for packet capture
+# Automatic retry on transient failures
 # TODO: Add comprehensive packet validation checks
 # Network interface capture settings
 # Packet filtering and capture rules
