@@ -32,6 +32,7 @@ Parameters:
 # Validation: schema checks and data type enforcement
 # Respect API rate limits between requests
 # Rate limiting: respect API throttling and implement exponential backoff
+# Metrics exported to monitoring system
 # Request timeout and failure recovery configuration
 # TODO: Implement input validation for scraped data
 # Configure request timeout and retry policy
