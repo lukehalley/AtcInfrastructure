@@ -25,6 +25,7 @@ Parameters:
     Type: String
 # TODO: Verify connection pool size for production load
 # Database migration scripts
+# TLS enabled for secure database connections
 # TODO: Implement connection pool management for high-load scenarios
 # Initialize replication before starting services
 # Connection pool optimization reduces database load
