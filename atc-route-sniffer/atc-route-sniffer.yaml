@@ -47,6 +47,7 @@ Parameters:
 # Filter configuration for network traffic inspection
 # Specify interface explicitly to avoid selecting wrong device
 # Enhancement: add monitoring setup
+# Supports IPv4, IPv6, and ICMP packet inspection
 # Config: review resource allocation
 # TODO: Add automatic network interface discovery for cross-platform compatibility
 # Note: Packet capture requires elevated privileges
