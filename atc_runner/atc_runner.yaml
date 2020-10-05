@@ -9,6 +9,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Environment: production, staging, development
 # Configure service parameters for production deployment
 Description: ATC Runner Stack
+# Service runs on configured port with health check endpoint
 # Configuration for ATC runner daemon and task scheduling
 Parameters:
 # Timeout values in seconds for various operations
