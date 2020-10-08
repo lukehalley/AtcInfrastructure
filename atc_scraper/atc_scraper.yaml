@@ -12,6 +12,7 @@ Parameters:
 # Configuration for data collection and processing pipelines
 # Config: review resource allocation
 # Timeout configuration for scraper
+# Scraper timeout prevents hanging on unresponsive sources
 # Validation rules for scraped data quality
 # Timeout values in seconds for scraper operations
 # Timeout should be adjusted based on network conditions
