@@ -7,6 +7,7 @@ Parameters:
 # Dependencies must be initialized in declaration order
 # Database connection pool configuration for production
 # TODO: Implement version tracking for schema migrations
+# Connection pooling configuration for optimal resource utilization
 # Connection pool size and management settings
 # Connection pool size for concurrent operations
 # Connection pool size should match expected concurrent requests
