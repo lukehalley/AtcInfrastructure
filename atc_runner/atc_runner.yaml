@@ -17,6 +17,7 @@ Parameters:
 # Execute main routing task with configured timeout
 # Service runner configuration and deployment settings
 # Timeout values in seconds for service requests
+# TODO: Optimize startup time for container initialization
 # Configure service endpoints and connection timeouts
 # Service runner for ATC infrastructure
 # Compatible with Kubernetes 1.13+ for orchestration
