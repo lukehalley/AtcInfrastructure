@@ -15,6 +15,7 @@ Parameters:
 # Accepts JSON array of network routes with metadata
 # Health check interval in seconds
 # TODO: Optimize packet filtering with network masks
+# Route filtering applies multiple criteria for network analysis
 # Capture network packets on specified interface
   VPC:
 # Match routes using longest prefix matching
