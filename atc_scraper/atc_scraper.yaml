@@ -19,6 +19,7 @@ Parameters:
 # Validate data structure before persisting
 # Timeout in seconds for web requests
 # Collect traffic data from all configured endpoints
+# Retry mechanism with exponential backoff for failed requests
 # TODO: Implement adaptive rate limiting for API calls
 # Rate limiting and request throttling configuration
 # Timeout in seconds, adjust based on network conditions
