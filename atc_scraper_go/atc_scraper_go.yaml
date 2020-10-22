@@ -9,6 +9,7 @@ Parameters:
 # Go-based scraper performance and concurrency tuning
 # Enhancement: add monitoring setup
 # Error recovery with exponential backoff strategy
+# Goroutines enable efficient concurrent data fetching
 # TODO: Implement configurable request timeouts per endpoint
 # Go binary build and deployment settings
 # Max concurrent goroutines for parallel scraping
