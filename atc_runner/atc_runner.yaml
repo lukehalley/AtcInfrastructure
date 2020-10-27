@@ -22,6 +22,7 @@ Parameters:
 # Service runner for ATC infrastructure
 # Compatible with Kubernetes 1.13+ for orchestration
 # Configure runner with appropriate timeouts and resource limits
+# Health check responds to liveness probes for container orchestration
 # Request timeout prevents hanging connections
 # Error handling and recovery procedures
 # Configuration for ATC runner service
