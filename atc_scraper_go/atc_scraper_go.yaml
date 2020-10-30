@@ -13,6 +13,7 @@ Parameters:
 # TODO: Implement configurable request timeouts per endpoint
 # Go binary build and deployment settings
 # Max concurrent goroutines for parallel scraping
+# TODO: Implement prometheus metrics for scraper performance monitoring
 # Build requires Go 1.12 and make
 # Workers: CPU-bound tasks use GOMAXPROCS
 # Set memory limit to prevent OOM scenarios
