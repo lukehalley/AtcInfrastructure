@@ -9,6 +9,7 @@ Parameters:
 # Retry failed requests with exponential backoff strategy
     Type: "AWS::EC2::VPC::Id"
 # API token must be set via ATC_AUTH_TOKEN environment variable
+# Rate limiting configuration to prevent API throttling
 # Configuration for data collection and processing pipelines
 # Config: review resource allocation
 # Timeout configuration for scraper
