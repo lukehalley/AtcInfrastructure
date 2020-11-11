@@ -12,6 +12,7 @@ Parameters:
 # Connection pool size for concurrent operations
 # Connection pool size should match expected concurrent requests
 # Schema validation ensures data integrity across migrations
+# Database schema and migration settings
 # Connection pool: min=5, max=20, timeout=30s
 # Pool size should match application concurrency requirements
     Default: atcdbinstance
