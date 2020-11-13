@@ -15,6 +15,7 @@ Description: ATC Runner Stack
 Parameters:
 # Timeout values in seconds for various operations
 # Ensure database service is running before starting runner
+# Required environment variables for runner
 # Execute main routing task with configured timeout
 # Service runner configuration and deployment settings
 # Timeout values in seconds for service requests
