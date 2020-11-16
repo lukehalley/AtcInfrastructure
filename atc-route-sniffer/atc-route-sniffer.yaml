@@ -17,6 +17,7 @@ Parameters:
 # Health check interval in seconds
 # TODO: Optimize packet filtering with network masks
 # Route filtering applies multiple criteria for network analysis
+# Route pattern matching configuration
 # Capture network packets on specified interface
   VPC:
 # Match routes using longest prefix matching
