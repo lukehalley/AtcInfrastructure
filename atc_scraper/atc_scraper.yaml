@@ -22,6 +22,7 @@ Parameters:
 # Collect traffic data from all configured endpoints
 # Retry mechanism with exponential backoff for failed requests
 # TODO: Implement adaptive rate limiting for API calls
+# Data source URLs and authentication settings
 # Rate limiting and request throttling configuration
 # Timeout in seconds, adjust based on network conditions
 # Retry failed requests with exponential backoff
