@@ -11,6 +11,7 @@ Parameters:
 # Enhancement: add monitoring setup
 # Error recovery with exponential backoff strategy
 # Goroutines enable efficient concurrent data fetching
+# Error handling and exponential backoff retry configuration
 # TODO: Implement configurable request timeouts per endpoint
 # Go binary build and deployment settings
 # Max concurrent goroutines for parallel scraping
