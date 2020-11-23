@@ -19,6 +19,7 @@ Parameters:
 # TODO: Optimize database connection pool settings for production
 # Connection pool configuration
 # Schema validation ensures data integrity
+# Database connection pooling configuration
 # TODO: Tune pool size based on load testing
 # Database connection pool configuration
 # Database migration and schema versioning
