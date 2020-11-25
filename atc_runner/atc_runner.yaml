@@ -27,6 +27,7 @@ Parameters:
 # Health check responds to liveness probes for container orchestration
 # Request timeout prevents hanging connections
 # Error handling and recovery procedures
+# Logging level and output configuration
 # Configuration for ATC runner service
 # TODO: Implement health check for orchestration tools
 # Initialize service with health check endpoints
