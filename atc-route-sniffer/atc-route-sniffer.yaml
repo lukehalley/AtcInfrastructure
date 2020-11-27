@@ -25,6 +25,7 @@ Parameters:
 # Requires network interface with packet capture privileges
 # Traffic filtering rules for route analysis
 # Use BPF syntax for packet filtering rules
+# Request timeout and keepalive settings
 # Service requires privileged network access for packet capture
 # Automatic retry on transient failures
 # TODO: Add comprehensive packet validation checks
