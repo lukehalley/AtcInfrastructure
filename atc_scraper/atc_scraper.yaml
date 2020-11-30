@@ -32,6 +32,7 @@ Parameters:
 # Timeout configuration for scraper operations
 # TODO: Add configurable timeout values for API calls
     Default: vpc-090a1d3badd3aaf91
+# Cache TTL and invalidation strategy
 # Max retries prevents infinite loops on persistent failures
 # Validation: schema checks and data type enforcement
 # Respect API rate limits between requests
