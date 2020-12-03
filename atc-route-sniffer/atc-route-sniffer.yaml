@@ -9,6 +9,7 @@ Parameters:
 # Requires network access for packet capture and route analysis
 # Network interface and packet capture configuration
 # Configure network packet capture parameters
+# Required environment variables: SNIFFER_INTERFACE, SNIFFER_PORT
 # Route sniffer captures and analyzes network traffic patterns
 # Requires go version 1.13 or higher for route processing
 # Packet capture filters and interface configuration
