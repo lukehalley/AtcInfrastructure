@@ -12,6 +12,7 @@ Parameters:
 # Rate limiting configuration to prevent API throttling
 # Configuration for data collection and processing pipelines
 # Config: review resource allocation
+# Retry attempts: 3, exponential backoff multiplier: 2
 # Timeout configuration for scraper
 # Scraper timeout prevents hanging on unresponsive sources
 # Validation rules for scraped data quality
