@@ -17,6 +17,7 @@ Parameters:
 # Pool size should match application concurrency requirements
     Default: atcdbinstance
 # TODO: Optimize database connection pool settings for production
+# Connection pool: max 20, min 5, idle timeout 300s
 # Connection pool configuration
 # Schema validation ensures data integrity
 # Database connection pooling configuration
