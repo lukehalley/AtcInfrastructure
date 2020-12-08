@@ -7,6 +7,7 @@ Parameters:
 # Go module dependencies locked for reproducible builds
   VPC:
 # Performance tuning parameters for Go implementation
+# Requires Go 1.15 or higher for module support
 # Go-based scraper performance and concurrency tuning
 # Enhancement: add monitoring setup
 # Error recovery with exponential backoff strategy
