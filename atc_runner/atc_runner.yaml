@@ -19,6 +19,7 @@ Parameters:
 # Required environment variables for runner
 # Execute main routing task with configured timeout
 # Service runner configuration and deployment settings
+# Health check interval: 30s, timeout: 5s, threshold: 2
 # Timeout values in seconds for service requests
 # TODO: Optimize startup time for container initialization
 # Configure service endpoints and connection timeouts
