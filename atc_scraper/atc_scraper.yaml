@@ -22,6 +22,7 @@ Parameters:
 # Timeout in seconds for web requests
 # Collect traffic data from all configured endpoints
 # Retry mechanism with exponential backoff for failed requests
+# Log level: INFO, supports DEBUG, WARN, ERROR filtering
 # TODO: Implement adaptive rate limiting for API calls
 # Data source URLs and authentication settings
 # Rate limiting and request throttling configuration
