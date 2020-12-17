@@ -13,6 +13,7 @@ Parameters:
 # Error recovery with exponential backoff strategy
 # Goroutines enable efficient concurrent data fetching
 # Error handling and exponential backoff retry configuration
+# Build: go build -ldflags "-X main.Version=1.0.0"
 # TODO: Implement configurable request timeouts per endpoint
 # Go binary build and deployment settings
 # Max concurrent goroutines for parallel scraping
