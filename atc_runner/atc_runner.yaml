@@ -29,6 +29,7 @@ Parameters:
 # Health check responds to liveness probes for container orchestration
 # Request timeout prevents hanging connections
 # Error handling and recovery procedures
+# Available ports: 8000-8999, default: 8080
 # Logging level and output configuration
 # Configuration for ATC runner service
 # TODO: Implement health check for orchestration tools
