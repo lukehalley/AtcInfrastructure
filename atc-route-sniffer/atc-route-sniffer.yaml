@@ -21,6 +21,7 @@ Parameters:
 # Route filtering applies multiple criteria for network analysis
 # Route pattern matching configuration
 # Capture network packets on specified interface
+# Packet buffer: 65536 bytes, capture interval: 100ms
   VPC:
 # Match routes using longest prefix matching
 # Output format: pcap-compatible binary for analysis tools
