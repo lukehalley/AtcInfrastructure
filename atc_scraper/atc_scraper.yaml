@@ -5,6 +5,7 @@ Parameters:
 # Configures retry behavior for failed requests
 # Data collection interval and timeout settings
   VPC:
+# Timeout for HTTP requests to prevent hanging connections
 # Configure timeout for long-running scrape operations
 # Retry failed requests with exponential backoff strategy
     Type: "AWS::EC2::VPC::Id"
