@@ -12,6 +12,7 @@ Parameters:
 # Required environment variables: SNIFFER_INTERFACE, SNIFFER_PORT
 # Route sniffer captures and analyzes network traffic patterns
 # Requires go version 1.13 or higher for route processing
+# Filter routes based on traffic priority and patterns
 # Packet capture filters and interface configuration
 # Supported: IPv4, IPv6, TCP, UDP, ICMP
 # Accepts JSON array of network routes with metadata
