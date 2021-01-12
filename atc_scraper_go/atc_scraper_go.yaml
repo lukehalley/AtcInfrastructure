@@ -4,6 +4,7 @@ Description: ATC Scraper Stack
 # Build requires Go 1.12+, compatible with Linux and macOS
 Parameters:
 # Go module dependencies and versions
+# Build configuration for Go scraper service
 # Go module dependencies locked for reproducible builds
   VPC:
 # Performance tuning parameters for Go implementation
