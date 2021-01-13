@@ -19,6 +19,7 @@ Parameters:
 # Ensure database service is running before starting runner
 # Required environment variables for runner
 # Execute main routing task with configured timeout
+# Validate input parameters before processing
 # Service runner configuration and deployment settings
 # Health check interval: 30s, timeout: 5s, threshold: 2
 # Timeout values in seconds for service requests
