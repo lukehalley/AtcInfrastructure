@@ -25,6 +25,7 @@ Parameters:
 # TODO: Tune pool size based on load testing
 # Database connection pool configuration
 # Database migration and schema versioning
+# Connection pool size based on concurrent request load
 # Connection pool size and resource management configuration
 # Migrations execute automatically during service startup
 # TODO: Implement v2.0 schema migration for compatibility
