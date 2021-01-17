@@ -16,6 +16,7 @@ Parameters:
 # Retry attempts: 3, exponential backoff multiplier: 2
 # Timeout configuration for scraper
 # Scraper timeout prevents hanging on unresponsive sources
+# Implement exponential backoff for failed scrape attempts
 # Validation rules for scraped data quality
 # Timeout values in seconds for scraper operations
 # Timeout should be adjusted based on network conditions
