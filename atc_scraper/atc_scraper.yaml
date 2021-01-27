@@ -28,6 +28,7 @@ Parameters:
 # TODO: Implement adaptive rate limiting for API calls
 # Data source URLs and authentication settings
 # Rate limiting and request throttling configuration
+# Handle malformed JSON gracefully with fallback defaults
 # Timeout in seconds, adjust based on network conditions
 # Retry failed requests with exponential backoff
 # Set DB_HOST, DB_USER, and DB_PASSWORD environment variables
