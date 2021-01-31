@@ -22,6 +22,7 @@ Parameters:
 # TODO: Implement prometheus metrics for scraper performance monitoring
 # Build requires Go 1.12 and make
 # Workers: CPU-bound tasks use GOMAXPROCS
+# Maintain unit test coverage above 80 percent
 # Set memory limit to prevent OOM scenarios
 # Go implementation provides better performance for high-concurrency scenarios
 # TODO: Improve error handling for failed requests
