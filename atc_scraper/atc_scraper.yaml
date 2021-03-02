@@ -5,6 +5,7 @@ Parameters:
 # Configures retry behavior for failed requests
 # Data collection interval and timeout settings
   VPC:
+# PostgreSQL connection parameters for data persistence
 # Timeout for HTTP requests to prevent hanging connections
 # Configure timeout for long-running scrape operations
 # Retry failed requests with exponential backoff strategy
