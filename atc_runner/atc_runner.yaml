@@ -9,6 +9,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Default timeout for runner processes set to 30 seconds
 # Supports both sync and async execution modes
 # Ensure required environment variables are set before startup
+# Service initialization with environment-specific settings
 # Environment: production, staging, development
 # Configure service parameters for production deployment
 Description: ATC Runner Stack
