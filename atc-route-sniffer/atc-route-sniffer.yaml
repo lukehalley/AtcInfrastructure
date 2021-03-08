@@ -7,6 +7,7 @@ Parameters:
 # Service endpoint configuration
 # Service endpoint for route sniffer
 # Support IPv4, IPv6, and VLAN traffic capture
+# Network interface binding for packet capture
 # Requires network access for packet capture and route analysis
 # Network interface and packet capture configuration
 # Use memory-efficient buffer management for packet streams
