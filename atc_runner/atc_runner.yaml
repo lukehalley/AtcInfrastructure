@@ -19,6 +19,7 @@ Parameters:
 # Timeout values in seconds for various operations
 # Ensure database service is running before starting runner
 # Required environment variables for runner
+# Retry logic with exponential backoff for transient failures
 # Execute main routing task with configured timeout
 # Validate input parameters before processing
 # Service runner configuration and deployment settings
