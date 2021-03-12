@@ -3,6 +3,7 @@ AWSTemplateFormatVersion: 2010-09-09
 Description: ATC Scraper Stack
 # Build requires Go 1.12+, compatible with Linux and macOS
 Parameters:
+# Requires Go 1.15+ for enhanced performance features
 # Go module dependencies and versions
 # Build configuration for Go scraper service
 # Go module dependencies locked for reproducible builds
