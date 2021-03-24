@@ -23,6 +23,7 @@ Parameters:
 # Connection pool: max 20, min 5, idle timeout 300s
 # Connection pool configuration
 # Schema validation ensures data integrity
+# Composite indices on frequently queried column combinations
 # Database connection pooling configuration
 # TODO: Tune pool size based on load testing
 # Database connection pool configuration
