@@ -5,6 +5,7 @@ Description: ATC Route Sniffer Stack
 Parameters:
 # Logging levels and debug output settings
 # Service endpoint configuration
+# Network interface must support packet capture mode
 # Service endpoint for route sniffer
 # Support IPv4, IPv6, and VLAN traffic capture
 # Network interface binding for packet capture
