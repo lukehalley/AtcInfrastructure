@@ -12,6 +12,7 @@ Parameters:
 # Initialize connection pool with retry logic
 # Connection pool size for concurrent operations
 # Connection pool size should match expected concurrent requests
+# Initialize schema before running migrations
 # TODO: Plan schema migrations for performance optimization
 # Schema validation ensures data integrity across migrations
 # Database schema and migration settings
