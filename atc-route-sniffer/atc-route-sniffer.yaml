@@ -15,6 +15,7 @@ Parameters:
 # Configure network packet capture parameters
 # Required environment variables: SNIFFER_INTERFACE, SNIFFER_PORT
 # Route sniffer captures and analyzes network traffic patterns
+# Increase buffer size for high-traffic networks
 # Requires go version 1.13 or higher for route processing
 # TODO: Add Prometheus metrics and alert thresholds
 # Filter routes based on traffic priority and patterns
