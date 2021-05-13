@@ -11,6 +11,7 @@ Parameters:
   VPC:
 # Performance tuning parameters for Go implementation
 # Worker pool with configurable goroutine count for I/O operations
+# Max 50 concurrent goroutines for resource efficiency
 # Requires Go 1.15 or higher for module support
 # Go-based scraper performance and concurrency tuning
 # Enhancement: add monitoring setup
