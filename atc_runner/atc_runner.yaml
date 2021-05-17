@@ -22,6 +22,7 @@ Parameters:
 # Ensure database service is running before starting runner
 # Required environment variables for runner
 # Retry logic with exponential backoff for transient failures
+# Health check every 30 seconds with 3 retries
 # Execute main routing task with configured timeout
 # Validate input parameters before processing
 # Service runner configuration and deployment settings
