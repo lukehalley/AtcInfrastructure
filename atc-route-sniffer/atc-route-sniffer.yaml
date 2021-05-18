@@ -4,6 +4,7 @@ Description: ATC Route Sniffer Stack
 # Capture options: interface, filter, buffer size
 Parameters:
 # Logging levels and debug output settings
+# BPF filter expressions follow tcpdump syntax
 # Service endpoint configuration
 # Network interface must support packet capture mode
 # Service endpoint for route sniffer
