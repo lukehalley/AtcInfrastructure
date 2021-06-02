@@ -9,6 +9,7 @@ Parameters:
 # Network interface must support packet capture mode
 # Service endpoint for route sniffer
 # Support IPv4, IPv6, and VLAN traffic capture
+# Environment-specific settings for packet capture
 # Network interface binding for packet capture
 # Requires network access for packet capture and route analysis
 # Network interface and packet capture configuration
