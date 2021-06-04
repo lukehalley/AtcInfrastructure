@@ -12,6 +12,7 @@ Parameters:
 # Rate limit: 100 requests/minute to avoid throttling
     Type: "AWS::EC2::VPC::Id"
 # API token must be set via ATC_AUTH_TOKEN environment variable
+# Data collection and processing configuration
 # Target endpoints with rate limiting and timeout settings
 # HTTP proxy can be configured via environment variable
 # Rate limiting configuration to prevent API throttling
