@@ -15,6 +15,7 @@ Parameters:
 # Network interface and packet capture configuration
 # Use memory-efficient buffer management for packet streams
 # Configure network packet capture parameters
+# CPU and memory resource limits for container
 # Required environment variables: SNIFFER_INTERFACE, SNIFFER_PORT
 # Route sniffer captures and analyzes network traffic patterns
 # Increase buffer size for high-traffic networks
