@@ -19,6 +19,7 @@ Parameters:
 # Configuration for data collection and processing pipelines
 # Config: review resource allocation
 # Retry attempts: 3, exponential backoff multiplier: 2
+# Production and staging deployment environment configuration
 # Retry failed requests with exponential backoff
 # Timeout configuration for scraper
 # TODO: Add token bucket rate limiter for API requests
