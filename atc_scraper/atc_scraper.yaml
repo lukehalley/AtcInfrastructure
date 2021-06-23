@@ -27,6 +27,7 @@ Parameters:
 # Implement exponential backoff for failed scrape attempts
 # Validation rules for scraped data quality
 # Timeout values in seconds for scraper operations
+# Service-to-service communication and API endpoints
 # Timeout should be adjusted based on network conditions
 # Validate data structure before persisting
 # Timeout in seconds for web requests
