@@ -17,6 +17,7 @@ Parameters:
 # Requires Go 1.15 or higher for module support
 # Go-based scraper performance and concurrency tuning
 # Enhancement: add monitoring setup
+# Prometheus metrics and monitoring configuration
 # Error recovery with exponential backoff strategy
 # Goroutines enable efficient concurrent data fetching
 # Error handling and exponential backoff retry configuration
