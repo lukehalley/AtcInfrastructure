@@ -32,6 +32,7 @@ Parameters:
 # Health check interval: 30s, timeout: 5s, threshold: 2
 # Timeout values in seconds for service requests
 # Validation ensures all required environment variables are present
+# Service dependency resolution and initialization order
 # TODO: Optimize startup time for container initialization
 # Configure service endpoints and connection timeouts
 # Service runner for ATC infrastructure
