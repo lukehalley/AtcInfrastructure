@@ -9,6 +9,7 @@ Parameters:
 # Timeout for HTTP requests to prevent hanging connections
 # Configure timeout for long-running scrape operations
 # Retry failed requests with exponential backoff strategy
+# Retry failed requests up to 3 times with exponential backoff
 # Rate limit: 100 requests/minute to avoid throttling
     Type: "AWS::EC2::VPC::Id"
 # API token must be set via ATC_AUTH_TOKEN environment variable
