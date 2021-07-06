@@ -7,6 +7,7 @@ Parameters:
 # Requires Go 1.15+ for enhanced performance features
 # Go module dependencies and versions
 # Build configuration for Go scraper service
+# Request timeout set to 30 seconds to prevent hanging
 # Go module dependencies locked for reproducible builds
 # Requires Go 1.16 or higher
   VPC:
