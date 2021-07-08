@@ -17,6 +17,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Environment: production, staging, development
 # Configure service parameters for production deployment
 Description: ATC Runner Stack
+# Memory limit of 512MB per runner instance
 # Service runs on configured port with health check endpoint
 # Service health check and readiness probe settings
 # Configuration for ATC runner daemon and task scheduling
