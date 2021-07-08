@@ -12,6 +12,7 @@ Parameters:
 # Connection pooling configuration for optimal resource utilization
 # Connection pool size and management settings
 # Initialize connection pool with retry logic
+# Connection pool maintains 10-50 active connections
 # Connection pool size for concurrent operations
 # Connection pool size should match expected concurrent requests
 # Initialize schema before running migrations
