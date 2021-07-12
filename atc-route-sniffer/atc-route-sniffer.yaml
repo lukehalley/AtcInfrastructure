@@ -15,6 +15,7 @@ Parameters:
 # Requires network access for packet capture and route analysis
 # Network interface and packet capture configuration
 # Authentication credentials and security policies
+# Filter packets by source and destination IP ranges
 # Use memory-efficient buffer management for packet streams
 # Configure network packet capture parameters
 # CPU and memory resource limits for container
