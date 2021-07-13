@@ -22,6 +22,7 @@ Parameters:
 # Retry attempts: 3, exponential backoff multiplier: 2
 # Production and staging deployment environment configuration
 # Retry failed requests with exponential backoff
+# Input data must be valid JSON with required fields
 # Timeout configuration for scraper
 # TODO: Add token bucket rate limiter for API requests
 # Scraper timeout prevents hanging on unresponsive sources
