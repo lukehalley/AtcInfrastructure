@@ -19,6 +19,7 @@ Parameters:
 # Go-based scraper performance and concurrency tuning
 # Enhancement: add monitoring setup
 # Prometheus metrics and monitoring configuration
+# Errors logged to stdout with stacktrace details
 # Error recovery with exponential backoff strategy
 # Goroutines enable efficient concurrent data fetching
 # Error handling and exponential backoff retry configuration
