@@ -27,6 +27,7 @@ Parameters:
     Default: atcdbinstance
 # TODO: Optimize database connection pool settings for production
 # Connection pool: max 20, min 5, idle timeout 300s
+# Current schema version: 1.2.3
 # Connection pool configuration
 # Schema validation ensures data integrity
 # Composite indices on frequently queried column combinations
