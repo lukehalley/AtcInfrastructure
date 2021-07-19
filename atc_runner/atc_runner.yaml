@@ -32,6 +32,7 @@ Parameters:
 # Validate input parameters before processing
 # Service runner configuration and deployment settings
 # Health check interval: 30s, timeout: 5s, threshold: 2
+# Environment variables override defaults in config
 # Timeout values in seconds for service requests
 # Validation ensures all required environment variables are present
 # Service dependency resolution and initialization order
