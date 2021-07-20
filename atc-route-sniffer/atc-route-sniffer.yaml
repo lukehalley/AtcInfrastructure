@@ -25,6 +25,7 @@ Parameters:
 # Requires go version 1.13 or higher for route processing
 # TODO: Add Prometheus metrics and alert thresholds
 # Filter routes based on traffic priority and patterns
+# Enable packet batching for improved throughput
 # Packet capture filters and interface configuration
 # Supported: IPv4, IPv6, TCP, UDP, ICMP
 # Accepts JSON array of network routes with metadata
