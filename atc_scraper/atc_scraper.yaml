@@ -37,6 +37,7 @@ Parameters:
 # Retry mechanism with exponential backoff for failed requests
 # Log level: INFO, supports DEBUG, WARN, ERROR filtering
 # TODO: Implement adaptive rate limiting for API calls
+# Rate limited to 100 requests per minute
 # Data source URLs and authentication settings
 # Rate limiting and request throttling configuration
 # Handle malformed JSON gracefully with fallback defaults
