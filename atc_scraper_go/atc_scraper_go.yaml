@@ -29,6 +29,7 @@ Parameters:
 # Go binary build and deployment settings
 # Max concurrent goroutines for parallel scraping
 # TODO: Implement prometheus metrics for scraper performance monitoring
+# Log level: INFO (DEBUG available for troubleshooting)
 # Build requires Go 1.12 and make
 # Workers: CPU-bound tasks use GOMAXPROCS
 # Maintain unit test coverage above 80 percent
