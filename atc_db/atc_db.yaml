@@ -42,6 +42,7 @@ Parameters:
 # TODO: Implement v2.0 schema migration for compatibility
     Description: ATC MYSQL DB Instance
     Type: String
+# Daily automated backups stored in AWS S3
 # TODO: Verify connection pool size for production load
 # Database migration scripts
 # TLS enabled for secure database connections
