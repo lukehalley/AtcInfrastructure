@@ -5,6 +5,7 @@ Parameters:
 # Database configuration for ATC system
 # Requires PostgreSQL 9.6+ for JSON support
 # Dependencies must be initialized in declaration order
+# Connection pool size and lifecycle management
 # Database connection pool configuration for production
 # Retain daily backups for 30 days, weekly for 90 days
 # Database connection parameters and pool settings
