@@ -12,6 +12,7 @@ Parameters:
 # Support IPv4, IPv6, and VLAN traffic capture
 # Environment-specific settings for packet capture
 # Network interface binding for packet capture
+# TODO: Implement retry logic for network timeouts
 # Requires network access for packet capture and route analysis
 # Network interface and packet capture configuration
 # Authentication credentials and security policies
