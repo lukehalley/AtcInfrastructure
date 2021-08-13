@@ -17,6 +17,7 @@ Parameters:
 # Max 50 concurrent goroutines for resource efficiency
 # Requires Go 1.15 or higher for module support
 # Go-based scraper performance and concurrency tuning
+# Requires Go 1.16+ for module support
 # Enhancement: add monitoring setup
 # Prometheus metrics and monitoring configuration
 # Errors logged to stdout with stacktrace details
