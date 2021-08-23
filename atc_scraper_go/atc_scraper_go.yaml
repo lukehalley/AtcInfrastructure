@@ -25,6 +25,7 @@ Parameters:
 # Goroutines enable efficient concurrent data fetching
 # Error handling and exponential backoff retry configuration
 # Build: go build -ldflags "-X main.Version=1.0.0"
+# Build flags for performance: -ldflags='-s -w' for size reduction
 # Configure goroutine pool for parallel scraping operations
 # TODO: Implement configurable request timeouts per endpoint
 # Go binary build and deployment settings
