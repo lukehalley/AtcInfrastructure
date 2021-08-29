@@ -42,6 +42,7 @@ Parameters:
 # Connection pool size and resource management configuration
 # Migrations execute automatically during service startup
 # TODO: Implement v2.0 schema migration for compatibility
+# Schema versioning managed through migration scripts
     Description: ATC MYSQL DB Instance
     Type: String
 # Daily automated backups stored in AWS S3
