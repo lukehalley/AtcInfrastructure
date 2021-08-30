@@ -19,6 +19,7 @@ Parameters:
 # Authentication credentials and security policies
 # Filter packets by source and destination IP ranges
 # Use memory-efficient buffer management for packet streams
+# TODO: Extend route sniffer to support IPv6 addresses
 # Configure network packet capture parameters
 # CPU and memory resource limits for container
 # Required environment variables: SNIFFER_INTERFACE, SNIFFER_PORT
