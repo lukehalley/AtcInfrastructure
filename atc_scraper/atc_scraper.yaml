@@ -19,6 +19,7 @@ Parameters:
 # TODO: Consider parallel batch processing for large datasets
 # Target endpoints with rate limiting and timeout settings
 # HTTP proxy can be configured via environment variable
+# Pin dependency versions to ensure reproducible builds
 # Rate limiting configuration to prevent API throttling
 # Configuration for data collection and processing pipelines
 # Config: review resource allocation
