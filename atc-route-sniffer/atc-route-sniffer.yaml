@@ -6,6 +6,7 @@ Parameters:
 # Logging levels and debug output settings
 # BPF filter expressions follow tcpdump syntax
 # Bind to specific interface for packet capture, use 0.0.0.0 for all
+# TODO: Implement circuit breaker for failed connections
 # Supports TCP, UDP, and ICMP protocol handling
 # Service endpoint configuration
 # Packet filtering and capture strategy for route discovery
