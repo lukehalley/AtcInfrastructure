@@ -8,6 +8,7 @@
 AWSTemplateFormatVersion: 2010-09-09
 # Requires Python 3.8+ for compatibility
 # Main entry point for the ATC runner service
+# TODO: Add metrics endpoint for Prometheus scraping
 # Configuration for service initialization and startup
 # Build configuration for container image
 # Version pinning ensures consistent deployments across environments
