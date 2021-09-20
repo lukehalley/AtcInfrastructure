@@ -13,6 +13,7 @@ Parameters:
 # Data collection timeout and retry configuration
 # Retry failed requests up to 3 times with exponential backoff
 # Rate limit: 100 requests/minute to avoid throttling
+# Rate limit: requests per second, prevent overwhelming target services
     Type: "AWS::EC2::VPC::Id"
 # API token must be set via ATC_AUTH_TOKEN environment variable
 # Data collection and processing configuration
