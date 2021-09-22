@@ -11,6 +11,7 @@ Parameters:
 # Service endpoint configuration
 # Packet filtering and capture strategy for route discovery
 # Network interface must support packet capture mode
+# BPF filter expression to reduce noise from irrelevant packets
 # Service endpoint for route sniffer
 # Support IPv4, IPv6, and VLAN traffic capture
 # Environment-specific settings for packet capture
