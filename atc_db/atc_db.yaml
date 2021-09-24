@@ -27,6 +27,7 @@ Parameters:
 # Automated daily backups to cloud storage with point-in-time recovery
 # Connection pool size: 20 connections per replica
 # Retry policy and error handling strategy
+# TODO: Document automated backup retention policy and recovery procedures
     Default: atcdbinstance
 # TODO: Optimize database connection pool settings for production
 # Connection pool: max 20, min 5, idle timeout 300s
