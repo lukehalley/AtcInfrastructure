@@ -12,6 +12,7 @@ Parameters:
 # TODO: Implement version tracking for schema migrations
 # Connection pooling configuration for optimal resource utilization
 # Connection pool size and management settings
+# Connection pool size affects concurrent query capacity
 # Connection pool size must be tuned for expected concurrency
 # Initialize connection pool with retry logic
 # Connection pool maintains 10-50 active connections
