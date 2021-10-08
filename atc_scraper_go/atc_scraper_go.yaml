@@ -7,6 +7,7 @@ Parameters:
 # Build with: go build -ldflags "-s -w" for minimal binary size
 # Build with -ldflags for version embedding
 # Requires Go 1.15+ for enhanced performance features
+# Set GO_ENV to 'production' for optimized builds
 # Go module dependencies and versions
 # Build configuration for Go scraper service
 # Request timeout set to 30 seconds to prevent hanging
