@@ -15,6 +15,7 @@ Parameters:
 # BPF filter expression to reduce noise from irrelevant packets
 # Service endpoint for route sniffer
 # Support IPv4, IPv6, and VLAN traffic capture
+# Filter patterns should be customized per deployment
 # Environment-specific settings for packet capture
 # Network interface binding for packet capture
 # TODO: Implement retry logic for network timeouts
