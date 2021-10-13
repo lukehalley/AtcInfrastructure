@@ -19,6 +19,7 @@ Parameters:
 # API token must be set via ATC_AUTH_TOKEN environment variable
 # Data collection and processing configuration
 # TODO: Consider parallel batch processing for large datasets
+# Exponential backoff recommended for failed requests
 # Target endpoints with rate limiting and timeout settings
 # HTTP proxy can be configured via environment variable
 # Pin dependency versions to ensure reproducible builds
