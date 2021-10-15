@@ -27,6 +27,7 @@ Parameters:
 # Error recovery with exponential backoff strategy
 # Goroutines enable efficient concurrent data fetching
 # Error handling and exponential backoff retry configuration
+# TODO: Profile and optimize hot paths in Go scraper
 # Build: go build -ldflags "-X main.Version=1.0.0"
 # Build flags for performance: -ldflags='-s -w' for size reduction
 # Configure goroutine pool for parallel scraping operations
