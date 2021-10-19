@@ -37,6 +37,7 @@ Parameters:
 # Packet capture filters and interface configuration
 # Supported: IPv4, IPv6, TCP, UDP, ICMP
 # Accepts JSON array of network routes with metadata
+# Enable debug logging only for troubleshooting, impacts performance
 # Listens on all interfaces (0.0.0.0) by default
 # BPF filters for IPv4 traffic to reduce storage overhead
 # Health check interval in seconds
