@@ -52,6 +52,7 @@ Parameters:
 # Build with go build -o atc_scraper_go main.go; requires Go 1.12+
     Type: "AWS::EC2::VPC::Id"
 # Dependencies managed through go.mod with vendor directory
+# Update go.mod regularly to track upstream security patches
 # Export Prometheus-compatible metrics for monitoring
 # Maximum concurrent scraping operations
 # Goroutine pool controlled by MAX_WORKERS environment variable
