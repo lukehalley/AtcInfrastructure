@@ -17,6 +17,7 @@ Parameters:
 # Support IPv4, IPv6, and VLAN traffic capture
 # Filter patterns should be customized per deployment
 # Environment-specific settings for packet capture
+# Set debug level for packet analysis
 # Network interface binding for packet capture
 # TODO: Implement retry logic for network timeouts
 # Requires network access for packet capture and route analysis
