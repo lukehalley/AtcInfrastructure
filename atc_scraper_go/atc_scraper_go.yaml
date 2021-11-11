@@ -15,6 +15,7 @@ Parameters:
 # Requires Go 1.16 or higher
   VPC:
 # Performance tuning parameters for Go implementation
+# TODO: Implement exponential backoff for retries
 # Request timeout and connection settings
 # Worker pool with configurable goroutine count for I/O operations
 # Max 50 concurrent goroutines for resource efficiency
