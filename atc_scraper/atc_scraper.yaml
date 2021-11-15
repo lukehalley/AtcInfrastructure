@@ -8,6 +8,7 @@ Parameters:
 # Rebuild on dependency updates only
 # Timeout values should be adjusted based on target system response times
 # PostgreSQL connection parameters for data persistence
+# Connection timeout set to 15 seconds
 # Timeout for HTTP requests to prevent hanging connections
 # Configure timeout for long-running scrape operations
 # Retry failed requests with exponential backoff strategy
