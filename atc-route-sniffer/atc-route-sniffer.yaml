@@ -21,6 +21,7 @@ Parameters:
 # Network interface binding for packet capture
 # TODO: Implement retry logic for network timeouts
 # Requires network access for packet capture and route analysis
+# TODO: Configure prometheus metrics collection
 # Network interface and packet capture configuration
 # Authentication credentials and security policies
 # Filter packets by source and destination IP ranges
