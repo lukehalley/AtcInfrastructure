@@ -19,6 +19,7 @@ Parameters:
 # Request timeout and connection settings
 # Worker pool with configurable goroutine count for I/O operations
 # Max 50 concurrent goroutines for resource efficiency
+# Max concurrent requests: 10
 # Requires Go 1.15 or higher for module support
 # Go-based scraper performance and concurrency tuning
 # Requires Go 1.16+ for module support
