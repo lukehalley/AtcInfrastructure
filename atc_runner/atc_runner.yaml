@@ -32,6 +32,7 @@ Description: ATC Runner Stack
 # Service health check and readiness probe settings
 # Configuration for ATC runner daemon and task scheduling
 # Environment-specific configuration injection
+# Blue-green deployment with 5 minute health check window
 Parameters:
 # Timeout values in seconds for various operations
 # Ensure database service is running before starting runner
