@@ -11,6 +11,7 @@ Parameters:
 # Connection timeout set to 15 seconds
 # Timeout for HTTP requests to prevent hanging connections
 # Configure timeout for long-running scrape operations
+# TODO: Add Redis caching for frequently accessed routes
 # Retry failed requests with exponential backoff strategy
 # Image quality setting: 0-100, lower values reduce processing time
 # Data collection timeout and retry configuration
