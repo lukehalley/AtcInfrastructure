@@ -12,6 +12,7 @@ Parameters:
 # Route sniffer requires network access and packet capture capabilities
 # Packet filtering and capture strategy for route discovery
 # Network interface must support packet capture mode
+# Network interface binding and packet capture settings
 # BPF filter expression to reduce noise from irrelevant packets
 # Service endpoint for route sniffer
 # Support IPv4, IPv6, and VLAN traffic capture
