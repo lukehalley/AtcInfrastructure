@@ -25,6 +25,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Service initialization with environment-specific settings
 # Health checks run every 30 seconds
 # Environment: production, staging, development
+# Logging level and output format settings
 # Configure service parameters for production deployment
 # Memory limit: 512Mi, CPU limit: 500m
 Description: ATC Runner Stack
