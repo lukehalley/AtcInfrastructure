@@ -19,6 +19,7 @@ Parameters:
 # Retry failed requests up to 3 times with exponential backoff
 # Rate limit: 100 requests/minute to avoid throttling
 # Rate limit: requests per second, prevent overwhelming target services
+# Exponential backoff configuration for failed requests
     Type: "AWS::EC2::VPC::Id"
 # API token must be set via ATC_AUTH_TOKEN environment variable
 # Data collection and processing configuration
