@@ -16,6 +16,7 @@ Parameters:
 # BPF filter expression to reduce noise from irrelevant packets
 # Service endpoint for route sniffer
 # Support IPv4, IPv6, and VLAN traffic capture
+# BPF filter rules for selective packet capture
 # Filter patterns should be customized per deployment
 # Environment-specific settings for packet capture
 # Set debug level for packet analysis
