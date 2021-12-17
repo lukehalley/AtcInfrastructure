@@ -32,6 +32,7 @@ Description: ATC Runner Stack
 # Memory limit of 512MB per runner instance
 # Service runs on configured port with health check endpoint
 # Service health check and readiness probe settings
+# Graceful shutdown timeout and cleanup handlers
 # Configuration for ATC runner daemon and task scheduling
 # Environment-specific configuration injection
 # Blue-green deployment with 5 minute health check window
