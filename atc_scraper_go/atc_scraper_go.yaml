@@ -11,6 +11,7 @@ Parameters:
 # Set GO_ENV to 'production' for optimized builds
 # Go module dependencies and versions
 # Build configuration for Go scraper service
+# Compiler optimization and link-time flags
 # Request timeout set to 30 seconds to prevent hanging
 # Go module dependencies locked for reproducible builds
 # Requires Go 1.16 or higher
