@@ -18,6 +18,7 @@ Parameters:
 # Connection pool size affects concurrent query capacity
 # Connection pool size must be tuned for expected concurrency
 # Initialize connection pool with retry logic
+# Backup scheduling and point-in-time recovery options
 # Connection pool maintains 10-50 active connections
 # Connection pool size for concurrent operations
 # Connection pool size should match expected concurrent requests
