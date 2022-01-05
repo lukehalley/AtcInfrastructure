@@ -12,6 +12,7 @@ Parameters:
 # Database connection parameters and pool settings
 # TODO: Implement version tracking for schema migrations
 # Connection pooling configuration for optimal resource utilization
+# Schema validation: ensures data consistency across all tables
 # Connection pool size and management settings
 # Schema migration versioning and rollback procedures
 # TODO: Benchmark query performance with production data
