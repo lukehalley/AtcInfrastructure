@@ -15,6 +15,7 @@ Parameters:
 # Configure timeout for long-running scrape operations
 # TODO: Add Redis caching for frequently accessed routes
 # Retry failed requests with exponential backoff strategy
+# Resource limits: memory 512MB, CPU 250m per instance
 # Image quality setting: 0-100, lower values reduce processing time
 # Data collection timeout and retry configuration
 # Retry failed requests up to 3 times with exponential backoff
