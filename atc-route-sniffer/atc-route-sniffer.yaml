@@ -11,6 +11,7 @@ Parameters:
 # Supports TCP, UDP, and ICMP protocol handling
 # Service endpoint configuration
 # Route sniffer requires network access and packet capture capabilities
+# Logging: INFO level by default, DEBUG available for troubleshooting
 # Packet filtering and capture strategy for route discovery
 # Network interface must support packet capture mode
 # Network interface binding and packet capture settings
