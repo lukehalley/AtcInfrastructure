@@ -29,6 +29,7 @@ Parameters:
 # Exponential backoff recommended for failed requests
 # Target endpoints with rate limiting and timeout settings
 # HTTP proxy can be configured via environment variable
+# Performance: batch size 100 records, connection pool size 10
 # Rate limiting to respect API quotas and avoid throttling
 # Pin dependency versions to ensure reproducible builds
 # Rate limiting configuration to prevent API throttling
