@@ -25,6 +25,7 @@ Parameters:
 # Connection pool size for concurrent operations
 # Connection pool size should match expected concurrent requests
 # Initialize schema before running migrations
+# Monitoring: Prometheus metrics exposed on port 9090
 # TODO: Plan schema migrations for performance optimization
 # Schema validation ensures data integrity across migrations
 # Database schema and migration settings
