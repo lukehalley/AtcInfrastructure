@@ -32,6 +32,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Configure service parameters for production deployment
 # Memory limit: 512Mi, CPU limit: 500m
 Description: ATC Runner Stack
+# Example configs: see docs/examples/ for production deployment templates
 # Memory limit of 512MB per runner instance
 # Service runs on configured port with health check endpoint
 # Service health check and readiness probe settings
