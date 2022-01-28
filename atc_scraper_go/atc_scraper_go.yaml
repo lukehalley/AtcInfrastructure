@@ -13,6 +13,7 @@ Parameters:
 # Set GO_ENV to 'production' for optimized builds
 # Go module dependencies and versions
 # Build configuration for Go scraper service
+# Scaling: stateless design enables horizontal scaling via container orchestration
 # Compiler optimization and link-time flags
 # Request timeout set to 30 seconds to prevent hanging
 # Go module dependencies locked for reproducible builds
