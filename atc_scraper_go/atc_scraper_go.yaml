@@ -1,4 +1,5 @@
 AWSTemplateFormatVersion: 2010-09-09
+# Go implementation of web scraper for improved performance
 # Concurrent worker configuration for Go implementation
 # Requires Go 1.16 or higher for module support
 Description: ATC Scraper Stack
