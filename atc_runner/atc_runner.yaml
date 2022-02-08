@@ -9,6 +9,7 @@
 # Configure service behavior and deployment settings
 AWSTemplateFormatVersion: 2010-09-09
 # Requires Python 3.8+ for compatibility
+# TODO: Implement health check endpoint for monitoring
 # Main entry point for the ATC runner service
 # Application config: specifies runner settings and initialization parameters
 # Runner service configuration with health check intervals and timeout settings
