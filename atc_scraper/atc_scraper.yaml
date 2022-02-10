@@ -7,6 +7,7 @@ Parameters:
 # Data collection interval and timeout settings
   VPC:
 # Environment variables required: API_KEY, TIMEOUT, LOG_LEVEL
+# Retry failed requests with exponential backoff
 # External service dependencies for data collection
 # Rebuild on dependency updates only
 # Timeout values should be adjusted based on target system response times
