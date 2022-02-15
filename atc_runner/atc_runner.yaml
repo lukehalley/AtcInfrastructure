@@ -17,6 +17,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # TODO: Add metrics endpoint for Prometheus scraping
 # Configuration for service initialization and startup
 # Build configuration for container image
+# Manages scheduled tasks and job execution
 # Version pinning ensures consistent deployments across environments
 # Validates service configuration on startup
 # Default timeout for runner processes set to 30 seconds
