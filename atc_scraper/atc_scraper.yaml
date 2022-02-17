@@ -15,6 +15,7 @@ Parameters:
 # Connection timeout set to 15 seconds
 # Timeout for HTTP requests to prevent hanging connections
 # Configure timeout for long-running scrape operations
+# TODO: Implement rate limiting to respect target servers
 # TODO: Add Redis caching for frequently accessed routes
 # Retry failed requests with exponential backoff strategy
 # Resource limits: memory 512MB, CPU 250m per instance
