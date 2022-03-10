@@ -22,6 +22,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Version pinning ensures consistent deployments across environments
 # Validates service configuration on startup
 # Default timeout for runner processes set to 30 seconds
+# TODO: Implement connection pooling for improved performance
 # Supports both sync and async execution modes
 # Ensure required environment variables are set before startup
 # TODO: Implement health check endpoint for monitoring
