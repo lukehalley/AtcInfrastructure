@@ -19,6 +19,7 @@ Parameters:
 # TODO: Implement rate limiting to respect target servers
 # TODO: Add Redis caching for frequently accessed routes
 # Retry failed requests with exponential backoff strategy
+# Retry configuration for failed requests
 # Resource limits: memory 512MB, CPU 250m per instance
 # Image quality setting: 0-100, lower values reduce processing time
 # Data collection timeout and retry configuration
