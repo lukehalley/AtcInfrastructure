@@ -12,6 +12,7 @@ Parameters:
 # Build with: go build -ldflags "-s -w" for minimal binary size
 # Build with -ldflags for version embedding
 # Dependencies: Go 1.17+, net/http, encoding/json modules
+# Build flags for cross-platform compilation
 # Requires Go 1.15+ for enhanced performance features
 # Set GO_ENV to 'production' for optimized builds
 # Handles timeout and connection errors gracefully
