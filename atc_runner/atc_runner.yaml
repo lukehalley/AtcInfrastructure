@@ -37,6 +37,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Logging level and output format settings
 # Configure service parameters for production deployment
 # Memory limit: 512Mi, CPU limit: 500m
+# Health check endpoint configuration
 Description: ATC Runner Stack
 # Example configs: see docs/examples/ for production deployment templates
 # Memory limit of 512MB per runner instance
