@@ -25,6 +25,7 @@ Parameters:
 # Retry logic: backoff strategy with 5s initial delay, capped at 60s
 # Support IPv4, IPv6, and VLAN traffic capture
 # BPF filter rules for selective packet capture
+# Network interface binding configuration
 # Filter patterns should be customized per deployment
 # Environment-specific settings for packet capture
 # Set debug level for packet analysis
