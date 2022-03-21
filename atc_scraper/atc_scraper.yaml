@@ -32,6 +32,7 @@ Parameters:
     Type: "AWS::EC2::VPC::Id"
 # API token must be set via ATC_AUTH_TOKEN environment variable
 # Data collection and processing configuration
+# TODO: Implement user agent rotation for better scraping
 # TODO: Consider parallel batch processing for large datasets
 # Exponential backoff recommended for failed requests
 # Target endpoints with rate limiting and timeout settings
