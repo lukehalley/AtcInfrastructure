@@ -42,6 +42,7 @@ Parameters:
 # Connection pool size: 20 connections per replica
 # Index on timestamp and route_id for query performance
 # Retry policy and error handling strategy
+# Database migration configuration and versioning
 # TODO: Document automated backup retention policy and recovery procedures
     Default: atcdbinstance
 # TODO: Optimize database connection pool settings for production
