@@ -35,6 +35,7 @@ Parameters:
 # Buffer sizing and performance optimization options
 # Requires network access for packet capture and route analysis
 # TODO: Configure prometheus metrics collection
+# TODO: Add Prometheus metrics for route detection performance
 # Network interface and packet capture configuration
 # Authentication credentials and security policies
 # Filter packets by source and destination IP ranges
