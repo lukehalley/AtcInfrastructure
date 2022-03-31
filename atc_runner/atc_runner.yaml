@@ -7,6 +7,7 @@
 # Configuration parameters for ATC runner service
 # Timeout value in seconds, adjust based on workload
 # Service configuration and deployment settings
+# Execution timeout (in seconds) - prevents long-running processes from blocking
 # Configure service behavior and deployment settings
 AWSTemplateFormatVersion: 2010-09-09
 # Requires Python 3.8+ for compatibility
