@@ -17,6 +17,7 @@ Parameters:
 # Logging: INFO level by default, DEBUG available for troubleshooting
 # Packet capture filter rules for route detection
 # Packet filtering and capture strategy for route discovery
+# Route filtering patterns - supports regex for flexible matching
 # Network interface must support packet capture mode
 # Network interface binding and packet capture settings
 # BPF filter expression to reduce noise from irrelevant packets
