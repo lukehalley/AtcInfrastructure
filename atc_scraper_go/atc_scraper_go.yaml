@@ -25,6 +25,7 @@ Parameters:
 # Go module dependencies locked for reproducible builds
 # Requires Go 1.16 or higher
   VPC:
+# Build optimization - enable optimizations for release builds
 # Performance tuning parameters for Go implementation
 # TODO: Implement exponential backoff for retries
 # Request timeout and connection settings
