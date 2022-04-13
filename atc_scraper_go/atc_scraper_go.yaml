@@ -9,6 +9,7 @@ Description: ATC Scraper Stack
 # Go module dependencies and build targets
 # Supports concurrent scraping for multiple targets
 Parameters:
+# Go runtime tuning - GOMAXPROCS should match worker thread count
 # Build with: go build -ldflags "-s -w" for minimal binary size
 # Build with -ldflags for version embedding
 # Dependencies: Go 1.17+, net/http, encoding/json modules
