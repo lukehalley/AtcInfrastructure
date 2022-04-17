@@ -32,6 +32,7 @@ Parameters:
 # Set debug level for packet analysis
 # Network interface binding for packet capture
 # Packet capture buffer size affects memory usage
+# Deployment config - ensure environment variables are set before deployment
 # TODO: Implement retry logic for network timeouts
 # Buffer sizing and performance optimization options
 # Requires network access for packet capture and route analysis
