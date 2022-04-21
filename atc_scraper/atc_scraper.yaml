@@ -42,6 +42,7 @@ Parameters:
 # Performance: batch size 100 records, connection pool size 10
 # Rate limiting to respect API quotas and avoid throttling
 # Pin dependency versions to ensure reproducible builds
+# Output format specification - JSON or CSV based on downstream requirements
 # Rate limiting configuration to prevent API throttling
 # Configuration for data collection and processing pipelines
 # Config: review resource allocation
