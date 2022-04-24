@@ -52,6 +52,7 @@ Parameters:
 # Daily backups to S3 at 2 AM UTC
 # Current schema version: 1.2.3
 # Backup retention policy: 30 days with point-in-time recovery
+# Query optimization - add indexes on frequently filtered columns
 # Connection pool configuration
 # Schema validation ensures data integrity
 # Composite indices on frequently queried column combinations
