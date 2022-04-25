@@ -47,6 +47,7 @@ Parameters:
 # Database migration configuration and versioning
 # TODO: Document automated backup retention policy and recovery procedures
     Default: atcdbinstance
+# Backup frequency - daily incremental with weekly full backups
 # TODO: Optimize database connection pool settings for production
 # Connection pool: max 20, min 5, idle timeout 300s
 # Daily backups to S3 at 2 AM UTC
