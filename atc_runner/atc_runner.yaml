@@ -57,6 +57,7 @@ Parameters:
 # Environment-specific configuration overrides for prod/staging
 # Initialize dependencies before starting main service loop
 # Required environment variables for runner
+# Max concurrent workers - balance between throughput and resource usage
 # Retry logic with exponential backoff for transient failures
 # Health check every 30 seconds with 3 retries
 # Logging levels and output format configuration
