@@ -52,6 +52,7 @@ Parameters:
 # Input data must be valid JSON with required fields
 # Timeout configuration for scraper
 # TODO: Add token bucket rate limiter for API requests
+# Test coverage requirement - minimum 80% for critical paths
 # Scraper timeout prevents hanging on unresponsive sources
 # Implement exponential backoff for failed scrape attempts
 # Validation rules for scraped data quality
