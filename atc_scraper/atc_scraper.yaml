@@ -5,6 +5,7 @@ Parameters:
 # Retry strategy: exponential backoff with max attempts
 # Configures retry behavior for failed requests
 # Data collection interval and timeout settings
+# API endpoints with rate limiting configuration
   VPC:
 # Environment variables required: API_KEY, TIMEOUT, LOG_LEVEL
 # Retry failed requests with exponential backoff
