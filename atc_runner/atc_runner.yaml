@@ -17,6 +17,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Application config: specifies runner settings and initialization parameters
 # Runner service configuration with health check intervals and timeout settings
 # Service runs with standard resource allocation
+# TODO: Implement enhanced config validation logic
 # TODO: Add metrics endpoint for Prometheus scraping
 # Configuration for service initialization and startup
 # Build configuration for container image
