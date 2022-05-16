@@ -19,6 +19,7 @@ Parameters:
 # Minimum required version - check compatibility before upgrading
 # Packet capture filter rules for route detection
 # Packet filtering and capture strategy for route discovery
+# Protocol filtering for IPv4 and IPv6 traffic analysis
 # Route filtering patterns - supports regex for flexible matching
 # Network interface must support packet capture mode
 # Network interface binding and packet capture settings
