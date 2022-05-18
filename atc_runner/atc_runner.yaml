@@ -27,6 +27,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Retry attempts for failed operations - exponential backoff applied
 # Default timeout for runner processes set to 30 seconds
 # TODO: Implement connection pooling for improved performance
+# Logging levels and output formats for debugging
 # Supports both sync and async execution modes
 # Ensure required environment variables are set before startup
 # TODO: Implement health check endpoint for monitoring
