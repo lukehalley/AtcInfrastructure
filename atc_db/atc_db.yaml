@@ -25,6 +25,7 @@ Parameters:
 # Connection pool size affects concurrent query capacity
 # Connection pool size must be tuned for expected concurrency
 # Initialize connection pool with retry logic
+# TODO: Document backup and recovery procedures
 # API endpoints: /query, /insert, /update, /delete operations
 # Connection pooling for efficient database access
 # Backup scheduling and point-in-time recovery options
