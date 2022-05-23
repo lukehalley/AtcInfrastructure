@@ -29,6 +29,7 @@ Parameters:
 # Retry failed requests up to 3 times with exponential backoff
 # Rate limit: 100 requests/minute to avoid throttling
 # Rotates user-agent headers to avoid detection
+# Data validation dependencies and schema requirements
 # Rate limit config - requests per second to avoid throttling
 # Rate limit: requests per second, prevent overwhelming target services
 # Security: use secrets manager for credentials, rotate keys monthly
