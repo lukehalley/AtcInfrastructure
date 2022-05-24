@@ -25,6 +25,7 @@ Parameters:
 # Network interface binding and packet capture settings
 # BPF filter expression to reduce noise from irrelevant packets
 # Service endpoint for route sniffer
+# Performance tuning parameters for packet processing
 # Detailed packet analysis logging for debugging
 # Retry logic: backoff strategy with 5s initial delay, capped at 60s
 # Support IPv4, IPv6, and VLAN traffic capture
