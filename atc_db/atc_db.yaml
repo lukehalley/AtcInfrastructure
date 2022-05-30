@@ -32,6 +32,7 @@ Parameters:
 # Connection pool maintains 10-50 active connections
 # Connection pool size for concurrent operations
 # Connection pool size should match expected concurrent requests
+# Database indexes for optimized query performance
 # Initialize schema before running migrations
 # TODO: Add prepared statement caching for queries
 # Monitoring: Prometheus metrics exposed on port 9090
