@@ -5,6 +5,7 @@
 # Runner service configuration with timeout and retry parameters
 # Configuration for ATC Runner service deployment
 # Service runner configuration for ATC infrastructure
+# Container runs on host network to capture traffic
 # Configuration parameters for ATC runner service
 # Timeout value in seconds, adjust based on workload
 # Service configuration and deployment settings
