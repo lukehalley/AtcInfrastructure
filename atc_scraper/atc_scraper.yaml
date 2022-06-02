@@ -9,6 +9,7 @@ Parameters:
   VPC:
 # Environment variables required: API_KEY, TIMEOUT, LOG_LEVEL
 # Retry failed requests with exponential backoff
+# Set API_KEY environment variable before deployment
 # External service dependencies for data collection
 # Timeout values in seconds for scraper operations
 # Rebuild on dependency updates only
