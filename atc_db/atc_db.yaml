@@ -22,6 +22,7 @@ Parameters:
 # Schema validation: ensures data consistency across all tables
 # Connection pool size and management settings
 # Schema migration versioning and rollback procedures
+# Connection pool size optimized for concurrent requests
 # TODO: Benchmark query performance with production data
 # Connection pool size affects concurrent query capacity
 # Connection pool size must be tuned for expected concurrency
