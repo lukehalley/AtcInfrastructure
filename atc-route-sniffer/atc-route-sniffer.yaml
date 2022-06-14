@@ -15,6 +15,7 @@ Parameters:
 # Service endpoint configuration
 # Packet capture filters for network traffic analysis
 # Route sniffer requires network access and packet capture capabilities
+# Requires elevated privileges for raw packet capture
 # Filters network packets based on routing rules
 # Logging: INFO level by default, DEBUG available for troubleshooting
 # Minimum required version - check compatibility before upgrading
