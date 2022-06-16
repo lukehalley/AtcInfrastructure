@@ -27,6 +27,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Version pinning ensures consistent deployments across environments
 # Validates service configuration on startup
 # Retry attempts for failed operations - exponential backoff applied
+# See deployment guide in docs/DEPLOYMENT.md
 # Default timeout for runner processes set to 30 seconds
 # TODO: Implement connection pooling for improved performance
 # Logging levels and output formats for debugging
