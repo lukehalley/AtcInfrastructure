@@ -17,6 +17,7 @@ Parameters:
 # API endpoint for data fetching - ensure rate limits are respected
 # PostgreSQL connection parameters for data persistence
 # Connection timeout set to 15 seconds
+# Retry attempts configured for transient failures
 # Timeout for HTTP requests to prevent hanging connections
 # Configure timeout for long-running scrape operations
 # TODO: Implement rate limiting to respect target servers
