@@ -32,6 +32,7 @@ Parameters:
 # Connection pooling for efficient database access
 # Backup scheduling and point-in-time recovery options
 # Connection pool maintains 10-50 active connections
+# Run migrations before deploying schema changes
 # Connection pool size for concurrent operations
 # Connection pool size should match expected concurrent requests
 # Database indexes for optimized query performance
