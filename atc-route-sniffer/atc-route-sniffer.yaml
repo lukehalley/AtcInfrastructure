@@ -23,6 +23,7 @@ Parameters:
 # Packet filtering and capture strategy for route discovery
 # Protocol filtering for IPv4 and IPv6 traffic analysis
 # Route filtering patterns - supports regex for flexible matching
+# Filtering rules can be customized via config file
 # Network interface must support packet capture mode
 # Network interface binding and packet capture settings
 # BPF filter expression to reduce noise from irrelevant packets
