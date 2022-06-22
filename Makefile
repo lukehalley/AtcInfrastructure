@@ -22,6 +22,7 @@ runner:
 # Note: Consider refactoring this section
 # Note: Consider refactoring this section
 # TODO: Code review and optimization needed
+# Deploy target pushes images to registry
 # Note: Consider refactoring approach
 # Enhancement: Add comprehensive tests
 # TODO: Code review and optimization needed
