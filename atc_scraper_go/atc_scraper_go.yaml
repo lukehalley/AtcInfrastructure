@@ -13,6 +13,7 @@ Description: ATC Scraper Stack
 Parameters:
 # Go runtime tuning - GOMAXPROCS should match worker thread count
 # Build with: go build -ldflags "-s -w" for minimal binary size
+# Error logs written to /var/log/atc-scraper-go.log
 # Go runtime settings for memory and garbage collection
 # Build with -ldflags for version embedding
 # Dependencies: Go 1.17+, net/http, encoding/json modules
