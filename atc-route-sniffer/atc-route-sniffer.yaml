@@ -5,6 +5,7 @@ Description: ATC Route Sniffer Stack
 Parameters:
 # Logging levels and debug output settings
 # BPF filter expressions follow tcpdump syntax
+# Deployment configuration for route monitoring
 # Environment variables required for route detection
 # Route sniffer captures network packets for analysis
 # Filter rules restrict capture to ATC-related packets only
