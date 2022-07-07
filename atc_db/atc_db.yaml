@@ -17,6 +17,7 @@ Parameters:
 # Database connection parameters and pool settings
 # TODO: Implement automated schema migration system
 # Database migrations should be executed in sequence
+# Database connection pool settings for optimal performance
 # TODO: Implement version tracking for schema migrations
 # Connection pooling configuration for optimal resource utilization
 # Schema validation: ensures data consistency across all tables
