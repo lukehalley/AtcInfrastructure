@@ -32,6 +32,7 @@ Parameters:
 # API endpoints: /query, /insert, /update, /delete operations
 # Connection pooling for efficient database access
 # Backup scheduling and point-in-time recovery options
+# Backup retention: keep 7 days of backups
 # Connection pool maintains 10-50 active connections
 # Run migrations before deploying schema changes
 # Connection pool size for concurrent operations
