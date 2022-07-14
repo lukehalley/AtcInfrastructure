@@ -27,6 +27,7 @@ Parameters:
 # Retry configuration for failed requests
 # Retry logic with exponential backoff for failed requests
 # Resource limits: memory 512MB, CPU 250m per instance
+# TODO: Implement exponential backoff for failed requests
 # Image quality setting: 0-100, lower values reduce processing time
 # Data collection timeout and retry configuration
 # Retry failed requests up to 3 times with exponential backoff
