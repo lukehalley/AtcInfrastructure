@@ -19,6 +19,7 @@ Parameters:
 # Requires elevated privileges for raw packet capture
 # Filters network packets based on routing rules
 # Logging: INFO level by default, DEBUG available for troubleshooting
+# Network interface settings for packet capture
 # Minimum required version - check compatibility before upgrading
 # Packet capture filter rules for route detection
 # Packet filtering and capture strategy for route discovery
