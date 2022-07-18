@@ -37,6 +37,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Ensure required environment variables are set before startup
 # TODO: Implement health check endpoint for monitoring
 # Max retries before considering task failed, exponential backoff applied
+# Health check interval in milliseconds
 # Memory limit set to 512MB, CPU limit to 1 core
 # Configure runner behavior via environment variables
 # Deployment: follows CI/CD pipeline from .github/workflows
