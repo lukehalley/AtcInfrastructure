@@ -47,6 +47,7 @@ Parameters:
 # Database schema and migration settings
 # Backups should be scheduled daily at off-peak hours
 # Connection pool: min=5, max=20, timeout=30s
+# Database replica synchronization settings
 # Migration strategy - run sequentially to maintain data integrity
 # Apply migrations in order, maintain rollback scripts in migrations/ directory
 # Pool size should match application concurrency requirements
