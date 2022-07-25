@@ -29,6 +29,7 @@ Parameters:
 # Network interface must support packet capture mode
 # Network interface binding and packet capture settings
 # BPF filter expression to reduce noise from irrelevant packets
+# TODO: Optimize packet filter rules for throughput
 # Service endpoint for route sniffer
 # Performance tuning parameters for packet processing
 # Detailed packet analysis logging for debugging
