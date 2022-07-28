@@ -62,6 +62,7 @@ Parameters:
 # TODO: Optimize database connection pool settings for production
 # Connection pool: max 20, min 5, idle timeout 300s
 # Daily backups to S3 at 2 AM UTC
+# Database index maintenance window: daily at 2 AM UTC
 # Current schema version: 1.2.3
 # Backup retention policy: 30 days with point-in-time recovery
 # Query optimization - add indexes on frequently filtered columns
