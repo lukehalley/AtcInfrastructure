@@ -16,7 +16,7 @@
     },
     "Image": {
       "Type": "String",
-      "Default": "538602529242.dkr.ecr.eu-west-1.amazonaws.com/arb-bot:0.05"
+      "Default": "538602529242.dkr.ecr.eu-west-1.amazonaws.com/arb-bot:0.13"
     },
     "ServiceName": {
       "Type": "String",
@@ -68,9 +68,7 @@
           ]
         },
         "NetworkMode": "awsvpc",
-        "RequiresCompatibilities": [
-          "FARGATE"
-        ],
+        "RequiresCompatibilities": ["FARGATE"],
         "Cpu": 256,
         "Memory": "0.5GB",
         "ExecutionRoleArn": {
@@ -98,6 +96,20 @@
               {
                 "Name": "ARB_SECRETS",
                 "ValueFrom": "arn:aws:secretsmanager:eu-west-1:538602529242:secret:arbBotSecrets-Eg3a7f"
+              }
+            ],
+            "Environment": [
+              {
+                "Name": "ARB_ENABLED",
+                "Value": "True"
+              },
+              {
+                "Name": "FORCE_ARB",
+                "Value": "False"
+              },
+              {
+                "Name": "ARBITRAGE_THRESHOLD",
+                "Value": 0.05
               }
             ],
             "LogConfiguration": {
@@ -190,7 +202,7 @@
           "MaximumPercent": 200
         },
         "DesiredCount": 1,
-        "EnableExecuteCommand" : true,
+        "EnableExecuteCommand": true,
         "LaunchType": "FARGATE",
         "NetworkConfiguration": {
           "AwsvpcConfiguration": {
