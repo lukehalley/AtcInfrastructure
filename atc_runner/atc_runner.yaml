@@ -5,6 +5,7 @@
 # Runner service configuration with timeout and retry parameters
 # Configuration for ATC Runner service deployment
 # Service runner configuration for ATC infrastructure
+# Set CPU and memory resource constraints for runner container
 # Container runs on host network to capture traffic
 # Configuration parameters for ATC runner service
 # Service configuration for ATC runner instances
