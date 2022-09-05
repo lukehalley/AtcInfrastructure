@@ -16,7 +16,7 @@
     },
     "Image": {
       "Type": "String",
-      "Default": "538602529242.dkr.ecr.eu-west-1.amazonaws.com/arb-bot:0.13"
+      "Default": "538602529242.dkr.ecr.eu-west-1.amazonaws.com/arb-bot:0.15"
     },
     "ServiceName": {
       "Type": "String",
@@ -99,6 +99,34 @@
               }
             ],
             "Environment": [
+              {
+                "Name": "TRANSACTION_TIMEOUT_SECS",
+                "Value": 30
+              },
+              {
+                "Name": "TRANSACTION_ACTION_RETRY_LIMIT",
+                "Value": 10
+              },
+              {
+                "Name": "TRANSACTION_ACTION_RETRY_DELAY",
+                "Value": 5
+              },
+              {
+                "Name": "TRANSACTION_QUERY_RETRY_LIMIT",
+                "Value": 15
+              },
+              {
+                "Name": "TRANSACTION_QUERY_RETRY_DELAY",
+                "Value": 2
+              },
+              {
+                "Name": "HTTP_RETRY_LIMIT",
+                "Value": 15
+              },
+              {
+                "Name": "HTTP_RETRY_DELAY",
+                "Value": 2
+              },
               {
                 "Name": "ARB_ENABLED",
                 "Value": "True"
