@@ -33,6 +33,16 @@
     "MaxContainers": {
       "Type": "Number",
       "Default": 1
+    },
+    "HashKeyElementName": {
+      "Type": "String",
+      "Default": "PairId",
+      "Description": "Hash Key Name"
+    },
+    "HashKeyElementType": {
+      "Type": "String",
+      "Default": "S",
+      "Description": "Hash Key Type"
     }
   },
   "Resources": {
@@ -105,27 +115,27 @@
               },
               {
                 "Name": "TRANSACTION_ACTION_RETRY_LIMIT",
-                "Value": 10
+                "Value": 15
               },
               {
                 "Name": "TRANSACTION_ACTION_RETRY_DELAY",
-                "Value": 5
+                "Value": 1
               },
               {
                 "Name": "TRANSACTION_QUERY_RETRY_LIMIT",
-                "Value": 15
+                "Value": 25
               },
               {
                 "Name": "TRANSACTION_QUERY_RETRY_DELAY",
-                "Value": 2
+                "Value": 1
               },
               {
                 "Name": "HTTP_RETRY_LIMIT",
-                "Value": 15
+                "Value": -1
               },
               {
                 "Name": "HTTP_RETRY_DELAY",
-                "Value": 2
+                "Value": 1
               },
               {
                 "Name": "ARB_ENABLED",
@@ -263,6 +273,34 @@
               "TaskDefinition"
             ]
           ]
+        }
+      }
+    },
+    "ATCTokenPairs": {
+      "Type": "AWS::DynamoDB::Table",
+      "Properties": {
+        "TableName": "Pairs",
+        "AttributeDefinitions": [
+          {
+            "AttributeName": {
+              "Ref": "HashKeyElementName"
+            },
+            "AttributeType": {
+              "Ref": "HashKeyElementType"
+            }
+          }
+        ],
+        "KeySchema": [
+          {
+            "AttributeName": {
+              "Ref": "HashKeyElementName"
+            },
+            "KeyType": "HASH"
+          }
+        ],
+        "ProvisionedThroughput": {
+          "ReadCapacityUnits": 5,
+          "WriteCapacityUnits": 5
         }
       }
     }
