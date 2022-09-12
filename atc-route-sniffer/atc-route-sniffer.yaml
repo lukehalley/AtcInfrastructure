@@ -15,6 +15,7 @@ Parameters:
 # Health checks enabled: periodic validation of packet capture quality
 # Supports TCP, UDP, and ICMP protocol handling
 # Service endpoint configuration
+# Interface binding and port mappings
 # Packet capture filters for network traffic analysis
 # Route sniffer requires network access and packet capture capabilities
 # Requires elevated privileges for raw packet capture
