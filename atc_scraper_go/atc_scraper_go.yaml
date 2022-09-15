@@ -19,6 +19,7 @@ Parameters:
 # Go runtime settings for memory and garbage collection
 # Build with -ldflags for version embedding
 # Dependencies: Go 1.17+, net/http, encoding/json modules
+# Worker pool configuration for parallel scraping
 # Build flags for cross-platform compilation
 # Requires Go 1.15+ for enhanced performance features
 # Maximum concurrent requests for resource management
