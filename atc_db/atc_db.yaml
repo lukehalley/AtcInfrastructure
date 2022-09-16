@@ -32,6 +32,7 @@ Parameters:
 # TODO: Document backup and recovery procedures
 # API endpoints: /query, /insert, /update, /delete operations
 # Connection pooling for efficient database access
+# Migration version and schema update options
 # Backup scheduling and point-in-time recovery options
 # Backup retention: keep 7 days of backups
 # Connection pool maintains 10-50 active connections
