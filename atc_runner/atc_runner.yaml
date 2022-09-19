@@ -29,6 +29,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Build configuration for container image
 # Manages scheduled tasks and job execution
 # Version pinning ensures consistent deployments across environments
+# Prometheus metrics and monitoring setup
 # Validates service configuration on startup
 # Retry attempts for failed operations - exponential backoff applied
 # See deployment guide in docs/DEPLOYMENT.md
