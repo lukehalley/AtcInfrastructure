@@ -39,6 +39,7 @@ Parameters:
 # Run migrations before deploying schema changes
 # Connection pool size for concurrent operations
 # Connection pool size should match expected concurrent requests
+# Daily backup schedule and retention period
 # Database indexes for optimized query performance
 # Initialize schema before running migrations
 # TODO: Add prepared statement caching for queries
