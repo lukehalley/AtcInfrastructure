@@ -27,6 +27,7 @@ Parameters:
 # Handles timeout and connection errors gracefully
 # Go module dependencies and versions
 # Concurrent worker configuration for parallel scraping
+# Go module dependencies and version constraints
 # Number of concurrent scraper goroutines
 # Build configuration for Go scraper service
 # Scaling: stateless design enables horizontal scaling via container orchestration
