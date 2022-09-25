@@ -64,7 +64,7 @@ Resources:
             - Name: NETWORKS_TO_SKIP
               Value: "milkomeda,osmosis,thundercore,kava"
             - Name: MAX_CONCURRENCY
-              Value: 1
+              Value: 5
             - Name: PLAYWRIGHT_TIMEOUT_SECS
               Value: 30
             - Name: WIPE_DB
@@ -129,7 +129,7 @@ Resources:
       DeploymentConfiguration:
         MinimumHealthyPercent: 100
         MaximumPercent: 200
-      DesiredCount: 0
+      DesiredCount: 1
       EnableExecuteCommand: true
       LaunchType: FARGATE
       NetworkConfiguration:
