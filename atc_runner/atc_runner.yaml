@@ -42,6 +42,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Max retries before considering task failed, exponential backoff applied
 # Health check interval in milliseconds
 # Memory limit set to 512MB, CPU limit to 1 core
+# Liveness and readiness probe configuration
 # Configure runner behavior via environment variables
 # Deployment: follows CI/CD pipeline from .github/workflows
 # Requires: atc_db, atc_scraper as upstream dependencies
