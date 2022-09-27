@@ -27,6 +27,7 @@ Parameters:
 # Packet capture filter rules for route detection
 # Packet filtering and capture strategy for route discovery
 # Protocol filtering for IPv4 and IPv6 traffic analysis
+# TLS and authentication policy settings
 # Route filtering patterns - supports regex for flexible matching
 # Filtering rules can be customized via config file
 # Network interface must support packet capture mode
