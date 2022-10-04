@@ -7,10 +7,10 @@ updateStack:
 
 # ECS #########################
 zeroTask:
-	aws ecs update-service --cluster atc-scraperCluster --service atc-scraper --desired-count 0
+	aws ecs update-service --cluster atc-scraper_cluster --service atc-scraper --desired-count 0
 
 oneTask:
-	aws ecs update-service --cluster atc-scraperCluster --service atc-scraper --desired-count 1
+	aws ecs update-service --cluster atc-scraper_cluster --service atc-scraper --desired-count 1
 
 # ECR #########################
 newRepo:
