@@ -83,12 +83,20 @@ Resources:
         GenerateStringKey: "password"
         PasswordLength: 16
         ExcludeCharacters: '"@/\'
+  RDSDBParameterGroup:
+    Type: "AWS::RDS::DBParameterGroup"
+    Properties:
+      Description: MySQL Parameter Group
+      Family: mysql8.0
+      Parameters:
+        time_zone: "Europe/Dublin"
   RDSDBInstance:
     Type: "AWS::RDS::DBInstance"
     Properties:
       DBInstanceIdentifier: !Ref DBInstanceID
       DBName: !Ref DBName
       DBInstanceClass: !Ref DBInstanceClass
+      DBParameterGroupName: !Ref RDSDBParameterGroup
       DBSubnetGroupName: !Ref SubnetGroup
       VPCSecurityGroups:
         - !Ref DBSecurityGroup

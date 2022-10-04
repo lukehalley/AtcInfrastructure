@@ -12,7 +12,7 @@ Parameters:
     Default: sg-01e50f3d9d855d864
   Image:
     Type: String
-    Default: "538602529242.dkr.ecr.eu-west-1.amazonaws.com/atc-scraper:0.01"
+    Default: "538602529242.dkr.ecr.eu-west-1.amazonaws.com/atc-scraper:0.04"
   ServiceName:
     Type: String
     Default: atc-scraper
@@ -129,7 +129,7 @@ Resources:
       DeploymentConfiguration:
         MinimumHealthyPercent: 100
         MaximumPercent: 200
-      DesiredCount: 1
+      DesiredCount: 0
       EnableExecuteCommand: true
       LaunchType: FARGATE
       NetworkConfiguration:
@@ -147,28 +147,3 @@ Resources:
         - - /ecs/
           - !Ref ServiceName
           - TaskDefinition
-  ScrapeSchedule:
-    Type: AWS::Events::Rule
-    Properties:
-      Description: "Schedule rule for ATC"
-      Name: !Join
-        - ""
-        - - !Ref ServiceName
-          - Schedule
-      State: ENABLED
-      ScheduleExpression: cron(0 9 * * ? *)
-      RoleArn: !GetAtt ExecutionRole.Arn
-      Targets:
-        - Arn: !GetAtt Cluster.Arn
-          Id: ScheduledTask
-          RoleArn: !GetAtt ExecutionRole.Arn
-          EcsParameters:
-            TaskDefinitionArn: !Ref TaskDefinition
-            LaunchType: FARGATE
-            NetworkConfiguration:
-              AwsVpcConfiguration:
-                AssignPublicIp: ENABLED
-                SecurityGroups:
-                  - !Ref SecurityGroup
-                Subnets:
-                  - !Ref Subnet
