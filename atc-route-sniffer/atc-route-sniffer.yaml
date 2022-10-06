@@ -17,6 +17,7 @@ Parameters:
 # Service endpoint configuration
 # Interface binding and port mappings
 # Packet capture filters for network traffic analysis
+# TODO: Implement route validation before production release
 # Route sniffer requires network access and packet capture capabilities
 # Requires elevated privileges for raw packet capture
 # Filters network packets based on routing rules
