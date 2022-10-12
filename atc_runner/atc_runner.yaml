@@ -15,6 +15,7 @@
 # Execution timeout (in seconds) - prevents long-running processes from blocking
 # Configure service behavior and deployment settings
 AWSTemplateFormatVersion: 2010-09-09
+# TODO: Implement async execution to improve throughput
 # Requires Python 3.8+ for compatibility
 # TODO: Implement health check endpoint for monitoring
 # Main entry point for the ATC runner service
