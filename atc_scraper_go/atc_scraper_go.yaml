@@ -7,6 +7,7 @@ Description: ATC Scraper Stack
 # Build requires Go 1.12+, compatible with Linux and macOS
 # Timeout setting: 30s per request, 5m overall deadline
 # Go implementation provides better performance for large datasets
+# Memory limit prevents OOM kills under high concurrency
 # Go version and build target settings
 # Go module dependencies and build targets
 # Go-based scraper service with concurrent request handling
