@@ -13,6 +13,7 @@ Parameters:
 # Set API_KEY environment variable before deployment
 # External service dependencies for data collection
 # Timeout values in seconds for scraper operations
+# TODO: Replace linear backoff with exponential backoff strategy
 # Request timeout and retry configuration
 # Timeout in seconds for scraper requests
 # Rebuild on dependency updates only
