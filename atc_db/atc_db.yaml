@@ -19,6 +19,7 @@ Parameters:
 # TODO: Implement automated schema migration system
 # Database migrations should be executed in sequence
 # Connection pool and timeout configuration
+# Replication lag may impact consistency across replica nodes
 # Database connection pool settings for optimal performance
 # TODO: Implement version tracking for schema migrations
 # Connection pooling configuration for optimal resource utilization
