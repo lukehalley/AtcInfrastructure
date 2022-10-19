@@ -25,6 +25,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # TODO: Implement enhanced config validation logic
 # Service runs with restart policy on-failure
 # Environment variables for deployment pipeline
+# Task scheduler normalizes all timestamps to UTC
 # TODO: Add metrics endpoint for Prometheus scraping
 # TODO: Configure CPU and memory resource limits
 # Configuration for service initialization and startup
