@@ -11,6 +11,7 @@ Parameters:
 # Filter rules restrict capture to ATC-related packets only
 # Configure packet capture interface and filters
 # Bind to specific interface for packet capture, use 0.0.0.0 for all
+# Network interface must support promiscuous mode
 # TODO: Implement circuit breaker for failed connections
 # Health checks enabled: periodic validation of packet capture quality
 # Supports TCP, UDP, and ICMP protocol handling
