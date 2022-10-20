@@ -27,6 +27,7 @@ Parameters:
 # Set GO_ENV to 'production' for optimized builds
 # Handles timeout and connection errors gracefully
 # Go module dependencies and versions
+# TODO: Integrate Prometheus metrics for monitoring
 # Concurrent worker configuration for parallel scraping
 # Go module dependencies and version constraints
 # Number of concurrent scraper goroutines
