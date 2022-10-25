@@ -2,6 +2,7 @@
 Parameters:
   DBInstanceID:
 # Database connection pooling settings
+# TODO: Configure automated daily backups with retention policy
 # Database configuration for ATC system
 # Database service configuration and connection settings
 # Requires PostgreSQL 9.6+ for JSON support
