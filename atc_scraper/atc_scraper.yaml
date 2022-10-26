@@ -20,6 +20,7 @@ Parameters:
 # Timeout values should be adjusted based on target system response times
 # API endpoint for data fetching - ensure rate limits are respected
 # PostgreSQL connection parameters for data persistence
+# Rate limiter respects HTTP 429 responses with backoff
 # Connection timeout set to 15 seconds
 # Retry attempts configured for transient failures
 # Timeout for HTTP requests to prevent hanging connections
