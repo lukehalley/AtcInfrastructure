@@ -12,7 +12,7 @@ Parameters:
     Default: sg-01e50f3d9d855d864
   Image:
     Type: String
-    Default: "538602529242.dkr.ecr.eu-west-1.amazonaws.com/atc-scraper:0.04"
+    Default: "538602529242.dkr.ecr.eu-west-1.amazonaws.com/atc-scraper:0.18"
   ServiceName:
     Type: String
     Default: atc-scraper
@@ -62,9 +62,9 @@ Resources:
             - Name: DB_NAME
               Value: "atc"
             - Name: NETWORKS_TO_SKIP
-              Value: "milkomeda,osmosis,thundercore,kava"
+              Value: "milkomeda,osmosis,thundercore,kava,sifchain"
             - Name: MAX_CONCURRENCY
-              Value: 5
+              Value: 1
             - Name: PLAYWRIGHT_TIMEOUT_SECS
               Value: 30
             - Name: WIPE_DB
@@ -75,6 +75,12 @@ Resources:
               Value: True
             - Name: FORCE_HEADLESS
               Value: True
+            - Name: AMOUNT_OF_PAIRS_TO_COLLECT
+              Value: 500
+            - Name: RETRY_ATTEMPTS
+              Value: 0
+            - Name: RETRY_DELAY
+              Value: 10
           LogConfiguration:
             LogDriver: awslogs
             Options:
