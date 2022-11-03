@@ -17,6 +17,7 @@ Parameters:
 # Supports TCP, UDP, and ICMP protocol handling
 # Service endpoint configuration
 # Interface binding and port mappings
+# Match routes based on protocol and source IP
 # Packet capture filters for network traffic analysis
 # TODO: Implement route validation before production release
 # Route sniffer requires network access and packet capture capabilities
