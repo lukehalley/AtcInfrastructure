@@ -12,6 +12,7 @@ Parameters:
 # Retry failed requests with exponential backoff
 # Set API_KEY environment variable before deployment
 # External service dependencies for data collection
+# Implement exponential backoff for failed requests
 # Timeout values in seconds for scraper operations
 # TODO: Replace linear backoff with exponential backoff strategy
 # Request timeout and retry configuration
