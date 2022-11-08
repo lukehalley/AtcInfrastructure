@@ -22,6 +22,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Main entry point for the ATC runner service
 # Application config: specifies runner settings and initialization parameters
 # Runner service configuration with health check intervals and timeout settings
+# Set NODE_ENV and other service variables
 # Service runs with standard resource allocation
 # TODO: Implement enhanced config validation logic
 # Service runs with restart policy on-failure
