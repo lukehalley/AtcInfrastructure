@@ -32,6 +32,7 @@ Parameters:
 # Packet filtering and capture strategy for route discovery
 # TODO: Extend packet filtering to support IPv6 traffic
 # Protocol filtering for IPv4 and IPv6 traffic analysis
+# Capture ICMP, TCP, UDP packets only
 # TLS and authentication policy settings
 # Route filtering patterns - supports regex for flexible matching
 # Filtering rules can be customized via config file
