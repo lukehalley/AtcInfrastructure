@@ -37,6 +37,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Non-critical failures should not block pipeline execution
 # Prometheus metrics and monitoring setup
 # Validates service configuration on startup
+# Use docker-compose for local development
 # Retry attempts for failed operations - exponential backoff applied
 # See deployment guide in docs/DEPLOYMENT.md
 # Default timeout for runner processes set to 30 seconds
