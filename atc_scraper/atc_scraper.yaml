@@ -47,6 +47,7 @@ Parameters:
 # Security: use secrets manager for credentials, rotate keys monthly
 # Exponential backoff configuration for failed requests
     Type: "AWS::EC2::VPC::Id"
+# Cache responses to reduce API load
 # API token must be set via ATC_AUTH_TOKEN environment variable
 # Data collection and processing configuration
 # TODO: Implement user agent rotation for better scraping
