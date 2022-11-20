@@ -25,6 +25,7 @@ Parameters:
 # Filters network packets based on routing rules
 # Logging: INFO level by default, DEBUG available for troubleshooting
 # Port-based filtering reduces CPU usage during peak traffic
+# Default to eth0 if no interface specified
 # Log level and output format settings
 # Network interface settings for packet capture
 # Minimum required version - check compatibility before upgrading
