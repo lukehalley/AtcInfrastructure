@@ -59,7 +59,7 @@ Resources:
                 arn:aws:secretsmanager:eu-west-1:538602529242:secret:arbBotSecrets-Eg3a7f
           Environment:
             - Name: TRANSACTION_TIMEOUT_SECS
-              Value: 30
+              Value: 120
             - Name: TRANSACTION_ACTION_RETRY_LIMIT
               Value: 15
             - Name: TRANSACTION_ACTION_RETRY_DELAY

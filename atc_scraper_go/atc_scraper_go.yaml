@@ -12,7 +12,7 @@ Parameters:
     Default: sg-01e50f3d9d855d864
   Image:
     Type: String
-    Default: "538602529242.dkr.ecr.eu-west-1.amazonaws.com/atc-scraper-go:0.02"
+    Default: "538602529242.dkr.ecr.eu-west-1.amazonaws.com/atc-scraper-go:0.06"
   ServiceName:
     Type: String
     Default: atc-scraper-go
@@ -70,12 +70,14 @@ Resources:
             - Name: CL_BASE_URL
               Value: "https://chainlist.org"
             - Name: ZYTE_API_KEY
-              Value: "3a92819db7b34d4cb654fe5c65000d8b"
+              Value: "fa1b9f300bf14f92b07460aa9e3ebbdd"
             - Name: ZYTE_ENDPOINT
               Value: "proxy.crawlera.com:8011"
             - Name: COLLECTION_FAIL_LIMIT
-              Value: 50
+              Value: 1000
             - Name: PAIR_PAGES
+              Value: 5
+            - Name: TXS_TO_COLLECT
               Value: 5
           LogConfiguration:
             LogDriver: awslogs
