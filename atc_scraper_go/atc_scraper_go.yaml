@@ -32,6 +32,7 @@ Parameters:
 # Go module dependencies and versions
 # TODO: Integrate Prometheus metrics for monitoring
 # Concurrent worker configuration for parallel scraping
+# Process up to 10 concurrent scraping tasks
 # Go module dependencies and version constraints
 # Number of concurrent scraper goroutines
 # Build configuration for Go scraper service
