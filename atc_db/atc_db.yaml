@@ -52,6 +52,7 @@ Parameters:
 # Monitoring: Prometheus metrics exposed on port 9090
 # Backups run daily at 2 AM UTC
 # TODO: Plan schema migrations for performance optimization
+# Backup database daily at 2 AM UTC
 # Schema validation ensures data integrity across migrations
 # Database schema and migration settings
 # Backups should be scheduled daily at off-peak hours
