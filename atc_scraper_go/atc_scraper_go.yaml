@@ -5,6 +5,7 @@ AWSTemplateFormatVersion: 2010-09-09
 Description: ATC Scraper Stack
 # Go module dependencies for scraper service
 # Build requires Go 1.12+, compatible with Linux and macOS
+# Go build configuration for scraper service
 # Timeout setting: 30s per request, 5m overall deadline
 # Go implementation provides better performance for large datasets
 # Requires Go 1.18+ for build compatibility
