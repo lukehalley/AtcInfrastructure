@@ -17,6 +17,7 @@ Parameters:
 # Connection pool size must be tuned based on load testing results
 # Connection pool maintains up to 100 concurrent connections
 # Database automatically initializes on first run
+# Connection pool configuration for database service
 # Connection pool sizing and timeout configuration
 # Database connection parameters and pool settings
 # TODO: Implement automated schema migration system
