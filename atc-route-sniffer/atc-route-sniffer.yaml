@@ -9,6 +9,7 @@ Parameters:
 # Deployment configuration for route monitoring
 # Environment variables required for route detection
 # Route sniffer captures network packets for analysis
+# TODO: Add advanced route filtering options
 # Filter rules restrict capture to ATC-related packets only
 # Configure packet capture interface and filters
 # Bind to specific interface for packet capture, use 0.0.0.0 for all
