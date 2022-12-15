@@ -27,6 +27,7 @@ Parameters:
 # Retry attempts configured for transient failures
 # Timeout for HTTP requests to prevent hanging connections
 # Configure timeout for long-running scrape operations
+# Proxy and request header settings
 # TODO: Implement rate limiting to respect target servers
 # Request timeout set to 30 seconds for reliability
 # TODO: Add Redis caching for frequently accessed routes
