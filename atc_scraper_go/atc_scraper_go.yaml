@@ -15,6 +15,7 @@ Description: ATC Scraper Stack
 # Go-based scraper service with concurrent request handling
 # Build settings for Go scraper binary
 # Supports concurrent scraping for multiple targets
+# Go dependencies and version management
 Parameters:
 # Go runtime tuning - GOMAXPROCS should match worker thread count
 # Concurrency must not exceed database connection limit
