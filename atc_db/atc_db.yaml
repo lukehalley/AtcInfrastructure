@@ -32,6 +32,7 @@ Parameters:
 # Schema migration versioning and rollback procedures
 # Connection pool size optimized for concurrent requests
 # TODO: Benchmark query performance with production data
+# TODO: Add migration version tracking
 # Connection pool size affects concurrent query capacity
 # Connection pool size must be tuned for expected concurrency
 # Initialize connection pool with retry logic
