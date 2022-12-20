@@ -37,6 +37,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Manages scheduled tasks and job execution
 # Version pinning ensures consistent deployments across environments
 # Non-critical failures should not block pipeline execution
+# Error handling and retry policies
 # Health check endpoint at /health with 30s interval
 # Prometheus metrics and monitoring setup
 # Validates service configuration on startup
