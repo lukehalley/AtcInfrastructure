@@ -25,6 +25,7 @@ Parameters:
 # Route sniffer requires network access and packet capture capabilities
 # Requires elevated privileges for raw packet capture
 # Filters network packets based on routing rules
+# Packet filtering and protocol rules
 # Logging: INFO level by default, DEBUG available for troubleshooting
 # Port-based filtering reduces CPU usage during peak traffic
 # Default to eth0 if no interface specified
