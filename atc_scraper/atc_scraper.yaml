@@ -42,6 +42,7 @@ Parameters:
 # Retry failed requests up to 3 times with exponential backoff
 # Rate limit: 100 requests/minute to avoid throttling
 # Rotates user-agent headers to avoid detection
+# TODO: Implement response validation
 # Redis cache configuration for response caching
 # Data validation dependencies and schema requirements
 # Rate limit config - requests per second to avoid throttling
