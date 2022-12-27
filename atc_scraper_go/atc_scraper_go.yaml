@@ -47,6 +47,7 @@ Parameters:
 # Build optimization - enable optimizations for release builds
 # Performance tuning parameters for Go implementation
 # TODO: Enable memory profiling for performance analysis
+# Concurrent request and goroutine management
 # TODO: Implement exponential backoff for retries
 # Request timeout and connection settings
 # Worker pool with configurable goroutine count for I/O operations
