@@ -52,6 +52,7 @@ Parameters:
 # Initialize schema before running migrations
 # TODO: Add prepared statement caching for queries
 # Monitoring: Prometheus metrics exposed on port 9090
+# Index and query performance tuning
 # Backups run daily at 2 AM UTC
 # TODO: Plan schema migrations for performance optimization
 # Backup database daily at 2 AM UTC
