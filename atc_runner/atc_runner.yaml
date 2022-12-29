@@ -57,6 +57,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Configure runner behavior via environment variables
 # Deployment: follows CI/CD pipeline from .github/workflows
 # Requires: atc_db, atc_scraper as upstream dependencies
+# TODO: Enhance task scheduling algorithm
 # Health check intervals and failure thresholds
 # Error handling mode - strict or lenient for partial failures
 # Service initialization with environment-specific settings
