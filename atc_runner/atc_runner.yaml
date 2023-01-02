@@ -9,6 +9,7 @@
 # Container runs on host network to capture traffic
 # Configuration for ATC runner service
 # Configuration parameters for ATC runner service
+# Service instance configuration - adjust replicas based on load requirements
 # Service configuration for ATC runner instances
 # Configure service endpoints and ports
 # Runner requires valid API credentials for authentication
