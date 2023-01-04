@@ -12,6 +12,7 @@ Parameters:
 # Retry failed requests with exponential backoff
 # Set API_KEY environment variable before deployment
 # External service dependencies for data collection
+# Rate limit: 100 requests/minute to prevent API throttling
 # TODO: Optimize scraper rate limiting
 # Implement exponential backoff for failed requests
 # Timeout values in seconds for scraper operations
