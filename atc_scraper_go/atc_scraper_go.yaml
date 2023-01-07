@@ -12,10 +12,10 @@ Parameters:
     Default: sg-01e50f3d9d855d864
   Image:
     Type: String
-    Default: "538602529242.dkr.ecr.eu-west-1.amazonaws.com/atc-scraper:0.03"
+    Default: "538602529242.dkr.ecr.eu-west-1.amazonaws.com/atc-scraper-go:0.02"
   ServiceName:
     Type: String
-    Default: atc-scraper
+    Default: atc-scraper-go
   ContainerPort:
     Type: Number
     Default: 80
@@ -61,38 +61,22 @@ Resources:
               Value: "atcdbinstance.castyrwvsdr7.eu-west-1.rds.amazonaws.com"
             - Name: DB_NAME
               Value: "atc"
-            - Name: NETWORKS_TO_SKIP
-              Value: "milkomeda,osmosis,thundercore,kava,sifchain"
-            - Name: MAX_CONCURRENCY
-              Value: 1
-            - Name: PLAYWRIGHT_TIMEOUT_SECS
-              Value: 30
-            - Name: WIPE_DB
+            - Name: CACHE_MODE
               Value: False
-            - Name: LAZY_MODE
-              Value: False
-            - Name: RUNNING_IN_DOCKER
-              Value: True
-            - Name: FORCE_HEADLESS
-              Value: True
-            - Name: AMOUNT_OF_PAIRS_TO_COLLECT
-              Value: 500
-            - Name: RETRY_ATTEMPTS
-              Value: 0
-            - Name: RETRY_DELAY
-              Value: 10
-            - Name: TRANSACTION_LOOP_LIMIT
-              Value: 35
-            - Name: TRANSACTION_AMOUNT_OF_LINKS_TO_COLLECT
-              Value: 10
-            - Name: PAGE_LOAD_RETRY_LIMIT
+            - Name: GT_BASE_URL
+              Value: "https://www.geckoterminal.com"
+            - Name: GT_APP_URL
+              Value: "https://app.geckoterminal.com"
+            - Name: CL_BASE_URL
+              Value: "https://chainlist.org"
+            - Name: ZYTE_API_KEY
+              Value: "3a92819db7b34d4cb654fe5c65000d8b"
+            - Name: ZYTE_ENDPOINT
+              Value: "proxy.crawlera.com:8011"
+            - Name: COLLECTION_FAIL_LIMIT
+              Value: 50
+            - Name: PAIR_PAGES
               Value: 5
-            - Name: THREAD_NUMBER
-              Value: 8
-            - Name: MULTIPROCESSING_TIMEOUT
-              Value: 60
-            - Name: MULTIPROCESSING_TIMEOUT_LIMIT
-              Value: 10
           LogConfiguration:
             LogDriver: awslogs
             Options:
