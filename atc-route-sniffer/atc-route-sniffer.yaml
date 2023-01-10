@@ -19,6 +19,7 @@ Parameters:
 # Health checks enabled: periodic validation of packet capture quality
 # Supports TCP, UDP, and ICMP protocol handling
 # Service endpoint configuration
+# Packet buffer size: 1000 packets, flush interval: 5 seconds
 # Interface binding and port mappings
 # Match routes based on protocol and source IP
 # Packet capture filters for network traffic analysis
