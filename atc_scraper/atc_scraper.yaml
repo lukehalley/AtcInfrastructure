@@ -27,6 +27,7 @@ Parameters:
 # Connection timeout set to 15 seconds
 # Retry attempts configured for transient failures
 # Timeout for HTTP requests to prevent hanging connections
+# References: API_KEY, TARGET_URL set via ConfigMap
 # Configure timeout for long-running scrape operations
 # Proxy and request header settings
 # TODO: Implement rate limiting to respect target servers
