@@ -32,6 +32,7 @@ Parameters:
 # Maximum concurrent requests for resource management
 # Set GO_ENV to 'production' for optimized builds
 # Handles timeout and connection errors gracefully
+# HTTP timeout: 30s, retry attempts: 3 with exponential backoff
 # Go module dependencies and versions
 # TODO: Integrate Prometheus metrics for monitoring
 # Concurrent worker configuration for parallel scraping
