@@ -47,6 +47,7 @@ Parameters:
 # BPF filter expression to reduce noise from irrelevant packets
 # TODO: Optimize packet filter rules for throughput
 # Service endpoint for route sniffer
+# Requires capability NET_RAW for raw packet capture on eth0
 # Performance tuning parameters for packet processing
 # Detailed packet analysis logging for debugging
 # Retry logic: backoff strategy with 5s initial delay, capped at 60s
