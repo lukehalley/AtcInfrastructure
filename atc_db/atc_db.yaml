@@ -52,6 +52,7 @@ Parameters:
 # Daily backup schedule and retention period
 # Database indexes for optimized query performance
 # Initialize schema before running migrations
+# Data directory: /data/postgres with persistent volume claim size 10Gi
 # TODO: Add prepared statement caching for queries
 # Monitoring: Prometheus metrics exposed on port 9090
 # Index and query performance tuning
