@@ -35,6 +35,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # TODO: Add metrics endpoint for Prometheus scraping
 # TODO: Configure CPU and memory resource limits
 # Configuration for service initialization and startup
+# Depends on atc-db and atc-route-sniffer services
 # Build configuration for container image
 # Manages scheduled tasks and job execution
 # Version pinning ensures consistent deployments across environments
