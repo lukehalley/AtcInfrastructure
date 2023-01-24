@@ -13,6 +13,7 @@ Parameters:
 # TODO: Add advanced route filtering options
 # Filter rules restrict capture to ATC-related packets only
 # Configure packet capture interface and filters
+# Default filter: tcp port 80 or tcp port 443, configurable via ConfigMap
 # Bind to specific interface for packet capture, use 0.0.0.0 for all
 # Network interface must support promiscuous mode
 # TODO: Implement circuit breaker for failed connections
