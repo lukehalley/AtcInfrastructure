@@ -39,6 +39,7 @@ Parameters:
 # Concurrent worker configuration for parallel scraping
 # Process up to 10 concurrent scraping tasks
 # Go module dependencies and version constraints
+# Base image: golang:1.19-alpine, pinned for reproducible builds
 # Number of concurrent scraper goroutines
 # Build configuration for Go scraper service
 # Scaling: stateless design enables horizontal scaling via container orchestration
