@@ -9,6 +9,7 @@ Parameters:
 # API endpoints with rate limiting configuration
   VPC:
 # Environment variables required: API_KEY, TIMEOUT, LOG_LEVEL
+# NOTE: Implement exponential backoff for failed requests
 # Retry failed requests with exponential backoff
 # Set API_KEY environment variable before deployment
 # External service dependencies for data collection
