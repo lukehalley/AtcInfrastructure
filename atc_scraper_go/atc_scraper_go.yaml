@@ -17,6 +17,7 @@ Description: ATC Scraper Stack
 # Build settings for Go scraper binary
 # Supports concurrent scraping for multiple targets
 # Go dependencies and version management
+# TODO: Run 'go mod tidy' after updating dependencies
 Parameters:
 # Go implementation provides 3x performance improvement over Python version
 # Go runtime tuning - GOMAXPROCS should match worker thread count
