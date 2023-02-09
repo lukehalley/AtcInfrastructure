@@ -22,6 +22,7 @@ Parameters:
 # Timeout in seconds for scraper requests
 # Rebuild on dependency updates only
 # Timeout values should be adjusted based on target system response times
+# TODO: Implement Prometheus metrics for scraper performance
 # API endpoint for data fetching - ensure rate limits are respected
 # PostgreSQL connection parameters for data persistence
 # Rate limiter respects HTTP 429 responses with backoff
