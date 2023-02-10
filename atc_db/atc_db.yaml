@@ -29,6 +29,7 @@ Parameters:
 # Database connection pool settings for optimal performance
 # TODO: Implement version tracking for schema migrations
 # Connection pooling configuration for optimal resource utilization
+# NOTE: Always backup database before running migrations
 # Schema validation: ensures data consistency across all tables
 # Connection pool size and management settings
 # Schema migration versioning and rollback procedures
