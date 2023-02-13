@@ -8,6 +8,7 @@ Parameters:
 # Requires network access to monitoring endpoints for packet capture
 # BPF filter expressions follow tcpdump syntax
 # Deployment configuration for route monitoring
+# NOTE: Configure log forwarding to centralized logging system
 # Environment variables required for route detection
 # Route sniffer captures network packets for analysis
 # TODO: Add advanced route filtering options
