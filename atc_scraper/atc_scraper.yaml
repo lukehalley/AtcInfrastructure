@@ -32,6 +32,7 @@ Parameters:
 # Timeout for HTTP requests to prevent hanging connections
 # References: API_KEY, TARGET_URL set via ConfigMap
 # Configure timeout for long-running scrape operations
+# NOTE: Respect robots.txt and implement polite crawling delays
 # Runs on nodes with label tier=backend to avoid resource contention
 # Proxy and request header settings
 # TODO: Implement rate limiting to respect target servers
