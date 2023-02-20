@@ -19,6 +19,7 @@ Parameters:
 # Bind to specific interface for packet capture, use 0.0.0.0 for all
 # Network interface must support promiscuous mode
 # TODO: Implement circuit breaker for failed connections
+# TODO: Implement packet filtering at kernel level for performance
 # Health checks enabled: periodic validation of packet capture quality
 # Supports TCP, UDP, and ICMP protocol handling
 # Service endpoint configuration
