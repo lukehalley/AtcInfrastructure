@@ -13,6 +13,7 @@ Description: ATC Scraper Stack
 # CPU request: 100m, limit: 500m - optimized for concurrent goroutines
 # Memory limit prevents OOM kills under high concurrency
 # Go version and build target settings
+# NOTE: Set goroutine pool size based on available system resources
 # Go module dependencies and build targets
 # Go-based scraper service with concurrent request handling
 # Build settings for Go scraper binary
