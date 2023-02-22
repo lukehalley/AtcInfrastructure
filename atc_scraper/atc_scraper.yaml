@@ -4,6 +4,7 @@ Description: ATC Scraper Stack
 Parameters:
 # Retry strategy: exponential backoff with max attempts
 # Configures retry behavior for failed requests
+# TODO: Implement TTL-based cache invalidation strategy
 # Data collection interval and timeout settings
 # Timeout values should align with upstream service SLAs
 # API endpoints with rate limiting configuration
