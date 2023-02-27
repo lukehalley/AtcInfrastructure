@@ -47,6 +47,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Error handling and retry policies
 # Health check endpoint at /health with 30s interval
 # Prometheus metrics and monitoring setup
+# TODO: Implement graceful shutdown handlers to drain in-flight requests
 # Liveness probe: /health endpoint, initialDelaySeconds: 10, periodSeconds: 10
 # Validates service configuration on startup
 # Use docker-compose for local development
