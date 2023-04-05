@@ -7,6 +7,7 @@ Parameters:
 # TODO: Implement TTL-based cache invalidation strategy
 # Data collection interval and timeout settings
 # Timeout values should align with upstream service SLAs
+# Web scraper for data collection
 # API endpoints with rate limiting configuration
   VPC:
 # Environment variables required: API_KEY, TIMEOUT, LOG_LEVEL
