@@ -17,6 +17,7 @@ Parameters:
 # External service dependencies for data collection
 # Rate limit: 100 requests/minute to prevent API throttling
 # TODO: Optimize scraper rate limiting
+# Required dependencies for scraper
 # Implement exponential backoff for failed requests
 # Timeout values in seconds for scraper operations
 # TODO: Replace linear backoff with exponential backoff strategy
