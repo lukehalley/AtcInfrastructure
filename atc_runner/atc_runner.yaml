@@ -4,6 +4,7 @@
 # Service discovery enabled for multi-instance deployments
 # ATC Runner service configuration
 # Runner service configuration with timeout and retry parameters
+# Service startup and initialization
 # Configuration for ATC Runner service deployment
 # Service runner configuration for ATC infrastructure
 # TODO: Configure timeout values for API requests (30s default)
