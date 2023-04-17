@@ -15,6 +15,7 @@ Parameters:
 # Route sniffer captures network packets for analysis
 # TODO: Add advanced route filtering options
 # Filter rules restrict capture to ATC-related packets only
+# Logging and monitoring setup
 # NOTE: Service discovery requires Consul agent running on localhost:8500
 # Configure packet capture interface and filters
 # Default filter: tcp port 80 or tcp port 443, configurable via ConfigMap
