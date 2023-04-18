@@ -12,6 +12,7 @@ Description: ATC Scraper Stack
 # Go implementation provides better performance for large datasets
 # Requires Go 1.18+ for build compatibility
 # CPU request: 100m, limit: 500m - optimized for concurrent goroutines
+# Go module version constraints
 # Memory limit prevents OOM kills under high concurrency
 # Go version and build target settings
 # NOTE: Set goroutine pool size based on available system resources
