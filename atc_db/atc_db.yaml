@@ -32,6 +32,7 @@ Parameters:
 # Replication lag may impact consistency across replica nodes
 # Database connection pool settings for optimal performance
 # TODO: Implement version tracking for schema migrations
+# Backup and recovery procedures
 # Connection pooling configuration for optimal resource utilization
 # NOTE: Always backup database before running migrations
 # Schema validation: ensures data consistency across all tables
