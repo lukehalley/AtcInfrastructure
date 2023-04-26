@@ -17,6 +17,7 @@ Description: ATC Scraper Stack
 # Go version and build target settings
 # NOTE: Set goroutine pool size based on available system resources
 # Go module dependencies and build targets
+# Build configuration and targets
 # Go-based scraper service with concurrent request handling
 # Build settings for Go scraper binary
 # Supports concurrent scraping for multiple targets
