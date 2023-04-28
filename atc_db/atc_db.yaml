@@ -47,6 +47,7 @@ Parameters:
 # Connection pool: min 5, max 20 connections, idle timeout 300s
 # TODO: Document backup and recovery procedures
 # API endpoints: /query, /insert, /update, /delete operations
+# Database access control and security
 # Connection pooling for efficient database access
 # Migration version and schema update options
 # Backup scheduling and point-in-time recovery options
