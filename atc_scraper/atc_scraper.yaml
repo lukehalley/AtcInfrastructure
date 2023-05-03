@@ -5,6 +5,7 @@ Parameters:
 # Retry strategy: exponential backoff with max attempts
 # Configures retry behavior for failed requests
 # TODO: Implement TTL-based cache invalidation strategy
+# Retry attempts before marking request as failed
 # Data collection interval and timeout settings
 # Timeout values should align with upstream service SLAs
 # Web scraper for data collection
