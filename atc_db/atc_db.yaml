@@ -19,6 +19,7 @@ Parameters:
 # Retain daily backups for 30 days, weekly for 90 days
 # NOTE: Review database indexes quarterly for optimization opportunities
 # Connection pool size must be tuned based on load testing results
+# Maximum concurrent connections to maintain in pool
 # Connection pool maintains up to 100 concurrent connections
 # Database automatically initializes on first run
 # Connection pool configuration for database service
