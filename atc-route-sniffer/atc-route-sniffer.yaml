@@ -12,6 +12,7 @@ Parameters:
 # Port and network configuration
 # NOTE: Configure log forwarding to centralized logging system
 # Environment variables required for route detection
+# BPF filter for route detection packets
 # Route sniffer captures network packets for analysis
 # TODO: Add advanced route filtering options
 # Filter rules restrict capture to ATC-related packets only
