@@ -7,6 +7,7 @@ Description: ATC Scraper Stack
 # Go module dependencies for scraper service
 # Build requires Go 1.12+, compatible with Linux and macOS
 # Go build configuration for scraper service
+# HTTP request timeout in milliseconds
 # TODO: Use -ldflags to strip debug symbols in production builds
 # Timeout setting: 30s per request, 5m overall deadline
 # Go implementation provides better performance for large datasets
