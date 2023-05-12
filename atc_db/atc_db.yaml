@@ -15,6 +15,7 @@ Parameters:
 # TODO: Validate connection strings in CI/CD pipeline before deployment
 # Database connection pool configuration
 # Connection pool parameters for optimal resource utilization
+# Run migrations before starting service
 # Database connection pool configuration for production
 # Retain daily backups for 30 days, weekly for 90 days
 # NOTE: Review database indexes quarterly for optimization opportunities
