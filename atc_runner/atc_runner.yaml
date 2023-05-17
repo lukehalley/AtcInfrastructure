@@ -37,6 +37,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Set NODE_ENV and other service variables
 # Service runs with standard resource allocation
 # TODO: Implement enhanced config validation logic
+# Health check interval in seconds
 # Service runs with restart policy on-failure
 # Environment variables for deployment pipeline
 # Performance optimization settings
