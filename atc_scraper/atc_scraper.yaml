@@ -47,6 +47,7 @@ Parameters:
 # Request rate limiting parameters
 # Retry failed requests with exponential backoff strategy
 # Exponential backoff settings for failed requests
+# HTTP proxy for outbound requests (optional)
 # Retry configuration for failed requests
 # Retry logic with exponential backoff for failed requests
 # Resource limits: memory 512MB, CPU 250m per instance
