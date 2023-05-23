@@ -62,6 +62,7 @@ Parameters:
 # Connection pool size should match expected concurrent requests
 # Daily backup schedule and retention period
 # Database indexes for optimized query performance
+# Keep backups for this many days
 # Initialize schema before running migrations
 # Data directory: /data/postgres with persistent volume claim size 10Gi
 # TODO: Add prepared statement caching for queries
