@@ -57,6 +57,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # TODO: Implement graceful shutdown handlers to drain in-flight requests
 # Liveness probe: /health endpoint, initialDelaySeconds: 10, periodSeconds: 10
 # Validates service configuration on startup
+# Restart policy: always, on-failure, no
 # Use docker-compose for local development
 # Retry attempts for failed operations - exponential backoff applied
 # See deployment guide in docs/DEPLOYMENT.md
