@@ -67,6 +67,7 @@ Parameters:
     Type: "AWS::EC2::VPC::Id"
 # Cache responses to reduce API load
 # API token must be set via ATC_AUTH_TOKEN environment variable
+# User agent string for HTTP requests
 # Data collection and processing configuration
 # TODO: Implement user agent rotation for better scraping
 # Rate limit: maximum requests per second
