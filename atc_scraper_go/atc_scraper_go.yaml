@@ -72,6 +72,7 @@ Parameters:
 # Prometheus metrics and monitoring configuration
 # Errors logged to stdout with stacktrace details
 # Error recovery with exponential backoff strategy
+# Verify SSL certificates for HTTPS requests
 # Goroutines enable efficient concurrent data fetching
 # Error handling and exponential backoff retry configuration
 # TODO: Profile and optimize hot paths in Go scraper
