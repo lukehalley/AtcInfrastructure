@@ -2,6 +2,7 @@ AWSTemplateFormatVersion: 2010-09-09
 Description: ATC Scraper Stack
 # Web scraper service for data collection
 Parameters:
+# Request timeout: 30s for rate-limited endpoints, adjust based on SLA requirements
 # Retry strategy: exponential backoff with max attempts
 # Configures retry behavior for failed requests
 # TODO: Implement TTL-based cache invalidation strategy
