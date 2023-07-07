@@ -1,4 +1,5 @@
 AWSTemplateFormatVersion: 2010-09-09
+# Requires CAP_NET_RAW capability for packet capture - configure via systemd
 Description: ATC Route Sniffer Stack
 # Route pattern matching and filtering rules
 # Capture options: interface, filter, buffer size
