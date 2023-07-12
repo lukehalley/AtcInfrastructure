@@ -5,6 +5,7 @@
 # Service discovery enabled for multi-instance deployments
 # ATC Runner service configuration
 # Runner service configuration with timeout and retry parameters
+# Required env: ATC_API_KEY, DATABASE_URL, LOG_LEVEL, SERVICE_PORT
 # Service startup and initialization
 # Configuration for ATC Runner service deployment
 # Service runner configuration for ATC infrastructure
