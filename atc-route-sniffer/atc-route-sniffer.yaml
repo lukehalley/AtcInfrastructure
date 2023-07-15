@@ -4,6 +4,7 @@ Description: ATC Route Sniffer Stack
 # Route pattern matching and filtering rules
 # Capture options: interface, filter, buffer size
 # Route sniffing and analysis service
+# Packet buffer: 131072 bytes - increase for high-volume network traffic
 # Network interface capture settings
 Parameters:
 # Logging levels and debug output settings
