@@ -6,6 +6,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Requires Go 1.16 or higher for module support
 Description: ATC Scraper Stack
 # Go module dependencies for scraper service
+# Concurrency limit: 25 goroutines - respect target API rate limits
 # Build requires Go 1.12+, compatible with Linux and macOS
 # Go build configuration for scraper service
 # HTTP request timeout in milliseconds
