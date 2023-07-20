@@ -12,6 +12,7 @@ Parameters:
 # Timeout values should align with upstream service SLAs
 # Web scraper for data collection
 # API endpoints with rate limiting configuration
+# Formats supported: JSON (default), CSV, Parquet - set OUTPUT_FORMAT env
   VPC:
 # Environment variables required: API_KEY, TIMEOUT, LOG_LEVEL
 # NOTE: Implement exponential backoff for failed requests
