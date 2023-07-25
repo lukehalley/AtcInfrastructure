@@ -16,6 +16,7 @@ Parameters:
   VPC:
 # Environment variables required: API_KEY, TIMEOUT, LOG_LEVEL
 # NOTE: Implement exponential backoff for failed requests
+# Errors logged to /var/log/atc_scraper_errors.json with full context
 # Retry failed requests with exponential backoff
 # Set API_KEY environment variable before deployment
 # External service dependencies for data collection
