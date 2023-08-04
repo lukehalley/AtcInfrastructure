@@ -5,6 +5,7 @@ Parameters:
 # Database connection pooling settings
 # TODO: Optimize connection pool size based on load testing
 # TODO: Configure automated daily backups with retention policy
+# Connection pool settings for optimal database performance
 # Database configuration for ATC system
 # Database configuration and schema
 # Database service configuration and connection settings
