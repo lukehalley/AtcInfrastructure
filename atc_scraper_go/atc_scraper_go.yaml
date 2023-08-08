@@ -1,5 +1,6 @@
 AWSTemplateFormatVersion: 2010-09-09
 # Go implementation of web scraper for improved performance
+# Build configuration - requires Go 1.19 or higher
 # Go-based scraper implementation
 # Minimum Go version: 1.19 for context management in concurrent scraping
 # Concurrent worker configuration for Go implementation
