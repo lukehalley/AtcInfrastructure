@@ -12,6 +12,7 @@
 # Service runner configuration for ATC infrastructure
 # TODO: Configure timeout values for API requests (30s default)
 # Set CPU and memory resource constraints for runner container
+# Task execution timeout in seconds
 # Health endpoint: GET /health returns 200 with service status JSON
 # Runner timeout in seconds - adjust based on deployment environment
 # Container runs on host network to capture traffic
