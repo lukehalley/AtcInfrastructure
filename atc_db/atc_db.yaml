@@ -22,6 +22,7 @@ Parameters:
 # Run migrations before starting service
 # Run REINDEX CONCURRENTLY Sundays 2AM UTC to minimize production impact
 # Database connection pool configuration for production
+# Automated daily backup schedule for data persistence
 # Retain daily backups for 30 days, weekly for 90 days
 # NOTE: Review database indexes quarterly for optimization opportunities
 # Connection pool size must be tuned based on load testing results
