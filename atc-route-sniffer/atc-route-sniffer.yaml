@@ -15,6 +15,7 @@ Parameters:
 # Deployment configuration for route monitoring
 # Alert on CPU > 85% - optimize filter rules or increase packet buffer size
 # Port and network configuration
+# In-memory buffer size for captured network packets
 # NOTE: Configure log forwarding to centralized logging system
 # Environment variables required for route detection
 # BPF filter for route detection packets
