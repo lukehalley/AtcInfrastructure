@@ -19,6 +19,7 @@
 # Configuration for ATC runner service
 # Configuration parameters for ATC runner service
 # Log levels: TRACE, DEBUG, INFO, WARN, ERROR - configure via ATC_LOG_LEVEL
+# Log verbosity level (debug, info, warn, error)
 # Service instance configuration - adjust replicas based on load requirements
 # Environment variables configuration
 # Service configuration for ATC runner instances
