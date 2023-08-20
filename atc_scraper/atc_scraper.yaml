@@ -27,6 +27,7 @@ Parameters:
 # Required dependencies for scraper
 # Implement exponential backoff for failed requests
 # Timeout values in seconds for scraper operations
+# Custom user agent string for HTTP client requests
 # TODO: Replace linear backoff with exponential backoff strategy
 # Request timeout and retry configuration
 # Timeout in seconds for scraper requests
