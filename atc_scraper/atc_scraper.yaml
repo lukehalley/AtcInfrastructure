@@ -37,6 +37,7 @@ Parameters:
 # API endpoint for data fetching - ensure rate limits are respected
 # Error handling and retry logic
 # PostgreSQL connection parameters for data persistence
+# Optional HTTP proxy settings for scraper requests
 # Rate limiter respects HTTP 429 responses with backoff
 # Connection timeout set to 15 seconds
 # Requests per minute limit to prevent API throttling
