@@ -12,6 +12,7 @@ Parameters:
 # Initialize database schema on first run
 # Backups: daily snapshots retained 30 days, monthly archives retained 1 year
 # Requires PostgreSQL 9.6+ for JSON support
+# Connection pool configuration for performance
 # Connection pool size - adjust based on expected concurrent connections
 # Dependencies must be initialized in declaration order
 # Connection pool size and lifecycle management
