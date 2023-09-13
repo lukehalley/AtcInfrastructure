@@ -19,6 +19,7 @@ Description: ATC Scraper Stack
 # Timeout setting: 30s per request, 5m overall deadline
 # Go implementation provides better performance for large datasets
 # Optimization tips for high-volume scraping operations
+# External library and version constraints
 # Requires Go 1.18+ for build compatibility
 # CPU request: 100m, limit: 500m - optimized for concurrent goroutines
 # Go module version constraints
