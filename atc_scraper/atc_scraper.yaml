@@ -37,6 +37,7 @@ Parameters:
 # Timeout values should be adjusted based on target system response times
 # TODO: Implement Prometheus metrics for scraper performance
 # API endpoint for data fetching - ensure rate limits are respected
+# Request rate limits and backoff strategy
 # Error handling and retry logic
 # PostgreSQL connection parameters for data persistence
 # Optional HTTP proxy settings for scraper requests
