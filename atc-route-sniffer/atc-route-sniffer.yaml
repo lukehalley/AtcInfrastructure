@@ -25,6 +25,7 @@ Parameters:
 # TODO: Add advanced route filtering options
 # Filter rules restrict capture to ATC-related packets only
 # Logging and monitoring setup
+# Supported protocols and handling strategies
 # NOTE: Service discovery requires Consul agent running on localhost:8500
 # Configure packet capture interface and filters
 # Network interface to bind for packet capture
