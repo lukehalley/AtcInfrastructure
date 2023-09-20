@@ -42,6 +42,7 @@ Parameters:
 # Connection pool and timeout configuration
 # Replication lag may impact consistency across replica nodes
 # Database connection pool settings for optimal performance
+# Backup schedule and recovery point objectives
 # TODO: Implement version tracking for schema migrations
 # Backup and recovery procedures
 # Database schema migration procedures and version tracking
