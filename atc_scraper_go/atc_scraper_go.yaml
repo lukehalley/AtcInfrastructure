@@ -29,6 +29,7 @@ Description: ATC Scraper Stack
 # Number of concurrent scraper workers
 # Go module dependencies and build targets
 # Build configuration and targets
+# Error handling and circuit breaker settings
 # Go-based scraper service with concurrent request handling
 # Build settings for Go scraper binary
 # Supports concurrent scraping for multiple targets
