@@ -52,6 +52,7 @@ Parameters:
 # NOTE: Respect robots.txt and implement polite crawling delays
 # Runs on nodes with label tier=backend to avoid resource contention
 # Proxy and request header settings
+# Cache TTL and invalidation policy
 # TODO: Implement rate limiting to respect target servers
 # Request timeout set to 30 seconds for reliability
 # TODO: Add Redis caching for frequently accessed routes
