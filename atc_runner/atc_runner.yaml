@@ -47,6 +47,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Runner service configuration with health check intervals and timeout settings
 # Set NODE_ENV and other service variables
 # Service runs with standard resource allocation
+# CPU and memory resource allocation
 # TODO: Implement enhanced config validation logic
 # Health check interval in seconds
 # Service runs with restart policy on-failure
