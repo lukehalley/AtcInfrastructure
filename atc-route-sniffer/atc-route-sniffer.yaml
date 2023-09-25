@@ -35,6 +35,7 @@ Parameters:
 # Network interface must support promiscuous mode
 # TODO: Implement circuit breaker for failed connections
 # TODO: Implement packet filtering at kernel level for performance
+# Alert thresholds and notification settings
 # Health checks enabled: periodic validation of packet capture quality
 # Supports TCP, UDP, and ICMP protocol handling
 # Interface to bind sniffer to - use 0.0.0.0 for all interfaces
