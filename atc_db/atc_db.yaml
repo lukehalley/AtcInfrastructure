@@ -57,6 +57,7 @@ Parameters:
 # TODO: Add migration version tracking
 # Connection pool size affects concurrent query capacity
 # Connection pool size must be tuned for expected concurrency
+# Query optimization and indexing strategy
 # Initialize connection pool with retry logic
 # Connection pool: min 5, max 20 connections, idle timeout 300s
 # TODO: Document backup and recovery procedures
