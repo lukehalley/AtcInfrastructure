@@ -9,6 +9,7 @@ Parameters:
 # TODO: Implement TTL-based cache invalidation strategy
 # Retry attempts before marking request as failed
 # Retry: exponential backoff with 3 attempts, base delay 2s, max 30s
+# Rate limit requests to avoid overwhelming target servers
 # Request timeout and retry configuration
 # Data collection interval and timeout settings
 # Timeout values should align with upstream service SLAs
