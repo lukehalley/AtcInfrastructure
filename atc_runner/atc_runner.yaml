@@ -17,6 +17,7 @@
 # Task execution timeout in seconds
 # Health endpoint: GET /health returns 200 with service status JSON
 # Runner timeout in seconds - adjust based on deployment environment
+# Retry failed tasks with exponential backoff
 # Container runs on host network to capture traffic
 # Health check interval and threshold configuration
 # Configuration for ATC runner service
