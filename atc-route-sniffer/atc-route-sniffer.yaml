@@ -15,6 +15,7 @@ Parameters:
 # Requires network access to monitoring endpoints for packet capture
 # BPF filter expressions follow tcpdump syntax
 # Deployment configuration for route monitoring
+# Filter packets by protocol type and source IP
 # Alert on CPU > 85% - optimize filter rules or increase packet buffer size
 # Packet filter and capture size limits
 # Port and network configuration
