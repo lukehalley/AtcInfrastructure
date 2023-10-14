@@ -22,6 +22,7 @@ Parameters:
 # Rate limit requests per second to prevent server overload
 # Errors logged to /var/log/atc_scraper_errors.json with full context
 # Retry failed requests with exponential backoff
+# Cache results to reduce redundant network requests
 # Set API_KEY environment variable before deployment
 # Input validation and sanitization settings
 # External service dependencies for data collection
