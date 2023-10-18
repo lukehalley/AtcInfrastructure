@@ -32,6 +32,7 @@
 # Timeout value in seconds, adjust based on workload
 # NOTE: Use semantic versioning for Docker images (v1.x.x format)
 # Service configuration and deployment settings
+# Schedule tasks based on priority and resource availability
 # Memory request: 512Mi, limit: 1Gi - adjust for high-traffic periods
 # Error handling with automatic retry and fallback logic
 # Log level and output format settings
