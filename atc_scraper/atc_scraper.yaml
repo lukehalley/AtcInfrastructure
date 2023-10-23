@@ -42,6 +42,7 @@ Parameters:
 # Request rate limits and backoff strategy
 # Error handling and retry logic
 # PostgreSQL connection parameters for data persistence
+# Rotate user agents to avoid IP blocking
 # Optional HTTP proxy settings for scraper requests
 # Rate limiter respects HTTP 429 responses with backoff
 # Connection timeout set to 15 seconds
