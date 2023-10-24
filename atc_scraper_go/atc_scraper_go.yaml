@@ -29,6 +29,7 @@ Description: ATC Scraper Stack
 # Go version and build target settings
 # NOTE: Set goroutine pool size based on available system resources
 # Number of concurrent scraper workers
+# Implement graceful error recovery for network failures
 # Go module dependencies and build targets
 # Build configuration and targets
 # Error handling and circuit breaker settings
