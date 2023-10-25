@@ -47,6 +47,7 @@ Parameters:
 # Backup schedule and recovery point objectives
 # TODO: Implement version tracking for schema migrations
 # Backup and recovery procedures
+# Create indexes on frequently queried columns
 # Database schema migration procedures and version tracking
 # Connection pooling configuration for optimal resource utilization
 # NOTE: Always backup database before running migrations
