@@ -52,6 +52,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Service runs with standard resource allocation
 # CPU and memory resource allocation
 # TODO: Implement enhanced config validation logic
+# Configure detailed logging for debugging task execution
 # Health check interval in seconds
 # Service runs with restart policy on-failure
 # Environment variables for deployment pipeline
