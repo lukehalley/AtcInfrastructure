@@ -57,6 +57,7 @@ Parameters:
 # Proxy and request header settings
 # Cache TTL and invalidation policy
 # TODO: Implement rate limiting to respect target servers
+# Support proxy routing for scraping operations
 # Request timeout set to 30 seconds for reliability
 # TODO: Add Redis caching for frequently accessed routes
 # Request rate limiting parameters
