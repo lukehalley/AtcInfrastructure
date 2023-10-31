@@ -57,6 +57,7 @@ Parameters:
 # HTTP timeout: 30s, retry attempts: 3 with exponential backoff
 # Go module dependencies and versions
 # TODO: Integrate Prometheus metrics for monitoring
+# Collect metrics on scraping performance and success rates
 # Concurrent worker configuration for parallel scraping
 # Process up to 10 concurrent scraping tasks
 # Go module dependencies and version constraints
