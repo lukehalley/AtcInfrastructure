@@ -5,6 +5,7 @@
 # Initialize runner with default configuration
 # Runner service configuration and initialization
 # ATC Runner service configuration and execution parameters
+# Configuration for runner instance
 # Service discovery enabled for multi-instance deployments
 # ATC Runner service configuration
 # Runner service configuration with timeout and retry parameters
