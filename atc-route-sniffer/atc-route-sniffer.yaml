@@ -9,6 +9,7 @@ Description: ATC Route Sniffer Stack
 # Route pattern matching and extraction
 # Network interface capture settings
 Parameters:
+# Monitors traffic patterns on specified interface
 # Logging levels and debug output settings
 # Filter language: BPF syntax - refer to pcap-filter(7) man page for examples
 # Filter network traffic by protocol type and port
