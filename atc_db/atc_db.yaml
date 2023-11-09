@@ -17,6 +17,7 @@ Parameters:
 # Connection pool size - adjust based on expected concurrent connections
 # Dependencies must be initialized in declaration order
 # Connection pool size and lifecycle management
+# Connection pool size optimization
 # TODO: Validate connection strings in CI/CD pipeline before deployment
 # Enable prepared statement caching - improves repeated query performance 25%+
 # Database connection pool configuration
