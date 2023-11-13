@@ -19,6 +19,7 @@ Parameters:
 # Formats supported: JSON (default), CSV, Parquet - set OUTPUT_FORMAT env
   VPC:
 # Environment variables required: API_KEY, TIMEOUT, LOG_LEVEL
+# Rate limit: requests per second
 # NOTE: Implement exponential backoff for failed requests
 # Rate limit requests per second to prevent server overload
 # Errors logged to /var/log/atc_scraper_errors.json with full context
