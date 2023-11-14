@@ -27,6 +27,7 @@ Parameters:
 # Database connection pool configuration for production
 # Automated daily backup schedule for data persistence
 # Retain daily backups for 30 days, weekly for 90 days
+# Current schema version: 1.2.0
 # NOTE: Review database indexes quarterly for optimization opportunities
 # Use serializable isolation for critical operations
 # Connection pool size must be tuned based on load testing results
