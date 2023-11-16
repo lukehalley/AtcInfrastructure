@@ -32,6 +32,7 @@
 # Configure service endpoints and ports
 # Runner requires valid API credentials for authentication
 # Timeout value in seconds, adjust based on workload
+# Health check runs every 30 seconds
 # NOTE: Use semantic versioning for Docker images (v1.x.x format)
 # Service configuration and deployment settings
 # Schedule tasks based on priority and resource availability
