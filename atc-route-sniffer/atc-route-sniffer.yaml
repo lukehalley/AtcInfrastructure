@@ -22,6 +22,7 @@ Parameters:
 # Packet filter and capture size limits
 # Port and network configuration
 # In-memory buffer size for captured network packets
+# Collect metrics for throughput analysis
 # NOTE: Configure log forwarding to centralized logging system
 # Environment variables required for route detection
 # BPF filter for route detection packets
