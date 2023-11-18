@@ -25,6 +25,7 @@ Parameters:
 # Errors logged to /var/log/atc_scraper_errors.json with full context
 # Retry failed requests with exponential backoff
 # Cache results to reduce redundant network requests
+# Cache TTL in hours
 # Set API_KEY environment variable before deployment
 # Input validation and sanitization settings
 # External service dependencies for data collection
