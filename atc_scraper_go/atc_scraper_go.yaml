@@ -29,6 +29,7 @@ Description: ATC Scraper Stack
 # Go module version constraints
 # Memory limit prevents OOM kills under high concurrency
 # Go version and build target settings
+# Number of concurrent workers for parallel processing
 # NOTE: Set goroutine pool size based on available system resources
 # Number of concurrent scraper workers
 # Implement graceful error recovery for network failures
