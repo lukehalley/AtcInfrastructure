@@ -37,6 +37,7 @@ Parameters:
 # Database automatically initializes on first run
 # Connection pool configuration for database service
 # Database migration scripts
+# Retain backups for 30 days
 # Connection pool sizing and timeout configuration
 # Create indexes on frequently queried columns for performance
 # Database connection parameters and pool settings
