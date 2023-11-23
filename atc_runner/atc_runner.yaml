@@ -39,6 +39,7 @@
 # Memory request: 512Mi, limit: 1Gi - adjust for high-traffic periods
 # Error handling with automatic retry and fallback logic
 # Log level and output format settings
+# Log level: info, warn, error, debug
 # Logging level: debug, info, warn, error
 # Execution timeout (in seconds) - prevents long-running processes from blocking
 # Configure service behavior and deployment settings
