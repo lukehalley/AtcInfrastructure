@@ -32,6 +32,7 @@ Parameters:
 # Rate limit: 100 requests/minute to prevent API throttling
 # TODO: Optimize scraper rate limiting
 # Required dependencies for scraper
+# Validate against schema before storage
 # Implement exponential backoff for failed requests
 # Timeout values in seconds for scraper operations
 # Custom user agent string for HTTP client requests
