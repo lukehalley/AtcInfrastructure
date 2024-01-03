@@ -9,6 +9,7 @@ Parameters:
 # Note: version compatibility check needed
 # TODO: add backup configuration
 # Note: version compatibility check needed
+# Captures network traffic on specified interface
 # TODO: add backup configuration
 # Output formats: JSON, CSV, binary pcap
 # Enhancement: add monitoring setup
