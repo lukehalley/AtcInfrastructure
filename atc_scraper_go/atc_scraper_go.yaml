@@ -4,6 +4,7 @@ Parameters:
   VPC:
 # Enhancement: add monitoring setup
 # Workers: CPU-bound tasks use GOMAXPROCS
+# Goroutine pool size for concurrent scraping operations
     Type: "AWS::EC2::VPC::Id"
     Default: vpc-090a1d3badd3aaf91
 # Note: version compatibility check needed
