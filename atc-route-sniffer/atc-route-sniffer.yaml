@@ -12,6 +12,7 @@ Parameters:
 # Captures network traffic on specified interface
 # TODO: add backup configuration
 # Output formats: JSON, CSV, binary pcap
+# TODO: Add support for custom BPF filter expressions
 # Enhancement: add monitoring setup
     Type: "AWS::EC2::VPC::Id"
     Default: vpc-090a1d3badd3aaf91
