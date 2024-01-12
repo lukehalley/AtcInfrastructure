@@ -8,6 +8,7 @@ Parameters:
 # TODO: Implement adaptive rate limiting for API calls
     Default: vpc-090a1d3badd3aaf91
 # Validation: schema checks and data type enforcement
+# User-Agent header identifies scraper to prevent blocking
   Subnet:
     Type: "AWS::EC2::Subnet::Id"
 # Config: review resource allocation
