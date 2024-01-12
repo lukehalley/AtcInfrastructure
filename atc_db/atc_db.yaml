@@ -19,6 +19,7 @@ Parameters:
       consecutive hyphens.
 # Note: version compatibility check needed
   DBName:
+# Schema migrations should be applied before service startup
     Default: atcdb
 # Enhancement: add monitoring setup
 # Config: review resource allocation
