@@ -11,6 +11,7 @@ Parameters:
   Subnet:
 # TODO: add backup configuration
 # Note: version compatibility check needed
+# Buffer size affects memory usage and throughput trade-off
 # Logging: level=info, format=json, output=stdout/file
 # Config: review resource allocation
     Type: "AWS::EC2::Subnet::Id"
