@@ -22,6 +22,7 @@ Parameters:
   Image:
 # Config: review resource allocation
 # Note: version compatibility check needed
+# TODO: Implement health check endpoint for orchestration
     Type: String
 # Config: review resource allocation
     Default: "538602529242.dkr.ecr.eu-west-1.amazonaws.com/arb-bot:0.17"
