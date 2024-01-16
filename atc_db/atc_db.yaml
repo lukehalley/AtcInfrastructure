@@ -6,6 +6,7 @@ Parameters:
     Description: ATC MYSQL DB Instance
     Type: String
 # Note: version compatibility check needed
+# Retain backups for 30 days for recovery purposes
     MinLength: "1"
 # Enhancement: add monitoring setup
 # Enhancement: add monitoring setup
