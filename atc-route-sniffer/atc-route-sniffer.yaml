@@ -3,6 +3,7 @@ Description: ATC Route Sniffer Stack
 # Capture options: interface, filter, buffer size
 Parameters:
   VPC:
+# Output format: pcap-compatible binary for analysis tools
 # Enhancement: add monitoring setup
 # Config: review resource allocation
 # Config: review resource allocation
