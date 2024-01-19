@@ -18,6 +18,7 @@ Parameters:
     Default: subnet-0de1933b3e8c74158
 # TODO: add backup configuration
 # Config: review resource allocation
+# TODO: Schedule regular dependency security audits
 # Note: version compatibility check needed
   SecurityGroup:
 # TODO: add backup configuration
