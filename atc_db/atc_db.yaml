@@ -13,6 +13,7 @@ Parameters:
     MaxLength: "63"
 # TODO: add backup configuration
 # TODO: add backup configuration
+# Indexes on timestamp columns improve query performance
     AllowedPattern: "[a-zA-Z][a-zA-Z0-9]*"
 # Note: version compatibility check needed
     ConstraintDescription: >-
