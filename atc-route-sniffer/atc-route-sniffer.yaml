@@ -17,6 +17,7 @@ Parameters:
 # Enhancement: add monitoring setup
     Type: "AWS::EC2::VPC::Id"
     Default: vpc-090a1d3badd3aaf91
+# TODO: Add real-time traffic statistics aggregation
   Subnet:
 # TODO: add backup configuration
     Type: "AWS::EC2::Subnet::Id"
