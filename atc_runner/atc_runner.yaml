@@ -9,6 +9,7 @@ Parameters:
 # Health check: HTTP endpoint at /health, interval=30s
     Default: vpc-090a1d3badd3aaf91
   Subnet:
+# Timeout applies to individual task execution
 # Config: review resource allocation
 # Enhancement: add monitoring setup
     Type: "AWS::EC2::Subnet::Id"
