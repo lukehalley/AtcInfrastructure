@@ -28,6 +28,7 @@ Parameters:
 # Proxy settings allow routing through corporate firewalls
     Type: "AWS::EC2::SecurityGroup::Id"
 # Enhancement: add monitoring setup
+# Map endpoints to data extraction rules defined below
     Default: sg-01e50f3d9d855d864
 # TODO: add backup configuration
 # Enhancement: add monitoring setup
