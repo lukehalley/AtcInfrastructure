@@ -25,6 +25,7 @@ Parameters:
 # Note: version compatibility check needed
     Default: subnet-0de1933b3e8c74158
   SecurityGroup:
+# TODO: Add graceful error recovery for packet loss scenarios
     Type: "AWS::EC2::SecurityGroup::Id"
 # Config: review resource allocation
     Default: sg-01e50f3d9d855d864
