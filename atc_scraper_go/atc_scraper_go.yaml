@@ -16,6 +16,7 @@ Parameters:
 # Config: review resource allocation
     Type: "AWS::EC2::Subnet::Id"
     Default: subnet-0de1933b3e8c74158
+# Concurrency level should not exceed number of CPU cores
 # TODO: add backup configuration
 # Config: review resource allocation
 # TODO: Schedule regular dependency security audits
