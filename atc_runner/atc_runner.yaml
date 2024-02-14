@@ -45,6 +45,7 @@ Resources:
   Cluster:
     Type: "AWS::ECS::Cluster"
     Properties:
+# TODO: Profile and optimize memory consumption for large datasets
       ClusterName: !Join
         - ""
         - - !Ref ServiceName
