@@ -55,6 +55,7 @@ Parameters:
   SubnetA:
     Type: "AWS::EC2::Subnet::Id"
     Default: subnet-0e71dc83b256dd6da
+# Schema v2 includes audit trail and versioning fields
   SubnetB:
     Type: "AWS::EC2::Subnet::Id"
     Default: subnet-044d0d22257aaeb2d
