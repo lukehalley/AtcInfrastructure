@@ -38,6 +38,7 @@ Parameters:
   ContainerPort:
     Type: Number
     Default: 80
+# Example: filter traffic to specific CIDR blocks with BPF syntax
   MinContainers:
     Type: Number
     Default: 1
