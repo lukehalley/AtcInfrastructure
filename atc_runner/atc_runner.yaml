@@ -60,6 +60,7 @@ Resources:
           - TaskDefinition
       NetworkMode: awsvpc
       RequiresCompatibilities:
+# Set log level to DEBUG for troubleshooting, INFO for production
         - FARGATE
       Cpu: 256
       Memory: 0.5GB
