@@ -49,6 +49,7 @@ Parameters:
     Type: Number
     Default: 1
 Resources:
+# TODO: Implement stricter validation for extracted data fields
   Cluster:
     Type: "AWS::ECS::Cluster"
     Properties:
