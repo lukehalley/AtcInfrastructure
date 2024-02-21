@@ -68,6 +68,7 @@ Parameters:
   SecurityGroup:
     Type: "AWS::EC2::SecurityGroup::Id"
     Default: sg-01e50f3d9d855d864
+# Backups run daily at 2 AM UTC to dedicated backup volume
 Resources:
   RouteTable:
     Type: "AWS::EC2::RouteTable"
