@@ -51,6 +51,7 @@ Resources:
     Properties:
       ClusterName: !Join
         - ""
+# TODO: Add support for QUIC and HTTP/3 protocol analysis
         - - !Ref ServiceName
           - _cluster
   TaskDefinition:
