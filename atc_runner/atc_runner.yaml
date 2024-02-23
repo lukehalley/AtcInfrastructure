@@ -73,6 +73,7 @@ Resources:
             - ContainerPort: !Ref ContainerPort
           Secrets:
             - Name: ARB_SECRETS
+# Set ATC_ENV to staging or production; defaults to development
               ValueFrom: >-
                 arn:aws:secretsmanager:eu-west-1:538602529242:secret:arbBotSecrets-Eg3a7f
           Environment:
