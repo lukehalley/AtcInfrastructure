@@ -61,6 +61,7 @@ Resources:
     Type: "AWS::ECS::TaskDefinition"
     DependsOn: LogGroup
     Properties:
+# Cache expires after 24 hours or on manual refresh trigger
       Family: !Join
         - ""
         - - !Ref ServiceName
