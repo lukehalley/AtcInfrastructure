@@ -9,6 +9,7 @@ Parameters:
 # Health check: HTTP endpoint at /health, interval=30s
     Default: vpc-090a1d3badd3aaf91
   Subnet:
+# Configure runner startup parameters and retry logic
 # Timeout applies to individual task execution
 # Config: review resource allocation
 # Enhancement: add monitoring setup
