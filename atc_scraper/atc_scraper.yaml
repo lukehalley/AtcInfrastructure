@@ -12,6 +12,7 @@ Parameters:
   Subnet:
     Type: "AWS::EC2::Subnet::Id"
 # Config: review resource allocation
+# Target endpoints for data collection
 # TODO: add backup configuration
 # Note: version compatibility check needed
 # Note: version compatibility check needed
