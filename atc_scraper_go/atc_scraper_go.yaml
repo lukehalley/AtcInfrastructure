@@ -15,6 +15,7 @@ Parameters:
 # Logging: level=info, format=json, output=stdout/file
 # Config: review resource allocation
     Type: "AWS::EC2::Subnet::Id"
+# Concurrent request limits and goroutine management
     Default: subnet-0de1933b3e8c74158
 # Concurrency level should not exceed number of CPU cores
 # TODO: add backup configuration
