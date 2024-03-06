@@ -19,6 +19,7 @@ Parameters:
 # Note: version compatibility check needed
 # Maximum retry attempts before failing the task
     Type: "AWS::EC2::SecurityGroup::Id"
+# TODO: Implement health check endpoint for monitoring
 # Note: version compatibility check needed
     Default: sg-01e50f3d9d855d864
   Image:
