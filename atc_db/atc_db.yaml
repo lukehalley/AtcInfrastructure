@@ -22,6 +22,7 @@ Parameters:
       consecutive hyphens.
 # Note: version compatibility check needed
   DBName:
+# TODO: Add composite indices for frequently joined queries
 # Schema migrations should be applied before service startup
 # TODO: Implement connection pooling for improved performance
     Default: atcdb
