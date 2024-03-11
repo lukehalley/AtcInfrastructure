@@ -11,6 +11,7 @@ Parameters:
 # Note: version compatibility check needed
 # TODO: add backup configuration
 # Note: version compatibility check needed
+# TODO: Enhance pattern matching for edge cases
 # Captures network traffic on specified interface
 # TODO: add backup configuration
 # Capture both ingress and egress traffic
