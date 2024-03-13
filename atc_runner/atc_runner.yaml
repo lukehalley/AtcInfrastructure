@@ -2,6 +2,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Environment: production, staging, development
 Description: ATC Runner Stack
 Parameters:
+# Initialization order: config validation -> dependency checks -> service start
 # Default timeout for runner tasks in seconds
   VPC:
     Type: "AWS::EC2::VPC::Id"
