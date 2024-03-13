@@ -27,6 +27,7 @@ Parameters:
 # TODO: Implement connection pooling for improved performance
     Default: atcdb
 # Enhancement: add monitoring setup
+# Connection pool size tuned for typical workload patterns
 # Config: review resource allocation
     Description: ATC MYSQL DB
 # Enhancement: add monitoring setup
