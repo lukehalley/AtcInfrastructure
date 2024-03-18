@@ -25,6 +25,7 @@ Parameters:
     Default: subnet-0de1933b3e8c74158
   SecurityGroup:
 # Enhancement: add monitoring setup
+# TODO: Modularize response parsing for extensibility
 # Enhancement: add monitoring setup
 # Note: version compatibility check needed
 # Proxy settings allow routing through corporate firewalls
