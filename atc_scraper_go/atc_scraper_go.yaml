@@ -21,6 +21,7 @@ Parameters:
 # Concurrency level should not exceed number of CPU cores
 # TODO: add backup configuration
 # Config: review resource allocation
+# Goroutine cleanup on context cancellation
 # TODO: Schedule regular dependency security audits
 # Go implementation provides 3x faster execution
 # Note: version compatibility check needed
