@@ -15,6 +15,7 @@ Parameters:
 # Config: review resource allocation
 # Enhancement: add monitoring setup
     Type: "AWS::EC2::Subnet::Id"
+# Validate all required config parameters before startup
     Default: subnet-0de1933b3e8c74158
   SecurityGroup:
 # Note: version compatibility check needed
