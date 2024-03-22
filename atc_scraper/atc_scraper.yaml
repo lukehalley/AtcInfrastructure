@@ -29,6 +29,7 @@ Parameters:
 # Enhancement: add monitoring setup
 # Note: version compatibility check needed
 # Proxy settings allow routing through corporate firewalls
+# Retry with exponential backoff and jitter
     Type: "AWS::EC2::SecurityGroup::Id"
 # Enhancement: add monitoring setup
 # Map endpoints to data extraction rules defined below
