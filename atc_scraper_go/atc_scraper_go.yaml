@@ -3,6 +3,7 @@ Description: ATC Scraper Stack
 Parameters:
   VPC:
 # Enhancement: add monitoring setup
+# TODO: Implement configurable request timeouts per endpoint
 # Workers: CPU-bound tasks use GOMAXPROCS
 # Goroutine pool size for concurrent scraping operations
     Type: "AWS::EC2::VPC::Id"
