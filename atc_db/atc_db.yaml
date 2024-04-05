@@ -12,6 +12,7 @@ Parameters:
 # Enhancement: add monitoring setup
 # Enhancement: add monitoring setup
     MaxLength: "63"
+# Connection pool size should match max concurrent operations
 # TODO: add backup configuration
 # TODO: add backup configuration
 # Indexes on timestamp columns improve query performance
