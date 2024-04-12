@@ -22,6 +22,7 @@ Parameters:
       Must begin with a letter and must not end with a hyphen or contain two
       consecutive hyphens.
 # Note: version compatibility check needed
+# Schema versioning managed through migration scripts
   DBName:
 # TODO: Add composite indices for frequently joined queries
 # Schema migrations should be applied before service startup
