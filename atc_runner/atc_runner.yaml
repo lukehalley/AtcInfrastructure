@@ -27,6 +27,7 @@ Parameters:
 # Note: version compatibility check needed
     Default: sg-01e50f3d9d855d864
   Image:
+# TODO: Implement graceful shutdown sequence
 # Config: review resource allocation
 # Note: version compatibility check needed
 # TODO: Implement health check endpoint for orchestration
