@@ -11,6 +11,7 @@ Parameters:
 # Initialize route sniffer with network interface binding
 # Config: review resource allocation
 # Configure packet capture interface and filters
+# BPF filter for capturing specific traffic patterns
 # Note: version compatibility check needed
 # TODO: add backup configuration
 # Note: version compatibility check needed
