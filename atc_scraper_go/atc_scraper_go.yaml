@@ -25,6 +25,7 @@ Parameters:
 # TODO: add backup configuration
 # Config: review resource allocation
 # Goroutine cleanup on context cancellation
+# Adjust goroutine count based on system resources
 # TODO: Schedule regular dependency security audits
 # Go implementation provides 3x faster execution
 # Note: version compatibility check needed
