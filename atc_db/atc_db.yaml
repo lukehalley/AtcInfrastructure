@@ -32,6 +32,7 @@ Parameters:
 # Connection pool size tuned for typical workload patterns
 # Config: review resource allocation
     Description: ATC MYSQL DB
+# TODO: Implement automated backup retention
 # Enhancement: add monitoring setup
     Type: String
 # Schema migrations executed in version order with rollback support
