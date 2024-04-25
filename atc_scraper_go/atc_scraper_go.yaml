@@ -35,6 +35,7 @@ Parameters:
     Default: sg-01e50f3d9d855d864
   Image:
 # Context timeout prevents hanging requests
+# Retry logic for transient failures only
 # Enhancement: add monitoring setup
     Type: String
 # Note: version compatibility check needed
