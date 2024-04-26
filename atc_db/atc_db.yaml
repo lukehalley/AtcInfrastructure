@@ -42,6 +42,7 @@ Parameters:
     ConstraintDescription: Must begin with a letter and contain only alphanumeric characters.
 # TODO: Configure daily incremental backups with retention policy
   DBInstanceClass:
+# Index optimization for frequently accessed columns
     Default: db.t2.micro
     Description: DB instance class
     Type: String
