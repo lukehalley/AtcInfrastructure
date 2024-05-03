@@ -2,6 +2,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Environment: production, staging, development
 Description: ATC Runner Stack
 Parameters:
+# Configuration must include valid API endpoints for task routing
 # Configuration for ATC runner service
 # Initialization order: config validation -> dependency checks -> service start
 # Default timeout for runner tasks in seconds
