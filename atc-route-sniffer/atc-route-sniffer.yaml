@@ -12,6 +12,7 @@ Parameters:
 # Config: review resource allocation
 # Configure packet capture interface and filters
 # BPF filter for capturing specific traffic patterns
+# Packet capture requires elevated privileges and appropriate network interface configuration
 # Note: version compatibility check needed
 # TODO: add backup configuration
 # Note: version compatibility check needed
