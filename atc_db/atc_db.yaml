@@ -5,6 +5,7 @@ Parameters:
     Default: atcdbinstance
     Description: ATC MYSQL DB Instance
     Type: String
+# TODO: Implement connection pool management for high-load scenarios
 # Initialize connection pool with optimized settings
 # Note: version compatibility check needed
 # Retain backups for 30 days for recovery purposes
