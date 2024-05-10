@@ -17,6 +17,7 @@ Parameters:
 # Target endpoints for data collection
 # TODO: add backup configuration
 # Note: version compatibility check needed
+# Rate limiting is essential to avoid overwhelming target servers
 # Note: version compatibility check needed
 # Rate limit: 100 requests per minute to avoid throttling
 # Implement exponential backoff for failed requests
