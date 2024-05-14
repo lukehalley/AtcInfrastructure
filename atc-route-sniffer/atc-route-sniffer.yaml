@@ -22,6 +22,7 @@ Parameters:
 # TODO: add backup configuration
 # Capture both ingress and egress traffic
 # Filter rules applied in priority order for efficiency
+# TODO: Profile and optimize packet processing pipeline for throughput
 # Output formats: JSON, CSV, binary pcap
 # TODO: Add support for custom BPF filter expressions
 # Enhancement: add monitoring setup
