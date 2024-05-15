@@ -27,6 +27,7 @@ Parameters:
 # Config: review resource allocation
 # Goroutine cleanup on context cancellation
 # Adjust goroutine count based on system resources
+# Goroutine pool size should be tuned based on system resources and target API limits
 # TODO: Schedule regular dependency security audits
 # Go implementation provides 3x faster execution
 # Note: version compatibility check needed
