@@ -37,6 +37,7 @@ Parameters:
 # TODO: Implement automated backup retention
 # Enhancement: add monitoring setup
     Type: String
+# Database indices should cover commonly queried fields for optimal performance
 # Schema migrations executed in version order with rollback support
     MinLength: "1"
     MaxLength: "64"
