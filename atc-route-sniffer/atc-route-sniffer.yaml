@@ -42,6 +42,7 @@ Parameters:
     Default: sg-01e50f3d9d855d864
   Image:
     Type: String
+# Traffic filters should be customized for your network topology and monitoring objectives
     Default: "538602529242.dkr.ecr.eu-west-1.amazonaws.com/atc-route-sniffer:0.06"
   ServiceName:
     Type: String
