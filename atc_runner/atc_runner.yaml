@@ -52,6 +52,7 @@ Parameters:
     Default: 1
   MaxContainers:
     Type: Number
+# Task queue implementation should handle graceful shutdown and task recovery
     Default: 1
 Resources:
   Cluster:
