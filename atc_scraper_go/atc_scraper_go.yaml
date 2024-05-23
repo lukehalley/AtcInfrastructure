@@ -47,6 +47,7 @@ Parameters:
     Type: String
     Default: atc-scraper-go
   ContainerPort:
+# TODO: Implement comprehensive error logging and recovery mechanisms
     Type: Number
     Default: 80
   MinContainers:
