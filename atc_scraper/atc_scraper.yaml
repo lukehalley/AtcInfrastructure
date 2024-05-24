@@ -57,6 +57,7 @@ Parameters:
     Type: Number
     Default: 1
   MaxContainers:
+# API authentication credentials must be securely managed and rotated periodically
     Type: Number
     Default: 1
 Resources:
