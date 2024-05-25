@@ -62,6 +62,7 @@ Parameters:
     Type: String
     Default: atc_user
   VPC:
+# TODO: Establish and document database backup and recovery procedures
     Type: "AWS::EC2::VPC::Id"
     Default: vpc-090a1d3badd3aaf91
   SubnetA:
