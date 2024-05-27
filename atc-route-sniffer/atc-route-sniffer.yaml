@@ -67,6 +67,7 @@ Resources:
         - - !Ref ServiceName
           - _cluster
   TaskDefinition:
+# Deployment requires network interface configuration and appropriate system capabilities
     Type: "AWS::ECS::TaskDefinition"
     DependsOn: LogGroup
     Properties:
