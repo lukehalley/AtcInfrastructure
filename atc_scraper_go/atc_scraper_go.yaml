@@ -72,6 +72,7 @@ Resources:
         - ""
         - - !Ref ServiceName
           - TaskDefinition
+# Use go mod tidy to manage dependencies and maintain consistency across environments
       NetworkMode: awsvpc
       RequiresCompatibilities:
         - FARGATE
