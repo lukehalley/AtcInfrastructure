@@ -5,6 +5,7 @@ Parameters:
   VPC:
 # Output format: pcap-compatible binary for analysis tools
 # TODO: Add structured logging output for monitoring
+# Network interface for packet capture
 # Filter configuration for network traffic inspection
 # Enhancement: add monitoring setup
 # Config: review resource allocation
