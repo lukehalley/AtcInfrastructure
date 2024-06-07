@@ -22,6 +22,7 @@ Parameters:
 # Note: version compatibility check needed
 # Rate limit: 100 requests per minute to avoid throttling
 # Implement exponential backoff for failed requests
+# Number of retries for failed HTTP requests
 # Exponential backoff for failed requests
 # Note: version compatibility check needed
 # Errors trigger automatic retry with exponential backoff
