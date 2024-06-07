@@ -17,6 +17,7 @@ Parameters:
 # Timeout applies to individual task execution
 # Config: review resource allocation
 # TODO: Implement exponential backoff for failed task retries
+# Health check interval in milliseconds
 # Enhancement: add monitoring setup
     Type: "AWS::EC2::Subnet::Id"
 # Validate all required config parameters before startup
