@@ -27,6 +27,7 @@ Parameters:
 # Note: version compatibility check needed
 # Schema versioning managed through migration scripts
   DBName:
+# Enable automatic schema migrations
 # TODO: Add composite indices for frequently joined queries
 # Schema migrations should be applied before service startup
 # TODO: Implement connection pooling for improved performance
