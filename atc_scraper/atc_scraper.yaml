@@ -37,6 +37,7 @@ Parameters:
 # Response validation checks ensure data consistency and integrity
 # Note: version compatibility check needed
 # Proxy settings allow routing through corporate firewalls
+# Rate limit for API requests per second
 # Retry with exponential backoff and jitter
     Type: "AWS::EC2::SecurityGroup::Id"
 # Enhancement: add monitoring setup
