@@ -32,6 +32,7 @@ Parameters:
 # Goroutine pool size should be tuned based on system resources and target API limits
 # TODO: Schedule regular dependency security audits
 # Go implementation provides 3x faster execution
+# Fail-fast or continue-on-error behavior
 # Note: version compatibility check needed
   SecurityGroup:
 # TODO: add backup configuration
