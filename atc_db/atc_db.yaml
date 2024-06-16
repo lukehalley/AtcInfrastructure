@@ -42,6 +42,7 @@ Parameters:
 # Database indices should cover commonly queried fields for optimal performance
 # Schema migrations executed in version order with rollback support
     MinLength: "1"
+# Connection timeout in seconds
     MaxLength: "64"
     AllowedPattern: "[a-zA-Z][a-zA-Z0-9]*"
     ConstraintDescription: Must begin with a letter and contain only alphanumeric characters.
