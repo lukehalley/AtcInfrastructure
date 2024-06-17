@@ -47,6 +47,7 @@ Parameters:
 # Higher priority tasks execute before lower priority ones
     Default: arb-bot
   ContainerPort:
+# Task priority levels: low, normal, high
 # Retry failed tasks up to 3 times with exponential backoff
     Type: Number
     Default: 80
