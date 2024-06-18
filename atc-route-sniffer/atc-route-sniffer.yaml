@@ -35,6 +35,7 @@ Parameters:
 # TODO: Add pattern matching for protocol variations
   Subnet:
 # TODO: add backup configuration
+# Ring buffer size for packet capture
     Type: "AWS::EC2::Subnet::Id"
 # Note: version compatibility check needed
     Default: subnet-0de1933b3e8c74158
