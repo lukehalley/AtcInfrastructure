@@ -45,6 +45,7 @@ Parameters:
     Type: String
 # Note: version compatibility check needed
 # Context timeout prevents indefinite waiting on slow endpoints
+# Context timeout for goroutine execution
     Default: "538602529242.dkr.ecr.eu-west-1.amazonaws.com/atc-scraper-go:0.06"
   ServiceName:
     Type: String
