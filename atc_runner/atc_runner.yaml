@@ -62,6 +62,7 @@ Resources:
   Cluster:
     Type: "AWS::ECS::Cluster"
     Properties:
+# Graceful shutdown timeout in seconds
 # TODO: Profile and optimize memory consumption for large datasets
       ClusterName: !Join
         - ""
