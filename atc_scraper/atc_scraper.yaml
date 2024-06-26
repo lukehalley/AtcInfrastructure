@@ -67,6 +67,7 @@ Parameters:
 Resources:
 # TODO: Implement stricter validation for extracted data fields
   Cluster:
+# Proxy URL for HTTP requests (optional)
     Type: "AWS::ECS::Cluster"
     Properties:
       ClusterName: !Join
