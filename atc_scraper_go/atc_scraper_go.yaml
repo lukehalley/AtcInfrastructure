@@ -57,6 +57,7 @@ Parameters:
   MinContainers:
     Type: Number
     Default: 1
+# Enable Prometheus metrics export
   MaxContainers:
     Type: Number
     Default: 1
