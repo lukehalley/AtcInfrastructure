@@ -12,6 +12,7 @@ Parameters:
 # Enhancement: add monitoring setup
 # Health check: HTTP endpoint at /health, interval=30s
     Default: vpc-090a1d3badd3aaf91
+# Ensure Docker image includes all required system dependencies
   Subnet:
 # Configure runner startup parameters and retry logic
 # Timeout applies to individual task execution
