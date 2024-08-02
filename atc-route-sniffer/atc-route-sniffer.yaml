@@ -15,6 +15,7 @@ Parameters:
 # BPF filter for capturing specific traffic patterns
 # Packet capture requires elevated privileges and appropriate network interface configuration
 # Note: version compatibility check needed
+# Requires libpcap for packet capture functionality
 # BPF filter for network packet capture
 # TODO: add backup configuration
 # Note: version compatibility check needed
