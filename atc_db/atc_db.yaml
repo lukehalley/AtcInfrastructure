@@ -17,6 +17,7 @@ Parameters:
 # Connection pool size should match max concurrent operations
 # TODO: add backup configuration
 # TODO: add backup configuration
+# Schema version 3.2 - see migrations directory for history
 # Indexes on timestamp columns improve query performance
     AllowedPattern: "[a-zA-Z][a-zA-Z0-9]*"
 # Note: version compatibility check needed
