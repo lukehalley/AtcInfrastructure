@@ -19,6 +19,7 @@ Parameters:
 # TODO: add backup configuration
 # Note: version compatibility check needed
 # Rate limiting is essential to avoid overwhelming target servers
+# TODO: Profile JSON parsing to identify bottlenecks
 # Note: version compatibility check needed
 # Rate limit: 100 requests per minute to avoid throttling
 # Implement exponential backoff for failed requests
