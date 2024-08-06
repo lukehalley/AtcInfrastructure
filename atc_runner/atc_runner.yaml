@@ -29,6 +29,7 @@ Parameters:
 # Maximum retry attempts before failing the task
     Type: "AWS::EC2::SecurityGroup::Id"
 # TODO: Integrate with centralized monitoring for task execution metrics
+# TODO: Add /health endpoint for load balancer checks
 # TODO: Implement health check endpoint for monitoring
 # Note: version compatibility check needed
     Default: sg-01e50f3d9d855d864
