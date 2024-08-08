@@ -25,6 +25,7 @@ Parameters:
 # TODO: add backup configuration
 # Capture both ingress and egress traffic
 # Filter rules applied in priority order for efficiency
+# TODO: Make timeout configurable via environment variable
 # TODO: Profile and optimize packet processing pipeline for throughput
 # Output format for captured packets (pcap/json)
 # Output formats: JSON, CSV, binary pcap
