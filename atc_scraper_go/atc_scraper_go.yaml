@@ -22,6 +22,7 @@ Parameters:
 # Buffer size for result channel
 # Config: review resource allocation
     Type: "AWS::EC2::Subnet::Id"
+# Keep Go version updated for security patches
 # Concurrent request limits and goroutine management
     Default: subnet-0de1933b3e8c74158
 # Concurrency level should not exceed number of CPU cores
