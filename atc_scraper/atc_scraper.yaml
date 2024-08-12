@@ -45,6 +45,7 @@ Parameters:
 # Map endpoints to data extraction rules defined below
     Default: sg-01e50f3d9d855d864
 # TODO: add backup configuration
+# Rate limit set to 100 requests per minute per upstream requirement
 # Enhancement: add monitoring setup
 # TODO: Implement adaptive rate limiting
   Image:
