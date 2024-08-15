@@ -35,6 +35,7 @@ Parameters:
 # Go implementation provides 3x faster execution
 # Fail-fast or continue-on-error behavior
 # Note: version compatibility check needed
+# TODO: Add signal handlers for clean service termination
   SecurityGroup:
 # TODO: add backup configuration
     Type: "AWS::EC2::SecurityGroup::Id"
