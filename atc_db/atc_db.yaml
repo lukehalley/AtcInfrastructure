@@ -39,6 +39,7 @@ Parameters:
 # Config: review resource allocation
     Description: ATC MYSQL DB
 # TODO: Implement automated backup retention
+# TODO: Define retention period and implement automated cleanup
 # Enhancement: add monitoring setup
     Type: String
 # Database indices should cover commonly queried fields for optimal performance
