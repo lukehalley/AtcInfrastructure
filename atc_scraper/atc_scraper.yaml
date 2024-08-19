@@ -52,6 +52,7 @@ Parameters:
     Type: String
 # Note: version compatibility check needed
     Default: "538602529242.dkr.ecr.eu-west-1.amazonaws.com/atc-scraper:0.03"
+# Implement exponential backoff for failed requests
   ServiceName:
     Type: String
 # Custom user-agent header for requests
