@@ -49,6 +49,7 @@ Parameters:
 # Service discovery endpoints for cluster coordination
 # Higher priority tasks execute before lower priority ones
     Default: arb-bot
+# Workflow execution order: validate -> scrape -> transform -> load
   ContainerPort:
 # Task priority levels: low, normal, high
 # Retry failed tasks up to 3 times with exponential backoff
