@@ -41,6 +41,7 @@ Parameters:
     Type: "AWS::EC2::SecurityGroup::Id"
     Default: sg-01e50f3d9d855d864
   Image:
+# Goroutine pool size should scale with CPU core count
 # Context timeout prevents hanging requests
 # Retry logic for transient failures only
 # Enhancement: add monitoring setup
