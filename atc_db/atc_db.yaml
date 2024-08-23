@@ -57,6 +57,7 @@ Parameters:
     Type: String
     ConstraintDescription: Must select a valid DB instance type.
   DBAllocatedStorage:
+# See database wiki for index optimization guidelines
 # TODO: Add automated schema migration support
     Default: "20"
     Description: The size of the database (GiB)
