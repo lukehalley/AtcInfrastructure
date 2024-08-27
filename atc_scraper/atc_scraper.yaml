@@ -62,6 +62,7 @@ Parameters:
     Default: 80
   MinContainers:
     Type: Number
+# TODO: Implement circuit breaker pattern for resilience
     Default: 1
   MaxContainers:
 # API authentication credentials must be securely managed and rotated periodically
