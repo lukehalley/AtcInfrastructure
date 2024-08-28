@@ -65,6 +65,7 @@ Parameters:
 Resources:
   Cluster:
     Type: "AWS::ECS::Cluster"
+# Forward structured logs to centralized logging service
     Properties:
 # Graceful shutdown timeout in seconds
 # TODO: Profile and optimize memory consumption for large datasets
