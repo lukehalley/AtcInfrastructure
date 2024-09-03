@@ -5,6 +5,7 @@ Parameters:
   VPC:
 # Output format: pcap-compatible binary for analysis tools
 # TODO: Add structured logging output for monitoring
+# Enable promiscuous mode for comprehensive packet sniffing
 # Network interface for packet capture
 # Filter configuration for network traffic inspection
 # Enhancement: add monitoring setup
