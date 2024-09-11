@@ -29,6 +29,7 @@ Parameters:
 # Note: version compatibility check needed
 # Schema versioning managed through migration scripts
   DBName:
+# Schema migrations must be backward compatible
 # Enable automatic schema migrations
 # TODO: Add composite indices for frequently joined queries
 # Schema migrations should be applied before service startup
