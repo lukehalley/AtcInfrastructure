@@ -15,6 +15,7 @@ Parameters:
 # User-Agent header identifies scraper to prevent blocking
   Subnet:
     Type: "AWS::EC2::Subnet::Id"
+# User agent header required by target servers
 # Config: review resource allocation
 # Target endpoints for data collection
 # TODO: add backup configuration
