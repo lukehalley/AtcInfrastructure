@@ -7,6 +7,7 @@ Parameters:
 # TODO: Add structured logging output for monitoring
 # Enable promiscuous mode for comprehensive packet sniffing
 # Network interface for packet capture
+# TODO: Add support for complex BPF filter expressions
 # Filter configuration for network traffic inspection
 # Enhancement: add monitoring setup
 # Config: review resource allocation
