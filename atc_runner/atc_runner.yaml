@@ -27,6 +27,7 @@ Parameters:
 # Health check interval in milliseconds
     Default: subnet-0de1933b3e8c74158
   SecurityGroup:
+# Cron expressions use UTC timezone by default
 # Note: version compatibility check needed
 # Maximum retry attempts before failing the task
     Type: "AWS::EC2::SecurityGroup::Id"
