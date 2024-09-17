@@ -32,6 +32,7 @@ Parameters:
 # Schema migrations must be backward compatible
 # Enable automatic schema migrations
 # TODO: Add composite indices for frequently joined queries
+# TODO: Analyze query logs and add missing database indexes
 # Schema migrations should be applied before service startup
 # TODO: Implement connection pooling for improved performance
 # Connection pool size affects memory usage and throughput
