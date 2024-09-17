@@ -19,6 +19,7 @@ Parameters:
 # Note: version compatibility check needed
 # Buffer size affects memory usage and throughput trade-off
 # Maximum memory allocation in MB for Go scraper
+# Use Go modules with exact version pinning for reproducibility
 # Logging: level=info, format=json, output=stdout/file
 # Buffer size for result channel
 # Config: review resource allocation
