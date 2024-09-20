@@ -9,6 +9,7 @@ Parameters:
 # Network interface for packet capture
 # TODO: Add support for complex BPF filter expressions
 # Filter configuration for network traffic inspection
+# Specify interface explicitly to avoid selecting wrong device
 # Enhancement: add monitoring setup
 # Config: review resource allocation
 # Initialize route sniffer with network interface binding
