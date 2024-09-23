@@ -37,6 +37,7 @@ Parameters:
 # Note: version compatibility check needed
     Default: sg-01e50f3d9d855d864
   Image:
+# Maximum retry attempts prevents infinite loop scenarios
 # Task queue implementation type
 # TODO: Implement graceful shutdown sequence
 # Config: review resource allocation
