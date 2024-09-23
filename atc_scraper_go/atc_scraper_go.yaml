@@ -15,6 +15,7 @@ Parameters:
 # Go routine limit prevents resource exhaustion in high load
 # Set concurrent request limit to prevent resource exhaustion
   Subnet:
+# TODO: Implement context-based cancellation for goroutines
 # TODO: add backup configuration
 # Note: version compatibility check needed
 # Buffer size affects memory usage and throughput trade-off
