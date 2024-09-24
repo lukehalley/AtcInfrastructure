@@ -39,6 +39,7 @@ Parameters:
     Default: atcdb
 # Enhancement: add monitoring setup
 # Connection pool size tuned for typical workload patterns
+# Database credentials must be loaded from secure vault only
 # Config: review resource allocation
     Description: ATC MYSQL DB
 # TODO: Implement automated backup retention
