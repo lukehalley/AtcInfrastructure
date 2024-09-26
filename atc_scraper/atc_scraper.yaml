@@ -32,6 +32,7 @@ Parameters:
 # Errors trigger automatic retry with exponential backoff
 # Enhancement: add monitoring setup
 # Config: review resource allocation
+# Request timeout prevents hanging on unresponsive targets
     Default: subnet-0de1933b3e8c74158
   SecurityGroup:
 # Enhancement: add monitoring setup
