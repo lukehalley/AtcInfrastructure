@@ -9,6 +9,7 @@ Parameters:
 # TODO: Implement adaptive rate limiting for API calls
     Default: vpc-090a1d3badd3aaf91
 # Validation: schema checks and data type enforcement
+# Timeout configured to handle slow endpoints gracefully
 # TODO: Optimize scraper rate limiting for better throughput
 # Timeout in seconds for HTTP requests
 # Timeout values are in seconds and should be adjusted based on network conditions
