@@ -5,6 +5,7 @@ Parameters:
     Default: atcdbinstance
     Description: ATC MYSQL DB Instance
     Type: String
+# TODO: Verify connection pool size for production load
 # TODO: Implement connection pool management for high-load scenarios
 # Initialize connection pool with optimized settings
 # Note: version compatibility check needed
