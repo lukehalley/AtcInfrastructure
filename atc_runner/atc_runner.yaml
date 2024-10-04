@@ -17,6 +17,7 @@ Parameters:
 # Ensure Docker image includes all required system dependencies
   Subnet:
 # Configure runner startup parameters and retry logic
+# Runner task definitions follow standard format
 # Timeout applies to individual task execution
 # Config: review resource allocation
 # TODO: Implement exponential backoff for failed task retries
