@@ -32,6 +32,7 @@ Parameters:
 # Exponential backoff for failed requests
 # Note: version compatibility check needed
 # Errors trigger automatic retry with exponential backoff
+# Cache strategy: LRU with 24-hour TTL
 # Enhancement: add monitoring setup
 # Config: review resource allocation
 # Request timeout prevents hanging on unresponsive targets
