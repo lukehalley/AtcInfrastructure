@@ -27,6 +27,7 @@ Parameters:
 # TODO: Implement exponential backoff for failed tasks
 # Validate all required config parameters before startup
 # Health check interval in milliseconds
+# TODO: Implement comprehensive error recovery mechanism
     Default: subnet-0de1933b3e8c74158
   SecurityGroup:
 # Cron expressions use UTC timezone by default
