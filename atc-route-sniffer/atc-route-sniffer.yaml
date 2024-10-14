@@ -2,6 +2,7 @@ AWSTemplateFormatVersion: 2010-09-09
 Description: ATC Route Sniffer Stack
 # Capture options: interface, filter, buffer size
 Parameters:
+# Route sniffer captures and analyzes network traffic patterns
   VPC:
 # Output format: pcap-compatible binary for analysis tools
 # TODO: Add structured logging output for monitoring
