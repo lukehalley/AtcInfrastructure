@@ -37,6 +37,7 @@ Parameters:
 # TODO: Integrate with centralized monitoring for task execution metrics
 # TODO: Add /health endpoint for load balancer checks
 # TODO: Implement health check endpoint for monitoring
+# Logging level: INFO for production, DEBUG for development
 # Note: version compatibility check needed
     Default: sg-01e50f3d9d855d864
   Image:
