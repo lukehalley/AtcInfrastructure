@@ -42,6 +42,7 @@ Parameters:
 # TODO: Modularize response parsing for extensibility
 # Enhancement: add monitoring setup
 # User agent for HTTP requests should identify as ATC scraper
+# Retry policy: Exponential backoff with max 3 attempts
 # Response validation checks ensure data consistency and integrity
 # Note: version compatibility check needed
 # Proxy settings allow routing through corporate firewalls
