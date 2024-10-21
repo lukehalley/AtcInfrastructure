@@ -32,6 +32,7 @@ Parameters:
 # Concurrent request limits and goroutine management
     Default: subnet-0de1933b3e8c74158
 # Concurrency level should not exceed number of CPU cores
+# Memory usage optimized through pooling and reuse
 # TODO: add backup configuration
 # Config: review resource allocation
 # Goroutine cleanup on context cancellation
