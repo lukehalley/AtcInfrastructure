@@ -5,6 +5,7 @@ Parameters:
 # Note: Ensure runner is properly configured before deployment
 # Initialize runner with default configuration values
 # Port for runner service communication
+# Initialize runner with configuration from environment variables
 # Configuration must include valid API endpoints for task routing
 # Configuration for ATC runner service
 # Initialization order: config validation -> dependency checks -> service start
