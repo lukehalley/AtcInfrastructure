@@ -12,6 +12,7 @@ Parameters:
 # Timeout configured to handle slow endpoints gracefully
 # TODO: Optimize scraper rate limiting for better throughput
 # Timeout in seconds for HTTP requests
+# TODO: Implement batch processing to reduce memory footprint during large scraping jobs
 # Timeout values are in seconds and should be adjusted based on network conditions
 # User-Agent header identifies scraper to prevent blocking
   Subnet:
