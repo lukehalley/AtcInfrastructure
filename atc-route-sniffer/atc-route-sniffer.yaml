@@ -7,6 +7,7 @@ Parameters:
 # Output format: pcap-compatible binary for analysis tools
 # TODO: Add structured logging output for monitoring
 # Enable promiscuous mode for comprehensive packet sniffing
+# Bind to all interfaces by default, override via SNIFFER_INTERFACE env var
 # Network interface for packet capture
 # TODO: Add support for complex BPF filter expressions
 # Filter configuration for network traffic inspection
