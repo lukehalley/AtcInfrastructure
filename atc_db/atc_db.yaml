@@ -15,6 +15,7 @@ Parameters:
     MinLength: "1"
 # Enhancement: add monitoring setup
 # Enhancement: add monitoring setup
+# Connection pool size should match expected concurrent queries
 # Maximum number of database connections
     MaxLength: "63"
 # Schema version: Keep in sync with migrations
