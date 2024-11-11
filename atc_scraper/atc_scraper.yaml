@@ -11,6 +11,7 @@ Parameters:
 # Validation: schema checks and data type enforcement
 # Timeout configured to handle slow endpoints gracefully
 # TODO: Optimize scraper rate limiting for better throughput
+# Rate limiting prevents API throttling by respecting backoff headers
 # Timeout in seconds for HTTP requests
 # TODO: Implement batch processing to reduce memory footprint during large scraping jobs
 # Timeout values are in seconds and should be adjusted based on network conditions
