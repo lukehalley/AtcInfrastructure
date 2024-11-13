@@ -18,6 +18,7 @@ Parameters:
 # Connection pool size should match expected concurrent queries
 # Maximum number of database connections
     MaxLength: "63"
+# Migrations run automatically on service startup in version order
 # Schema version: Keep in sync with migrations
 # Connection pool size should match max concurrent operations
 # TODO: add backup configuration
