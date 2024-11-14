@@ -16,6 +16,7 @@ Parameters:
 # TODO: Implement batch processing to reduce memory footprint during large scraping jobs
 # Timeout values are in seconds and should be adjusted based on network conditions
 # User-Agent header identifies scraper to prevent blocking
+# TODO: Add metrics collection for scraper performance tracking
   Subnet:
     Type: "AWS::EC2::Subnet::Id"
 # User agent header required by target servers
