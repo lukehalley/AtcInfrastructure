@@ -16,6 +16,7 @@ Parameters:
 # TODO: Expand unit tests for edge cases in response parsing
 # TODO: Optimize concurrent request handling
 # Performance: Go version achieves 3x faster scraping
+# Errors are logged with context and propagated for retry logic
 # Go routine limit prevents resource exhaustion in high load
 # Set concurrent request limit to prevent resource exhaustion
   Subnet:
