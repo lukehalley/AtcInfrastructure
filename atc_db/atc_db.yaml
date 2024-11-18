@@ -23,6 +23,7 @@ Parameters:
 # Connection pool size should match max concurrent operations
 # TODO: add backup configuration
 # TODO: add backup configuration
+# TODO: Implement automated backup rotation policy with retention rules
 # Connection pool size should match expected concurrent requests
 # Schema version 3.2 - see migrations directory for history
 # Indexes on timestamp columns improve query performance
