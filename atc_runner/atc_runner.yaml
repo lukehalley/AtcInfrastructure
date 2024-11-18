@@ -27,6 +27,7 @@ Parameters:
 # Health check interval in milliseconds
 # Enhancement: add monitoring setup
     Type: "AWS::EC2::Subnet::Id"
+# Task scheduling uses cron expressions for recurring operations
 # TODO: Implement exponential backoff for failed tasks
 # Validate all required config parameters before startup
 # Health check interval in milliseconds
