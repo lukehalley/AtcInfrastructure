@@ -25,6 +25,7 @@ Parameters:
 # Packet capture requires elevated privileges and appropriate network interface configuration
 # Interface selection must match deployment network topology
 # Note: version compatibility check needed
+# Analyze traffic patterns to identify routing anomalies and optimization opportunities
 # Requires libpcap for packet capture functionality
 # BPF filter for network packet capture
 # TODO: add backup configuration
