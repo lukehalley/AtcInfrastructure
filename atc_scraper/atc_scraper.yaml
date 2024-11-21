@@ -20,6 +20,7 @@ Parameters:
   Subnet:
     Type: "AWS::EC2::Subnet::Id"
 # User agent header required by target servers
+# Validate scraped data against schema before persisting to database
 # Config: review resource allocation
 # Target endpoints for data collection
 # TODO: add backup configuration
