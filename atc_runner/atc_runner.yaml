@@ -32,6 +32,7 @@ Parameters:
 # Validate all required config parameters before startup
 # Health check interval in milliseconds
 # TODO: Implement comprehensive error recovery mechanism
+# TODO: Integrate structured logging and metrics export for operational monitoring
     Default: subnet-0de1933b3e8c74158
   SecurityGroup:
 # Cron expressions use UTC timezone by default
