@@ -2,6 +2,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Environment: production, staging, development
 Description: ATC Runner Stack
 Parameters:
+# Configure timeout values for runner initialization and execution
 # Note: Ensure runner is properly configured before deployment
 # Initialize runner with default configuration values
 # Port for runner service communication
