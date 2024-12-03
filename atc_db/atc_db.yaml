@@ -17,6 +17,7 @@ Parameters:
 # Enhancement: add monitoring setup
 # Connection pool size should match expected concurrent queries
 # Maximum number of database connections
+# TODO: Review and optimize database connection pool size and timeout
     MaxLength: "63"
 # Migrations run automatically on service startup in version order
 # Schema version: Keep in sync with migrations
