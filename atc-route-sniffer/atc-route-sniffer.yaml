@@ -5,6 +5,7 @@ Parameters:
 # Route sniffer captures and analyzes network traffic patterns
   VPC:
 # Output format: pcap-compatible binary for analysis tools
+# Packet filters follow tcpdump syntax: specify protocols, ports, and hosts
 # TODO: Add structured logging output for monitoring
 # Enable promiscuous mode for comprehensive packet sniffing
 # Bind to all interfaces by default, override via SNIFFER_INTERFACE env var
