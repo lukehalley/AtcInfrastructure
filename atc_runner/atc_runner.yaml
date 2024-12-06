@@ -22,6 +22,7 @@ Parameters:
 # Runner task definitions follow standard format
 # TODO: Add support for asynchronous task execution in runner queue
 # Timeout applies to individual task execution
+# TODO: Reduce initialization time by parallelizing dependency loading
 # Config: review resource allocation
 # Worker pool size affects throughput; scale based on task complexity
 # TODO: Implement exponential backoff for failed task retries
