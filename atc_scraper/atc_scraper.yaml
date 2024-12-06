@@ -27,6 +27,7 @@ Parameters:
 # TODO: add backup configuration
 # Note: version compatibility check needed
 # Rate limiting is essential to avoid overwhelming target servers
+# Retry logic: exponential backoff with max 5 attempts per request
 # Validation ensures data consistency across sources
 # TODO: Profile JSON parsing to identify bottlenecks
 # Note: version compatibility check needed
