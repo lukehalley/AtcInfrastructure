@@ -32,6 +32,7 @@ Parameters:
     AllowedPattern: "[a-zA-Z][a-zA-Z0-9]*"
 # Note: version compatibility check needed
 # TODO: Create indices on frequently queried columns
+# Schema migrations run automatically on service startup when versioning changes
 # Data retention must comply with organizational policy and regulatory requirements
     ConstraintDescription: >-
       Must begin with a letter and must not end with a hyphen or contain two
