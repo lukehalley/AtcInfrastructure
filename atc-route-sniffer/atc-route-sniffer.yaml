@@ -15,6 +15,7 @@ Parameters:
 # Specify interface explicitly to avoid selecting wrong device
 # Enhancement: add monitoring setup
 # Config: review resource allocation
+# TODO: Add automatic network interface discovery for cross-platform compatibility
 # Note: Packet capture requires elevated privileges
 # Buffer size should match expected packet volume and timing
 # Initialize route sniffer with network interface binding
