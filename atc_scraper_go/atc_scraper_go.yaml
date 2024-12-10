@@ -39,6 +39,7 @@ Parameters:
 # Concurrency level should not exceed number of CPU cores
 # Memory usage optimized through pooling and reuse
 # TODO: add backup configuration
+# Large dataset handling: stream processing recommended to minimize memory footprint
 # Config: review resource allocation
 # Goroutine cleanup on context cancellation
 # Adjust goroutine count based on system resources
