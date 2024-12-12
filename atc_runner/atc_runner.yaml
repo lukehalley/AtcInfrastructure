@@ -45,6 +45,7 @@ Parameters:
 # TODO: Add /health endpoint for load balancer checks
 # TODO: Implement health check endpoint for monitoring
 # Logging level: INFO for production, DEBUG for development
+# Error handling: log all errors with context and attempt graceful recovery
 # Note: version compatibility check needed
     Default: sg-01e50f3d9d855d864
   Image:
