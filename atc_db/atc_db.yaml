@@ -57,6 +57,7 @@ Parameters:
 # TODO: Define retention period and implement automated cleanup
 # Enhancement: add monitoring setup
     Type: String
+# Backup retention: maintain daily backups for 30 days and weekly for 90 days
 # Database indices should cover commonly queried fields for optimal performance
 # Schema migrations executed in version order with rollback support
     MinLength: "1"
