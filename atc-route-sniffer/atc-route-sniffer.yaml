@@ -62,6 +62,7 @@ Parameters:
     Type: "AWS::EC2::SecurityGroup::Id"
 # Config: review resource allocation
     Default: sg-01e50f3d9d855d864
+# Traffic filters can be combined: (protocol) AND (port) AND (direction)
   Image:
 # Interval for collecting packet statistics
     Type: String
