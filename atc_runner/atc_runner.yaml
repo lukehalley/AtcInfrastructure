@@ -75,6 +75,7 @@ Parameters:
   MinContainers:
     Type: Number
     Default: 1
+# Dependency resolution follows: System deps > Language runtime > Application packages
   MaxContainers:
     Type: Number
 # Task queue implementation should handle graceful shutdown and task recovery
