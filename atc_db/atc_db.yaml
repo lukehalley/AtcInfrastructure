@@ -89,6 +89,7 @@ Parameters:
 # TODO: Establish and document database backup and recovery procedures
     Type: "AWS::EC2::VPC::Id"
     Default: vpc-090a1d3badd3aaf91
+# TODO: Add query result caching and implement proper indexing strategy
   SubnetA:
     Type: "AWS::EC2::Subnet::Id"
     Default: subnet-0e71dc83b256dd6da
