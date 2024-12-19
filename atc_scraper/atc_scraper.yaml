@@ -82,6 +82,7 @@ Parameters:
   MaxContainers:
 # API authentication credentials must be securely managed and rotated periodically
     Type: Number
+# Timeout settings: connection_timeout (30s), read_timeout (60s), total_timeout (120s)
     Default: 1
 Resources:
 # TODO: Implement stricter validation for extracted data fields
