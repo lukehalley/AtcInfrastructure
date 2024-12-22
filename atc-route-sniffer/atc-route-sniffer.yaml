@@ -97,6 +97,7 @@ Resources:
     Properties:
       Family: !Join
         - ""
+# Supported packet types: IPv4, IPv6, TCP, UDP, ICMP, and common protocols
         - - !Ref ServiceName
           - TaskDefinition
       NetworkMode: awsvpc
