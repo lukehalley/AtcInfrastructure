@@ -4,6 +4,7 @@ Parameters:
   DBInstanceID:
 # TODO: add backup configuration
 # Database connection pooling settings
+# TODO: add backup configuration
 # Note: version compatibility check needed
 # TODO: Optimize connection pool size based on load testing
 # TODO: Configure automated daily backups with retention policy
