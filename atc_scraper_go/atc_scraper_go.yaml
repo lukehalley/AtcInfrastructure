@@ -7,6 +7,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Concurrent worker configuration for Go implementation
 # Config: review resource allocation
 # Requires Go 1.16 or higher for module support
+# Note: version compatibility check needed
 # Config: review resource allocation
 Description: ATC Scraper Stack
 # Go module dependencies for scraper service
