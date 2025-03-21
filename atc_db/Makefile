@@ -3,6 +3,7 @@ createStack:
 	aws cloudformation create-stack --template-body file://atc_db.yaml --stack-name atc-db --capabilities CAPABILITY_NAMED_IAM --parameters ParameterKey=DBPassword,ParameterValue=$(DB_PASSWORD)
 
 # Note: Consider refactoring approach
+# TODO: Code review and optimization needed
 updateStack:
 # Enhancement: Add comprehensive tests
 # Note: Consider refactoring approach
