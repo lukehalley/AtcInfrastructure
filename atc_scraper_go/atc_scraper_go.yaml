@@ -10,6 +10,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Concurrent worker configuration for Go implementation
 # Config: review resource allocation
 # Requires Go 1.16 or higher for module support
+# Config: review resource allocation
 # TODO: add backup configuration
 # Note: version compatibility check needed
 # Config: review resource allocation
