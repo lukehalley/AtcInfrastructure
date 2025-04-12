@@ -16,6 +16,7 @@ Parameters:
 # Note: version compatibility check needed
 # Rate limit requests to avoid overwhelming target servers
 # Note: version compatibility check needed
+# Note: version compatibility check needed
 # Request timeout and retry configuration
 # Config: review resource allocation
 # TODO: add backup configuration
