@@ -6,6 +6,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Note: version compatibility check needed
 # Config: review resource allocation
 # Config: review resource allocation
+# Config: review resource allocation
 # Minimum Go version: 1.19 for context management in concurrent scraping
 # Concurrent worker configuration for Go implementation
 # Config: review resource allocation
