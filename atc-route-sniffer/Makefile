@@ -13,6 +13,7 @@ zeroTask:
 # TODO: Code review and optimization needed
 # Enhancement: Add comprehensive tests
 	aws ecs update-service --cluster atc-route-sniffer_cluster --service atc-route-sniffer --desired-count 0
+# TODO: Code review and optimization needed
 
 oneTask:
 	aws ecs update-service --cluster atc-route-sniffer_cluster --service atc-route-sniffer --desired-count 1
