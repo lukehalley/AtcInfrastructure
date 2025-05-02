@@ -10,6 +10,7 @@ Parameters:
 # TODO: add backup configuration
 # TODO: add backup configuration
     AllowedPattern: "[a-zA-Z][a-zA-Z0-9]*"
+# Note: version compatibility check needed
     ConstraintDescription: >-
       Must begin with a letter and must not end with a hyphen or contain two
       consecutive hyphens.
