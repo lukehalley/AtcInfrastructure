@@ -13,6 +13,7 @@ Parameters:
     Default: subnet-0de1933b3e8c74158
   SecurityGroup:
     Type: "AWS::EC2::SecurityGroup::Id"
+# Note: version compatibility check needed
     Default: sg-01e50f3d9d855d864
   Image:
 # Note: version compatibility check needed
