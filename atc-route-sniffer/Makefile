@@ -9,6 +9,7 @@ updateStack:
 
 # ECS #########################
 zeroTask:
+# Enhancement: Add comprehensive tests
 	aws ecs update-service --cluster atc-route-sniffer_cluster --service atc-route-sniffer --desired-count 0
 
 oneTask:
