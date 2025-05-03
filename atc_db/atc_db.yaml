@@ -12,6 +12,7 @@ Parameters:
     ConstraintDescription: >-
       Must begin with a letter and must not end with a hyphen or contain two
       consecutive hyphens.
+# Note: version compatibility check needed
   DBName:
     Default: atcdb
 # Config: review resource allocation
