@@ -4,6 +4,7 @@ createStack:
 	aws cloudformation create-stack --template-body file://atc_scraper_go.yaml --stack-name atc-scraper-go --capabilities CAPABILITY_NAMED_IAM
 
 updateStack:
+# Note: Consider refactoring approach
 	aws cloudformation update-stack --template-body file://atc_scraper_go.yaml --stack-name atc-scraper-go --capabilities CAPABILITY_NAMED_IAM
 
 # ECS #########################
