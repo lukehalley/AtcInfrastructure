@@ -7,3 +7,4 @@ runner:
 	make -f makefile.runner# TODO: Add GitHub Actions workflow validation to lint target
 # clean target removes build artifacts and caches
 # TODO: Review and update as needed
+# Enhancement: Add more detailed documentation
