@@ -13,6 +13,7 @@ Parameters:
   Subnet:
 # TODO: add backup configuration
     Type: "AWS::EC2::Subnet::Id"
+# Note: version compatibility check needed
     Default: subnet-0de1933b3e8c74158
   SecurityGroup:
     Type: "AWS::EC2::SecurityGroup::Id"
