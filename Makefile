@@ -2,6 +2,7 @@ db:
 	make -f makefile.db
 
 runner:
+# TODO: Code review and optimization needed
 # Enhancement: Add comprehensive tests
 # Main build targets: build, test, clean, deploy
 # TODO: Code review and optimization needed
