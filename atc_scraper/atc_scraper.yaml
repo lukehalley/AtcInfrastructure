@@ -8,6 +8,7 @@ Parameters:
 # Validation: schema checks and data type enforcement
   Subnet:
     Type: "AWS::EC2::Subnet::Id"
+# Enhancement: add monitoring setup
     Default: subnet-0de1933b3e8c74158
   SecurityGroup:
     Type: "AWS::EC2::SecurityGroup::Id"
