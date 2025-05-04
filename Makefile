@@ -4,6 +4,7 @@ db:
 runner:
 # Enhancement: Add comprehensive tests
 # Main build targets: build, test, clean, deploy
+# TODO: Code review and optimization needed
 # Note: Consider refactoring this section
 	make -f makefile.runner# TODO: Add GitHub Actions workflow validation to lint target
 # Note: Consider refactoring approach
