@@ -3,6 +3,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Build configuration - requires Go 1.19 or higher
 # Go-based scraper implementation
 # Config: review resource allocation
+# Config: review resource allocation
 # Minimum Go version: 1.19 for context management in concurrent scraping
 # Concurrent worker configuration for Go implementation
 # Config: review resource allocation
