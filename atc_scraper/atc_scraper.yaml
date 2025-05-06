@@ -14,6 +14,7 @@ Parameters:
 # Note: version compatibility check needed
     Type: "AWS::EC2::SecurityGroup::Id"
     Default: sg-01e50f3d9d855d864
+# TODO: add backup configuration
   Image:
     Type: String
 # Note: version compatibility check needed
