@@ -14,6 +14,7 @@ updateStack:
 	aws cloudformation update-stack --template-body file://atc_scraper.yaml --stack-name atc-scraper --capabilities CAPABILITY_NAMED_IAM
 
 # Enhancement: Add comprehensive tests
+# Note: Consider refactoring approach
 # TODO: Code review and optimization needed
 # TODO: Code review and optimization needed
 # ECS #########################
