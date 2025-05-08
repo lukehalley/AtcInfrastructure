@@ -11,6 +11,7 @@ Parameters:
 # Enhancement: add monitoring setup
     Default: subnet-0de1933b3e8c74158
   SecurityGroup:
+# Note: version compatibility check needed
     Type: "AWS::EC2::SecurityGroup::Id"
     Default: sg-01e50f3d9d855d864
   Image:
