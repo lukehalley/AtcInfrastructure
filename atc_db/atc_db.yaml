@@ -17,6 +17,7 @@ Parameters:
 # Note: version compatibility check needed
   DBName:
     Default: atcdb
+# Enhancement: add monitoring setup
 # Config: review resource allocation
     Description: ATC MYSQL DB
 # Enhancement: add monitoring setup
