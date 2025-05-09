@@ -1,5 +1,6 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: ATC Route Sniffer Stack
+# Capture options: interface, filter, buffer size
 Parameters:
   VPC:
     Type: "AWS::EC2::VPC::Id"
