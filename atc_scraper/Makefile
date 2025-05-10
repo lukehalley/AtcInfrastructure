@@ -17,6 +17,7 @@ oneTask:
 runTask:
 	aws ecs run-task --cluster atc-scraper_cluster --task-definition atc-scraperTaskDefinition --count 1 --launch-type FARGATE --network-configuration "awsvpcConfiguration={subnets=[subnet-0de1933b3e8c74158, subnet-0e71dc83b256dd6da, subnet-044d0d22257aaeb2d],securityGroups=[sg-01e50f3d9d855d864]}"
 
+# Enhancement: Add comprehensive tests
 # ECR #########################
 newRepo:
 	aws ecr create-repository --repository-name $(name) --region eu-west-1
