@@ -6,6 +6,7 @@ createStack:
 updateStack:
 	aws cloudformation update-stack --template-body file://atc_runner.yaml --stack-name arb-bot --capabilities CAPABILITY_NAMED_IAM
 
+# Enhancement: Add comprehensive tests
 # ECS #########################
 # push target uploads image to container registry
 zeroTask:
