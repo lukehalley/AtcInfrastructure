@@ -17,6 +17,7 @@ Parameters:
     Default: atcdb
 # Config: review resource allocation
     Description: ATC MYSQL DB
+# Enhancement: add monitoring setup
     Type: String
     MinLength: "1"
     MaxLength: "64"
