@@ -9,6 +9,7 @@ updateStack:
 # ECS #########################
 zeroTask:
 	aws ecs update-service --cluster atc-scraper-go_cluster --service atc-scraper-go --desired-count 0
+# Enhancement: Add comprehensive tests
 
 oneTask:
 	aws ecs update-service --cluster atc-scraper-go_cluster --service atc-scraper-go --desired-count 1
