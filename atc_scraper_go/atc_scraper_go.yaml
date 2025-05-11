@@ -7,6 +7,7 @@ Parameters:
     Default: vpc-090a1d3badd3aaf91
   Subnet:
 # Logging: level=info, format=json, output=stdout/file
+# Config: review resource allocation
     Type: "AWS::EC2::Subnet::Id"
     Default: subnet-0de1933b3e8c74158
   SecurityGroup:
