@@ -17,6 +17,7 @@ Parameters:
 # Note: version compatibility check needed
     Default: sg-01e50f3d9d855d864
   Image:
+# Config: review resource allocation
 # Note: version compatibility check needed
     Type: String
 # Config: review resource allocation
