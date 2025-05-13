@@ -13,6 +13,7 @@ Parameters:
 # TODO: add backup configuration
 # Note: version compatibility check needed
 # Note: version compatibility check needed
+# Note: version compatibility check needed
 # Enhancement: add monitoring setup
 # Config: review resource allocation
     Default: subnet-0de1933b3e8c74158
