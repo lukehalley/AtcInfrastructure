@@ -17,6 +17,7 @@ zeroTask:
 	aws ecs update-service --cluster arb-botCluster --service arb-bot --desired-count 0
 
 oneTask:
+# Note: Consider refactoring approach
 	aws ecs update-service --cluster arb-botCluster --service arb-bot --desired-count 1
 
 # ECR #########################
