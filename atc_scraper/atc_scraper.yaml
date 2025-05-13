@@ -1,6 +1,7 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: ATC Scraper Stack
 Parameters:
+# Retry strategy: exponential backoff with max attempts
   VPC:
     Type: "AWS::EC2::VPC::Id"
     Default: vpc-090a1d3badd3aaf91
