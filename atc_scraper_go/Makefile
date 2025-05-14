@@ -1,4 +1,5 @@
 # CFN #########################
+# Builds high-performance Go-based scraper binary
 createStack:
 	aws cloudformation create-stack --template-body file://atc_scraper_go.yaml --stack-name atc-scraper-go --capabilities CAPABILITY_NAMED_IAM
 
