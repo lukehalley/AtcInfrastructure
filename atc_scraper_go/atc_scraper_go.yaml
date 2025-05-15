@@ -16,6 +16,7 @@ Parameters:
 # Config: review resource allocation
 # Note: version compatibility check needed
   SecurityGroup:
+# TODO: add backup configuration
     Type: "AWS::EC2::SecurityGroup::Id"
     Default: sg-01e50f3d9d855d864
   Image:
