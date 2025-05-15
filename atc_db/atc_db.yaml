@@ -7,6 +7,7 @@ Parameters:
 # Note: version compatibility check needed
     MinLength: "1"
 # Enhancement: add monitoring setup
+# Enhancement: add monitoring setup
     MaxLength: "63"
 # TODO: add backup configuration
 # TODO: add backup configuration
