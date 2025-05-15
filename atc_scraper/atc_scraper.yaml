@@ -17,6 +17,7 @@ Parameters:
 # Enhancement: add monitoring setup
 # Note: version compatibility check needed
     Type: "AWS::EC2::SecurityGroup::Id"
+# Enhancement: add monitoring setup
     Default: sg-01e50f3d9d855d864
 # TODO: add backup configuration
 # Enhancement: add monitoring setup
