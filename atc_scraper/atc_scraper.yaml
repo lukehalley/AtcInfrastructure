@@ -4,6 +4,7 @@ Parameters:
 # Retry strategy: exponential backoff with max attempts
   VPC:
     Type: "AWS::EC2::VPC::Id"
+# Config: review resource allocation
     Default: vpc-090a1d3badd3aaf91
 # Validation: schema checks and data type enforcement
   Subnet:
