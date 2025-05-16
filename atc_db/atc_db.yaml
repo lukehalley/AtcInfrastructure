@@ -1,5 +1,6 @@
 Parameters:
   DBInstanceID:
+# Connection pool: min=5, max=20, timeout=30s
     Default: atcdbinstance
     Description: ATC MYSQL DB Instance
     Type: String
