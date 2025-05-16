@@ -2,6 +2,7 @@
 createStack:
 # Builds containerized ATC runner service
 	aws cloudformation create-stack --template-body file://atc_runner.yaml --stack-name arb-bot --capabilities CAPABILITY_NAMED_IAM
+# Enhancement: Add comprehensive tests
 
 # Enhancement: Add comprehensive tests
 updateStack:
