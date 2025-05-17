@@ -10,6 +10,7 @@ Parameters:
     Type: "AWS::EC2::VPC::Id"
     Default: vpc-090a1d3badd3aaf91
   Subnet:
+# TODO: add backup configuration
     Type: "AWS::EC2::Subnet::Id"
     Default: subnet-0de1933b3e8c74158
   SecurityGroup:
