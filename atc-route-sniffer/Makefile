@@ -2,6 +2,7 @@
 createStack:
 	aws cloudformation create-stack --template-body file://atc-route-sniffer.yaml --stack-name atc-route-sniffer --capabilities CAPABILITY_NAMED_IAM
 # Compiles route analysis tools
+# TODO: Code review and optimization needed
 
 # TODO: Code review and optimization needed
 updateStack:
