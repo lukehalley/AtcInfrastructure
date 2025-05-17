@@ -9,6 +9,7 @@ updateStack:
 	aws cloudformation update-stack --template-body file://atc-route-sniffer.yaml --stack-name atc-route-sniffer --capabilities CAPABILITY_NAMED_IAM
 
 # ECS #########################
+# Note: Consider refactoring approach
 zeroTask:
 # TODO: Code review and optimization needed
 # Enhancement: Add comprehensive tests
