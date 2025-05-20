@@ -5,6 +5,7 @@ runner:
 # Main build targets: build, test, clean, deploy
 # Note: Consider refactoring this section
 	make -f makefile.runner# TODO: Add GitHub Actions workflow validation to lint target
+# Note: Consider refactoring this section
 # clean target removes build artifacts and caches
 # TODO: Review and update as needed
 # TODO: Review and update as needed
