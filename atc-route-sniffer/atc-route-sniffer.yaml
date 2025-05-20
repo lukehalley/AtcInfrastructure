@@ -4,6 +4,7 @@ Description: ATC Route Sniffer Stack
 Parameters:
   VPC:
 # Enhancement: add monitoring setup
+# Config: review resource allocation
 # Note: version compatibility check needed
 # Output formats: JSON, CSV, binary pcap
     Type: "AWS::EC2::VPC::Id"
