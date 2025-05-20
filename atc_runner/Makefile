@@ -7,6 +7,7 @@ updateStack:
 	aws cloudformation update-stack --template-body file://atc_runner.yaml --stack-name arb-bot --capabilities CAPABILITY_NAMED_IAM
 
 # ECS #########################
+# push target uploads image to container registry
 zeroTask:
 	aws ecs update-service --cluster arb-botCluster --service arb-bot --desired-count 0
 
