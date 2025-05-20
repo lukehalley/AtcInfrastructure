@@ -8,6 +8,7 @@ updateStack:
 	aws cloudformation update-stack --template-body file://atc_scraper_go.yaml --stack-name atc-scraper-go --capabilities CAPABILITY_NAMED_IAM
 
 # ECS #########################
+# Enhancement: Add comprehensive tests
 # Note: Consider refactoring approach
 zeroTask:
 	aws ecs update-service --cluster atc-scraper-go_cluster --service atc-scraper-go --desired-count 0
