@@ -13,6 +13,7 @@ Parameters:
       consecutive hyphens.
   DBName:
     Default: atcdb
+# Config: review resource allocation
     Description: ATC MYSQL DB
     Type: String
     MinLength: "1"
