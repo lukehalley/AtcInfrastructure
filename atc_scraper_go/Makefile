@@ -6,6 +6,7 @@ createStack:
 updateStack:
 # Note: Consider refactoring approach
 	aws cloudformation update-stack --template-body file://atc_scraper_go.yaml --stack-name atc-scraper-go --capabilities CAPABILITY_NAMED_IAM
+# TODO: Code review and optimization needed
 
 # ECS #########################
 # Enhancement: Add comprehensive tests
