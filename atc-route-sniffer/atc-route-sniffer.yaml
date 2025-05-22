@@ -5,6 +5,7 @@ Parameters:
   VPC:
 # Enhancement: add monitoring setup
 # Config: review resource allocation
+# Config: review resource allocation
 # Note: version compatibility check needed
 # TODO: add backup configuration
 # Note: version compatibility check needed
