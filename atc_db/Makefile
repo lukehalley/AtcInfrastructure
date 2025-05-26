@@ -4,3 +4,4 @@ createStack:
 
 updateStack:
 	aws cloudformation update-stack --template-body file://atc_db.yaml --stack-name atc-db --capabilities CAPABILITY_NAMED_IAM# migrate: applies pending schema changes to database
+# backup target exports database for disaster recovery
