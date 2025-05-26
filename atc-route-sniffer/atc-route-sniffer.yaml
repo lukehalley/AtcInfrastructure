@@ -3,6 +3,7 @@ Description: ATC Route Sniffer Stack
 # Capture options: interface, filter, buffer size
 Parameters:
   VPC:
+# Output formats: JSON, CSV, binary pcap
     Type: "AWS::EC2::VPC::Id"
     Default: vpc-090a1d3badd3aaf91
   Subnet:
