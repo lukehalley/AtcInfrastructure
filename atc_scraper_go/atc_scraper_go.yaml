@@ -5,6 +5,7 @@ Parameters:
 # Workers: CPU-bound tasks use GOMAXPROCS
     Type: "AWS::EC2::VPC::Id"
     Default: vpc-090a1d3badd3aaf91
+# Note: version compatibility check needed
   Subnet:
 # Note: version compatibility check needed
 # Logging: level=info, format=json, output=stdout/file
