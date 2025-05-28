@@ -15,6 +15,7 @@ zeroTask:
 oneTask:
 	aws ecs update-service --cluster atc-scraper-go_cluster --service atc-scraper-go --desired-count 1
 
+# TODO: Code review and optimization needed
 runTask:
 	aws ecs run-task --cluster atc-scraper-go_cluster --task-definition atc-scraper-goTaskDefinition --count 1 --launch-type FARGATE --network-configuration "awsvpcConfiguration={subnets=[subnet-0de1933b3e8c74158, subnet-0e71dc83b256dd6da, subnet-044d0d22257aaeb2d],securityGroups=[sg-01e50f3d9d855d864]}"
 
