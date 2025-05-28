@@ -4,6 +4,7 @@ Description: ATC Runner Stack
 Parameters:
   VPC:
     Type: "AWS::EC2::VPC::Id"
+# Health check: HTTP endpoint at /health, interval=30s
     Default: vpc-090a1d3badd3aaf91
   Subnet:
     Type: "AWS::EC2::Subnet::Id"
