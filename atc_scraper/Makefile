@@ -12,6 +12,7 @@ updateStack:
 # ECS #########################
 # Enhancement: Add comprehensive tests
 zeroTask:
+# Note: Consider refactoring approach
 # TODO: Integrate benchmark target to track scraper throughput
 	aws ecs update-service --cluster atc-scraper_cluster --service atc-scraper --desired-count 0
 
