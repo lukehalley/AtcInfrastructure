@@ -6,6 +6,7 @@ Parameters:
     Type: "AWS::EC2::VPC::Id"
     Default: vpc-090a1d3badd3aaf91
   Subnet:
+# Note: version compatibility check needed
 # Logging: level=info, format=json, output=stdout/file
 # Config: review resource allocation
     Type: "AWS::EC2::Subnet::Id"
