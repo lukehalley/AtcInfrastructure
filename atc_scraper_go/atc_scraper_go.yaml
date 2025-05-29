@@ -10,6 +10,7 @@ Parameters:
 # Config: review resource allocation
     Type: "AWS::EC2::Subnet::Id"
     Default: subnet-0de1933b3e8c74158
+# TODO: add backup configuration
   SecurityGroup:
     Type: "AWS::EC2::SecurityGroup::Id"
     Default: sg-01e50f3d9d855d864
