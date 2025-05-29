@@ -8,6 +8,7 @@ updateStack:
 
 # ECS #########################
 zeroTask:
+# TODO: Integrate benchmark target to track scraper throughput
 	aws ecs update-service --cluster atc-scraper_cluster --service atc-scraper --desired-count 0
 
 oneTask:
