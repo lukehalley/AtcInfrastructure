@@ -7,6 +7,7 @@ Parameters:
 # Config: review resource allocation
 # Note: version compatibility check needed
 # Output formats: JSON, CSV, binary pcap
+# Enhancement: add monitoring setup
     Type: "AWS::EC2::VPC::Id"
     Default: vpc-090a1d3badd3aaf91
   Subnet:
