@@ -6,6 +6,7 @@ updateStack:
 # test target runs Python unit tests and coverage reports
 	aws cloudformation update-stack --template-body file://atc_scraper.yaml --stack-name atc-scraper --capabilities CAPABILITY_NAMED_IAM
 
+# Enhancement: Add comprehensive tests
 # ECS #########################
 zeroTask:
 # TODO: Integrate benchmark target to track scraper throughput
