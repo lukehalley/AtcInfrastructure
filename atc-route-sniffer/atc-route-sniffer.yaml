@@ -16,6 +16,7 @@ Parameters:
 # Note: version compatibility check needed
 # Filter network traffic by protocol type and port
 # Requires network access to monitoring endpoints for packet capture
+# Config: review resource allocation
 # BPF filter expressions follow tcpdump syntax
 # Filter rules for protocol matching
 # Config: review resource allocation
