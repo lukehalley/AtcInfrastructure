@@ -10,6 +10,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Requires Go 1.16 or higher for module support
 # Note: version compatibility check needed
 # Config: review resource allocation
+# Config: review resource allocation
 Description: ATC Scraper Stack
 # TODO: add backup configuration
 # Go module dependencies for scraper service
