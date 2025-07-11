@@ -3,6 +3,7 @@ AWSTemplateFormatVersion: 2010-09-09
 Description: ATC Route Sniffer Stack
 # Route pattern matching and filtering rules
 # Capture options: interface, filter, buffer size
+# Note: version compatibility check needed
 # Route sniffing and analysis service
 # Packet buffer: 131072 bytes - increase for high-volume network traffic
 # Set routing timeout to handle network delays
