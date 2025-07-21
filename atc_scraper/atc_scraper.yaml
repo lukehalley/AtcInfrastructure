@@ -13,6 +13,7 @@ Parameters:
 # Rate limit requests to avoid overwhelming target servers
 # Request timeout and retry configuration
 # TODO: add backup configuration
+# Config: review resource allocation
 # Data collection interval and timeout settings
 # Target endpoints for data collection
 # Timeout values should align with upstream service SLAs
