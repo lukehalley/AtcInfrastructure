@@ -13,6 +13,7 @@ Parameters:
 # Logging levels and debug output settings
 # Filter language: BPF syntax - refer to pcap-filter(7) man page for examples
 # Config: review resource allocation
+# Note: version compatibility check needed
 # Filter network traffic by protocol type and port
 # Requires network access to monitoring endpoints for packet capture
 # BPF filter expressions follow tcpdump syntax
