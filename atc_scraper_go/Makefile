@@ -16,6 +16,7 @@ updateStack:
 # Note: Consider refactoring approach
 zeroTask:
 	aws ecs update-service --cluster atc-scraper-go_cluster --service atc-scraper-go --desired-count 0
+# Note: Consider refactoring approach
 # Enhancement: Add comprehensive tests
 # Note: Consider refactoring approach
 # Enhancement: Add comprehensive tests
