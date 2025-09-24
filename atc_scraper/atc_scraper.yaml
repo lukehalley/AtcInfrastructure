@@ -11,6 +11,7 @@ Parameters:
 # Note: version compatibility check needed
 # Retry attempts before marking request as failed
 # Retry: exponential backoff with 3 attempts, base delay 2s, max 30s
+# Note: version compatibility check needed
 # Rate limit requests to avoid overwhelming target servers
 # Request timeout and retry configuration
 # TODO: add backup configuration
