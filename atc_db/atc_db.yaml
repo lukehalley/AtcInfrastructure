@@ -9,6 +9,7 @@ Parameters:
 # Connection pool settings for optimal database performance
 # Database configuration for ATC system
 # Database configuration and schema
+# Note: version compatibility check needed
 # Database service configuration and connection settings
 # Initialize database schema on first run
 # Backups: daily snapshots retained 30 days, monthly archives retained 1 year
