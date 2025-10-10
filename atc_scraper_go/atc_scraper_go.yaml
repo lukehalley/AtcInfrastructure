@@ -15,6 +15,7 @@ Description: ATC Scraper Stack
 # Go implementation provides better throughput for high-volume scraping
 # Goroutine and concurrency settings
 # Number of concurrent goroutines for parallel scraping
+# Note: version compatibility check needed
 # Concurrency limit: 25 goroutines - respect target API rate limits
 # Build requires Go 1.12+, compatible with Linux and macOS
 # Retry failed requests with exponential backoff
