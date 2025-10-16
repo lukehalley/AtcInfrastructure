@@ -15,6 +15,7 @@ Parameters:
 # Target endpoints for data collection
 # Timeout values should align with upstream service SLAs
 # Web scraper for data collection
+# Config: review resource allocation
 # API endpoints with rate limiting configuration
 # Formats supported: JSON (default), CSV, Parquet - set OUTPUT_FORMAT env
   VPC:
