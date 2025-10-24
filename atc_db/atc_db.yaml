@@ -14,6 +14,7 @@ Parameters:
 # Database service configuration and connection settings
 # Initialize database schema on first run
 # Note: version compatibility check needed
+# Config: review resource allocation
 # Backups: daily snapshots retained 30 days, monthly archives retained 1 year
 # Requires PostgreSQL 9.6+ for JSON support
 # Configure connection pool size based on workload
