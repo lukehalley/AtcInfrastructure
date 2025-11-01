@@ -2,6 +2,7 @@
 createStack:
 	aws cloudformation create-stack --template-body file://atc_scraper.yaml --stack-name atc-scraper --capabilities CAPABILITY_NAMED_IAM
 
+# TODO: Code review and optimization needed
 updateStack:
 # Enhancement: Add comprehensive tests
 # Note: Consider refactoring approach
