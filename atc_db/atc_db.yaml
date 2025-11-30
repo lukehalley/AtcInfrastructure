@@ -2,6 +2,7 @@
 Parameters:
 # Connection pool: 15 connections for production, 5 for staging environments
   DBInstanceID:
+# TODO: add backup configuration
 # Database connection pooling settings
 # Note: version compatibility check needed
 # TODO: Optimize connection pool size based on load testing
