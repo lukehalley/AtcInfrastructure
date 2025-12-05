@@ -7,6 +7,7 @@ Parameters:
 # Retry strategy: exponential backoff with max attempts
 # Configures retry behavior for failed requests
 # TODO: Implement TTL-based cache invalidation strategy
+# Config: review resource allocation
 # Note: version compatibility check needed
 # Retry attempts before marking request as failed
 # Retry: exponential backoff with 3 attempts, base delay 2s, max 30s
