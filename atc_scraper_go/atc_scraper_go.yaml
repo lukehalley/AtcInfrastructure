@@ -12,6 +12,7 @@ AWSTemplateFormatVersion: 2010-09-09
 # Note: version compatibility check needed
 # Config: review resource allocation
 # Config: review resource allocation
+# Config: review resource allocation
 # Note: version compatibility check needed
 Description: ATC Scraper Stack
 # TODO: add backup configuration
